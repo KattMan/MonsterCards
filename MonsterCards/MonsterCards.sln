@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterLibAbstracts", "MonsterLibAbstracts\MonsterLibAbstracts.csproj", "{23CEFACE-374C-4631-AC03-431D67F7FB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterLibTests", "MonsterLibTests\MonsterLibTests.csproj", "{9825B706-F68C-400A-A792-7DC85B9B4419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterLib", "MonsterLib\MonsterLib.csproj", "{235B5A4F-928B-4356-8172-BCFC91D04EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterCards", "MonsterCards\MonsterCards.csproj", "{AD120471-6FFE-4C70-8415-406FAF44BEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterDAL", "MonsterDAL\MonsterDAL.csproj", "{C851C9AA-475C-4394-8C06-D396A01DDB8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterDALAbstracts", "MonsterDALAbstracts\MonsterDALAbstracts.csproj", "{23FBD46C-1073-49EF-9ED5-4EAA484105F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterDalTests", "MonsterDalTests\MonsterDalTests.csproj", "{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23CEFACE-374C-4631-AC03-431D67F7FB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CEFACE-374C-4631-AC03-431D67F7FB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CEFACE-374C-4631-AC03-431D67F7FB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CEFACE-374C-4631-AC03-431D67F7FB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9825B706-F68C-400A-A792-7DC85B9B4419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9825B706-F68C-400A-A792-7DC85B9B4419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9825B706-F68C-400A-A792-7DC85B9B4419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9825B706-F68C-400A-A792-7DC85B9B4419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235B5A4F-928B-4356-8172-BCFC91D04EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235B5A4F-928B-4356-8172-BCFC91D04EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235B5A4F-928B-4356-8172-BCFC91D04EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235B5A4F-928B-4356-8172-BCFC91D04EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD120471-6FFE-4C70-8415-406FAF44BEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD120471-6FFE-4C70-8415-406FAF44BEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD120471-6FFE-4C70-8415-406FAF44BEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD120471-6FFE-4C70-8415-406FAF44BEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C851C9AA-475C-4394-8C06-D396A01DDB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C851C9AA-475C-4394-8C06-D396A01DDB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C851C9AA-475C-4394-8C06-D396A01DDB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C851C9AA-475C-4394-8C06-D396A01DDB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FBD46C-1073-49EF-9ED5-4EAA484105F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FBD46C-1073-49EF-9ED5-4EAA484105F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FBD46C-1073-49EF-9ED5-4EAA484105F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FBD46C-1073-49EF-9ED5-4EAA484105F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
