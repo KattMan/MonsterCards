@@ -1,0 +1,16 @@
+<Classifications>
+	<Classification Name="Animal" Description="Affected by Animal Handling and Animal spells."/>
+	<Classification Name="Construct" Description="An incorruptable magical servant."/>
+	<Classification Name="Demon" Description="A hostile extra-dimensional creature subject to the banish spell."/>
+	<Classification Name="Dire Animal" Description="A mutant animal affected by Animal Handling and Animal spells."/>
+	<Classification Name="Elder Thing" Description="A hostile extra-dimensional creature not subject to the banish spell."/>
+	<Classification Name="Elemental" Description="A magical creature subject to Banish and Control Elemental."/>
+	<Classification Name="Faerie" Description="A free-willed creature of magic."/>
+	<Classification Name="Giant Animal" Description="A giant animal affected by Animal Handling and Animal spells."/>
+	<Classification Name="Hybrid" Description="An Animal, but shares traits of two or more beasts and requires a special subset of Animal spells."/>
+	<Classification Name="Mundane" Description="A living thing that isn't Animal, Plant or Slime that has vital areas."/>
+	<Classification Name="Plant" Description="Affected by Plant Spells."/>
+	<Classification Name="Servitor" Description="A extra-dimensional creature subject to the banish spell."/>
+	<Classification Name="Slime" Description="A diffuse, IQ 0 ooze that's immune to most Animal and Plant spells."/>
+	<Classification Name="Undead" Description="Can be turned with True Faith."/>
+</Classifications>

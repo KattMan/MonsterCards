@@ -1,0 +1,3080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MONSTERS>
+  <MONSTERINFO ID="0" NAME="Basilisk">
+    <DESCRIPTION>This creature resembles a small snake with a hideous face and a crested head. It attacks with a “death gaze”: if it meets its victim’s eyes, it can kill using the power of its mind.</DESCRIPTION>
+    <TACTICS>Toxic gaze is a quick contest of WIll with the basilisk taking -1 per yard of range.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="2" IQ="3" MOVE="4" PERCEPTION="10" SIZEMODIFIER="-3" SPEED="6" STRENGTH="2" WILL="10" WEIGHT="2 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Toxic Attack 3d (Malediction 1; Psychokinetic; Vision Based)" />
+      <TRAIT NAME="Vermiform" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Toxic Attack" USAGE="Gaze" SKILL="" BLOCK="" DAMAGE="3d" DAMAGETYPE="" PARRY="" REACH="" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="1" NAME="Bear, Black">
+    <DESCRIPTION>A black bear of average size. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Rushes to grapple then bites. Otherwise fights tooth and claw. 
+Any mother bear with cubs will be aggressive: -3 to reactions!</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Hide" />
+      <DROP NAME="Teeth" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Survival (Woodlands) 13" />
+      <SKILL NAME="Swimming 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="14" IQ="4" MOVE="7" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="14" WILL="12" WEIGHT="300 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper" />
+      <TRAIT NAME="Claws (blunt)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Semi-Upright" />
+      <TRAIT NAME="Teeth (sharp)" />
+      <TRAIT NAME="Tempurature Tolerance 2" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="" DAMAGE="1d-1" DAMAGETYPE="Cutting" PARRY="" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Punch" SKILL="13" BLOCK="" DAMAGE="1d" DAMAGETYPE="Crushing" PARRY="8" REACH="1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="9" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Torso Grapple" USAGE="Grapple" SKILL="13" BLOCK="" DAMAGE="none" DAMAGETYPE="" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="2" NAME="Bear, Cave">
+    <DESCRIPTION>A prehistoric bear. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Rushes to grapple then bites. Otherwise fights tooth and claw. 
+Any mother bear with cubs will be aggressive: -3 to reactions!</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Hide" />
+      <DROP NAME="Teeth" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Survival (Woodlands) 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="19" IQ="4" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="23" WILL="11" WEIGHT="1400 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper" />
+      <TRAIT NAME="Claws (blunt)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Semi-Upright" />
+      <TRAIT NAME="Teeth (sharp)" />
+      <TRAIT NAME="Tempurature Tolerance 2" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="" DAMAGE="2d" DAMAGETYPE="Cutting" PARRY="" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Punch" SKILL="13" BLOCK="" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="8" REACH="1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="9" BLOCK="No" DAMAGE="2d+3" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Torso Grapple" USAGE="Grapple" SKILL="13" BLOCK="" DAMAGE="none" DAMAGETYPE="" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="3" NAME="Bear, Grizzly">
+    <DESCRIPTION>A large powerful bear. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Rushes to grapple then bites. Otherwise fights tooth and claw. 
+Any mother bear with cubs will be aggressive: -3 to reactions!</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Hide" />
+      <DROP NAME="Teeth" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Survival (Woodlands) 13" />
+      <SKILL NAME="Swimming 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="19" IQ="4" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="19" WILL="11" WEIGHT="800 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper" />
+      <TRAIT NAME="Claws (blunt)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Semi-Upright" />
+      <TRAIT NAME="Teeth (sharp)" />
+      <TRAIT NAME="Tempurature Tolerance 2" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="" DAMAGE="2d-2" DAMAGETYPE="Cutting" PARRY="" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Punch" SKILL="13" BLOCK="" DAMAGE="2d" DAMAGETYPE="Crushing" PARRY="8" REACH="1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="9" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Torso Grapple" USAGE="Grapple" SKILL="13" BLOCK="" DAMAGE="none" DAMAGETYPE="" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="4" NAME="Bear, Polar">
+    <DESCRIPTION>A large white bear at home in the arctic. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Rushes to grapple then bites. Otherwise fights tooth and claw. 
+Any mother bear with cubs will be aggressive: -3 to reactions!
+Water Move 3</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Hide" />
+      <DROP NAME="Teeth" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Arctic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Survival (Arctic) 13" />
+      <SKILL NAME="Swimming 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="20" IQ="4" MOVE="7" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="20" WILL="11" WEIGHT="1000 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper" />
+      <TRAIT NAME="Claws (blunt)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Semi-Upright" />
+      <TRAIT NAME="Teeth (sharp)" />
+      <TRAIT NAME="Tempurature Tolerance 2" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="" DAMAGE="2d-2" DAMAGETYPE="Cutting" PARRY="" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Punch" SKILL="13" BLOCK="" DAMAGE="2d" DAMAGETYPE="Crushing" PARRY="8" REACH="1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="9" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Torso Grapple" USAGE="Grapple" SKILL="13" BLOCK="" DAMAGE="none" DAMAGETYPE="" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="5" NAME="Boar, Large">
+    <DESCRIPTION>Large aggressive wild pig. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Will attempt to knock down an opponent with a slam, then gore it with tusks.
+Overrun damage is (15*velocity)/100.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="15" IQ="5" MOVE="8" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6.5" STRENGTH="15" WILL="12" WEIGHT="400 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper (9)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Cutting Striker (Tusks)" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Tusks" USAGE="Gore" SKILL="12" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Cutting" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="6" NAME="Boar, Small">
+    <DESCRIPTION>An aggressive wild pig</DESCRIPTION>
+    <TACTICS>Will attempt to knock down an opponent with a slam, then gore it with tusks.
+Overrun damage is (15*velocity)/100.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="8" IQ="5" MOVE="7" PERCEPTION="12" SIZEMODIFIER="-1" SPEED="6" STRENGTH="8" WILL="12" WEIGHT="45 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper (9)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Cutting Striker (Tusks)" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Tusks" USAGE="Gore" SKILL="12" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="7" NAME="Bushwolves">
+    <DESCRIPTION>A marsupial with a rear facing pouch, it has the head and teeth of a wolf, a long supple tail more like a kangaroo’s, and a tiger-striped body. Bushwolves are about 5-6 feet long.</DESCRIPTION>
+    <TACTICS>Wears down prey with long, slow chases.
+Usually kills by crshing its prey's skull.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="219" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 12" />
+      <SKILL NAME="Tracking 12" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="8" IQ="3" MOVE="6" PERCEPTION="14" SIZEMODIFIER="0" SPEED="5.25" STRENGTH="8" WILL="11" WEIGHT="80 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Enhanced Move (Speed 9; Costs Fatigue 2)" />
+      <TRAIT NAME="Night Vision 2" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Striking ST +5 (Bite only)" />
+      <TRAIT NAME="Tempurature Tolerance 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="8" NAME="Camel">
+    <DESCRIPTION>A dry-plains native, can go 4 days without water. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Stubborn Temper give -4 to animal handling rolls.
+Cost:
+Trained: 1,500
+Untrained: 1,000</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Survival (Desert) 12" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="22" IQ="3" MOVE="14" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="22" WILL="11" WEIGHT="1400 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper (12)" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Reduced Consumption 3 (Water Only)" />
+      <TRAIT NAME="Stubbornness" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="7" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="9" BLOCK="No" DAMAGE="2d-3" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="9" NAME="Cat, House">
+    <DESCRIPTION>A domestic feline, kept as a pet, familiar or mouser</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 16" />
+      <SKILL NAME="Jumping 14" />
+      <SKILL NAME="Stealth 14" />
+    </SKILLS>
+    <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="4" IQ="4" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6" STRENGTH="4" WILL="11" WEIGHT="10 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Catfall" />
+      <TRAIT NAME="Claws (Sharp)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Teeth (Sharp)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="14" BLOCK="No" DAMAGE="1d-4" DAMAGETYPE="Cutting" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Slash" SKILL="16" BLOCK="No" DAMAGE="1d-5" DAMAGETYPE="Cutting" PARRY="11" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="16" BLOCK="No" DAMAGE="1d-5" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="10" NAME="Caustiguses">
+    <DESCRIPTION>Living in acid swamps, they have a distorted humanoid head, no neck, and four long arms with large, clawed hands.</DESCRIPTION>
+    <TACTICS>Caustiguses lurk in the acid swamps with only their heads above the surface. When they see a victim, they reach out and grab it. Their arms each have a 2-hex reach, and it can use them all at once. Each turn after is a contest of ST (+2 if using 3 arms, +4 if using all 4) to drag the victim 1 hex closer.
+Damage to arms, body or legs regenerates at 1 HP per turn unless severed (8 HP to sever).
+-1 to attack for each torch within 6 hexes. Flash or fireballs will make it flee.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="220" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Stealth 15" />
+      <SKILL NAME="Survival (Swamp) 14" />
+    </SKILLS>
+    <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="14" IQ="10" MOVE="6" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.75" STRENGTH="14" WILL="10" WEIGHT="200 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Amphibious" />
+      <TRAIT NAME="Bestial" />
+      <TRAIT NAME="Blunt Claws" />
+      <TRAIT NAME="Breath-Holding 5" />
+      <TRAIT NAME="Callous" />
+      <TRAIT NAME="DR +5 (Limited Corrosion)" />
+      <TRAIT NAME="Extra Arms 2" />
+      <TRAIT NAME="Extra Attack 3" />
+      <TRAIT NAME="Loner" />
+      <TRAIT NAME="Long Arms (+2 SM)" />
+      <TRAIT NAME="Nictitating Membrane 5" />
+      <TRAIT NAME="Perk; Totally Immune to swamp-acid effects" />
+      <TRAIT NAME="Pressure Support 1" />
+      <TRAIT NAME="Regeneration (Extreme; Not Head; 1 HP/Sec for each body part)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Punch" SKILL="14" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Crushing" PARRY="10" REACH="C, 1, 2" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="11" NAME="Chimpanzee">
+    <DESCRIPTION>A peaceful plant-eater. Intelligent. Animal Handling rolls are at -1.</DESCRIPTION>
+    <TACTICS>A chimp won’t fight unless it or its young are threatened.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Jungle" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Climbing 14" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="11" IQ="6" MOVE="7" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="11" WILL="10" WEIGHT="140 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Arm ST +3" />
+      <TRAIT NAME="Bad Grip 2" />
+      <TRAIT NAME="Brachiator" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Natural" USAGE="Punch" SKILL="12" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="12" NAME="Deer, Red">
+    <DESCRIPTION>A large deer. Size 2 hexes</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Running 13" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="12" IQ="3" MOVE="9" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.25" STRENGTH="12" WILL="10" WEIGHT="200 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Impaling Striker (Antlers)" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="11" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Antlers" USAGE="Striking" SKILL="13" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Impaling" PARRY="9" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="No" DAMAGE="1d-4" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="13" NAME="Dino: Bat">
+    <DESCRIPTION>Real name: Quetzalcoatlus. This purplish-gray furred flying creature has a 45’ wingspan. They are cumbersome gliders, easily overheated in bright sunlight. </DESCRIPTION>
+    <TACTICS>A bat may try to drag an opponent away. Treat this as a leg grapple; it rolls DX+3 to “hit.” On subsequent turns, it attempts to lift the person into the air; the prey may make a ST roll each turn (ST +3 if he has a hand free) to resist. (This is passive; on the victim’s turn, he may try to break free from the grapple by winning a Quick Contest of ST versus the bat’s ST+7.) Once the prey fails a ST roll, the bat will fly away with him at Move 4, rising two yards per second, dropping himonce it reaches 50 yards up. </TACTICS>
+    <BOOK TITLE="Big Lizzy" PAGE="19" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="2" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-13" />
+      <SKILL NAME="Flight-16" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="2" MOVE="2/10" PERCEPTION="12" SIZEMODIFIER="+5" SPEED="5.75" STRENGTH="13" WILL="11" WEIGHT="95 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Acute Vision 2" />
+      <TRAIT NAME="Flight (Winged; Air Move 10)" />
+      <TRAIT NAME="Lifting ST +6" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Weak Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="pi+" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Claw" USAGE="Striking" SKILL="13" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Grapple and Drop" USAGE="Special" SKILL="15" BLOCK="No" DAMAGE="7d at 50 yards" DAMAGETYPE="crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="14" NAME="Dino: Big Lizzie">
+    <DESCRIPTION>Real name: Tyrannosaurus. Huge at 40’ long, this 16’ tall biped carnivore is ponderous but mighty, with six-inch-long teeth.</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Big Lizzy" PAGE="19" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-13" />
+      <SKILL NAME="Running-12" />
+      <SKILL NAME="Tracking-15" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="34" IQ="2" MOVE="17" PERCEPTION="14" SIZEMODIFIER="+5" SPEED="7" STRENGTH="34" WILL="12" WEIGHT="2..5 tons" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="DR 4 (Skull only)" />
+      <TRAIT NAME="Fangs" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Short Weak Arms (1/4 ST)" />
+      <TRAIT NAME="Striker (Tail; Crushing; Cannot Parry; Long SM +1; Limited Arc Rear Only)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="3d+1" DAMAGETYPE="impaling" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Tail" USAGE="Swipe" SKILL="13" BLOCK="No" DAMAGE="3d+4" DAMAGETYPE="crushing" PARRY="No" REACH="C-6" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="15" NAME="Dino: Big-Neck Whale">
+    <DESCRIPTION>Real name: Elasmosaurus. A Loch Ness monster, this marine dinosaur has four great flippers and a long neck. It is often known as “plesiosaurs.” </DESCRIPTION>
+    <TACTICS>They travel in schools and feed from the surface on fish. They are very maneuverable and have mottled green markings on topside.</TACTICS>
+    <BOOK TITLE="Big Lizzy" PAGE="19" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="2" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Fresh Water)" />
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-15" />
+      <SKILL NAME="Swimming-17" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="8" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="31" IQ="2" MOVE="0.5/10" PERCEPTION="10" SIZEMODIFIER="+4" SPEED="5.75" STRENGTH="31" WILL="10" WEIGHT="2 tons" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Ichthyoid" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="15" BLOCK="No" DAMAGE="3d" DAMAGETYPE="Cutting" PARRY="No" REACH="C-3" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="16" NAME="Dino: Croc">
+    <DESCRIPTION>Real name: Phobosuchus. This is a 45’ long crocodile (the skull alone is 6’ long!).</DESCRIPTION>
+    <TACTICS>If the encounter takes place on the river, it is accompanied by its full-grown mate or a young one.</TACTICS>
+    <BOOK TITLE="Big Lizzy" PAGE="19" />
+    <DAMAGERESISTANCE ARM="4" FOOT="4" HAND="4" HEAD="4" LEG="4" TAIL="0" TORSO="4" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Fresh Water)" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-14" />
+      <SKILL NAME="Intimidation-10" />
+      <SKILL NAME="Running-14" />
+      <SKILL NAME="Stealth-14" />
+      <SKILL NAME="Swimming-14" />
+      <SKILL NAME="Tracking-15" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="21" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="+8" SPEED="6.75" STRENGTH="21" WILL="11" WEIGHT="5 tons" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Amphibious" />
+      <TRAIT NAME="Cold-Blooded (50° F)" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Striker (Tail; Crushing; Long +2; Cannot Parry; Weak)" />
+      <TRAIT NAME="Striking ST +6 (Bite only)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Tail" USAGE="Striking" SKILL="14" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C-3" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="17" NAME="Dino: Dragon">
+    <DESCRIPTION>Real name: Stegosaurus. This quadruped herbivore is 20’ long with two ranks of rainbow-colored plates running along its back. The tail – its weapon – carries two great spikes. </DESCRIPTION>
+    <TACTICS>When attacking a mounted person, there is a 4-in-6 chance that the dragon swipes at the horse. Because the creature is so stupid, it has one turn for attacking even after killed.</TACTICS>
+    <BOOK TITLE="Big Lizzy" PAGE="20" />
+    <DAMAGERESISTANCE ARM="4" FOOT="4" HAND="4" HEAD="4" LEG="4" TAIL="0" TORSO="4" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Running-11" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="38" IQ="1" MOVE="4" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="5.25" STRENGTH="38" WILL="10" WEIGHT="3.5 Tons" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Striker (Tail; Crushing; Cannot Parry; Long SM +1; Limited Arc Rear Only)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Tail" USAGE="Striking" SKILL="10" BLOCK="No" DAMAGE="4d+4" DAMAGETYPE="crushing" PARRY="No" REACH="4" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="18" NAME="Dog, Large Guard">
+    <DESCRIPTION>Domestic dog trained as a guard dog</DESCRIPTION>
+    <TACTICS>Lunges in close and bites</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Tracking 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="9" WILL="10" WEIGHT="90 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Chummy" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="19" NAME="Dog, Police">
+    <DESCRIPTION>Domestic dog trained as a tracking dog, like a bloodhound.</DESCRIPTION>
+    <TACTICS>Lunges in close and bites
+Wrestling gives a +2 to ST for grabbing hands.</TACTICS>
+    <BOOK TITLE="Action 2: Exploits" PAGE="46" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Tracking 15" />
+      <SKILL NAME="Wrestling 14" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="9" WILL="10" WEIGHT="90 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Chummy" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="20" NAME="Dog, Tracking">
+    <DESCRIPTION>Domestic dog trained as a tracking dog, like a bloodhound.</DESCRIPTION>
+    <TACTICS>Lunges in close and bites</TACTICS>
+    <BOOK TITLE="Action 2: Exploits" PAGE="46" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Tracking 15" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="9" WILL="10" WEIGHT="90 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Chummy" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="21" NAME="Donkey">
+    <DESCRIPTION>Sturdy, but to small for an adult to ride. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 1,000
+Untrained: 660</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="15" WILL="11" WEIGHT="500 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="8" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="10" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="22" NAME="Elephant">
+    <DESCRIPTION>Often domesticated. Intelligent, loyal, and hardworking, Size 10 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 20,000
+Partially Trained: 10,000
+Untrained: 6,600</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="4" FOOT="4" HAND="4" HEAD="6" LEG="4" TAIL="0" TORSO="4" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="7" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="45" IQ="5" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="4" STRENGTH="45" WILL="10" WEIGHT="12,000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Crushing Striker (Tusks)" />
+      <TRAIT NAME="Domestic (or Wild) Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="One Arm (Trunk; Extra-flexible; Long; Weak 1/4 ST)" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Tusks" USAGE="Sweeping" SKILL="12" BLOCK="No" DAMAGE="6d+1" DAMAGETYPE="Crushing" PARRY="9" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="3d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="23" NAME="Falcon, Large">
+    <DESCRIPTION>A large bird of prey, sometimes domesticated for sport hunting</DESCRIPTION>
+    <TACTICS>Uses it's speed as it's defense. Will usually flee unless it is trained. A diving falcon could reach speeds up to Move 70!</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="1" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 16" />
+    </SKILLS>
+    <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="3" IQ="3" MOVE="2" PERCEPTION="12" SIZEMODIFIER="-4" SPEED="6" STRENGTH="3" WILL="10" WEIGHT="5 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Acute Vision 3" />
+      <TRAIT NAME="Domestic (or Wild) Animal" />
+      <TRAIT NAME="Enhanced Move 1 (Air Speed 24)" />
+      <TRAIT NAME="Flight (Winged; Air Move 12)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Sharp Claws" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="14" BLOCK="No" DAMAGE="1d-4" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Peck" SKILL="16" BLOCK="No" DAMAGE="1d-5" DAMAGETYPE="Large Piercing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="24" NAME="Goblin">
+    <DESCRIPTION>A small creature with red eyes and many teeth</DESCRIPTION>
+    <TACTICS>Will swarm a single target, never thrusts, will not fight unarmed.
+Fright check -2 on Major Wound or below 0 HP.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Leather Armor (sm -1)" />
+      <DROP NAME="Light Shield (low quality)" />
+      <DROP NAME="Shortsword (low quality)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Riding (Dogs) 12" />
+      <SKILL NAME="Shortsword 12" />
+      <SKILL NAME="Stealth 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="5" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="5.50" STRENGTH="10" WILL="10" WEIGHT="40 lbs" CLASSIFICATION="Mundane" />
+    <TRAITS>
+      <TRAIT NAME="Apperance (Ugly)" />
+      <TRAIT NAME="Cowardice" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Rapid Healing" />
+      <TRAIT NAME="Resistant to Metabolic Hazards" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Social Stigma (Savage)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Shortsword" USAGE="Swing" SKILL="12" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="10" REACH="1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="25" NAME="Goblin Archer">
+    <DESCRIPTION>A small creature with red eyes and many teeth</DESCRIPTION>
+    <TACTICS>Will swarm a single target, never thrusts, will not fight unarmed.
+Fright check -2 on Major Wound or below 0 HP.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Leather Armor (sm -1)" />
+      <DROP NAME="Light Shield (low quality)" />
+      <DROP NAME="Shortbow (ST10) (low quality)" />
+      <DROP NAME="Shortsword (low quality)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Bow 12" />
+      <SKILL NAME="Riding (Dogs) 12" />
+      <SKILL NAME="Shortsword 12" />
+      <SKILL NAME="Stealth 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="5" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="5.50" STRENGTH="10" WILL="10" WEIGHT="40 lbs" CLASSIFICATION="Mundane" />
+    <TRAITS>
+      <TRAIT NAME="Apperance (Ugly)" />
+      <TRAIT NAME="Cowardice" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Rapid Healing" />
+      <TRAIT NAME="Resistant to Metabolic Hazards" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Social Stigma (Savage)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Shortsword" USAGE="Swing" SKILL="12" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="10" REACH="1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS>
+        <RANGEDATTACK WEAPON="Shortbow (ST 10)" SKILL="12" BULK="-6" DAMAGE="1d-2" DAMAGETYPE="Impaling" HALFDAMAGE="100 yds" MAXRANGE="150 yds" RELOAD="2" ROF="1" />
+      </RANGEDATTACKS>
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="26" NAME="Goblin Commando">
+    <DESCRIPTION>A small creature with red eyes and many teeth</DESCRIPTION>
+    <TACTICS>Will swarm a single target, never thrusts, will not fight unarmed.
+Fright check -2 on Major Wound or below 0 HP.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Glaive (low quality)" />
+      <DROP NAME="Leather Armor (sm -1)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Glaive 14" />
+      <SKILL NAME="Riding (Dogs) 12" />
+      <SKILL NAME="Stealth 13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="5" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="5.50" STRENGTH="10" WILL="10" WEIGHT="40 lbs" CLASSIFICATION="Mundane" />
+    <TRAITS>
+      <TRAIT NAME="Apperance (Ugly)" />
+      <TRAIT NAME="Cowardice" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Rapid Healing" />
+      <TRAIT NAME="Resistant to Metabolic Hazards" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Social Stigma (Savage)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Glaive" USAGE="Swing" SKILL="14" BLOCK="No" DAMAGE="1d+3" DAMAGETYPE="Cutting" PARRY="10U" REACH="2, 3" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="27" NAME="Goblin Dog">
+    <DESCRIPTION>A large filthy dog-like rat with festering sores all over it.</DESCRIPTION>
+    <TACTICS>If no goblins are with it, will only attack if cornered.
+Attacks are with bites, but can also cause Affliction.
+Affliction: Goblin Rash, resisted by HT, causes Itching</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="3" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Tracking 13" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="1" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="12" IQ="4" MOVE="10" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="13" WILL="10" WEIGHT="75 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Affliction" />
+      <TRAIT NAME="Appearance (Ugly)" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Immunity to Disease" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Sharp Teeth" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="28" NAME="Goblin Warchanter">
+    <DESCRIPTION>A female goblin with a whip yelling out rhyming chants.</DESCRIPTION>
+    <TACTICS>Sings Bravery for other goblins, sings Fear if threatened. Fright check -2 on Major Wound or below 0 HP.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="3-foot whip" />
+      <DROP NAME="Leather scraps" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Acrobatics 13" />
+      <SKILL NAME="Riding (Dogs) 13" />
+      <SKILL NAME="Singing 14" />
+      <SKILL NAME="Stealth 14" />
+      <SKILL NAME="Whip 13" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="15" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="6" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="6.00" STRENGTH="8" WILL="11" WEIGHT="40 lbs." CLASSIFICATION="Mundane" />
+    <TRAITS>
+      <TRAIT NAME="Appearance (Ugly)" />
+      <TRAIT NAME="Bardic Talent 2" />
+      <TRAIT NAME="Cowardice" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Language (Human Accented)" />
+      <TRAIT NAME="Rapid Healing" />
+      <TRAIT NAME="Resistant to Metabolic Hazards" />
+      <TRAIT NAME="Social Stigma (Savage)" />
+      <TRAIT NAME="Teeth (Sharp)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="" DAMAGE="1d-4" DAMAGETYPE="Cutting x1.5" PARRY="" REACH="c" />
+        <MELEEATTACK WEAPON="Whip" USAGE="" SKILL="13" BLOCK="" DAMAGE="1d-4" DAMAGETYPE="Crushing x1" PARRY="7U" REACH="1-3" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS>
+        <SPELLATTACK NAME="Bravery" SKILL="14" COST="2" DURATION="2 sec." MAINTAIN="" TIMETOCAST="1 sec." />
+        <SPELLATTACK NAME="Fear" SKILL="14" COST="1" DURATION="2 sec." MAINTAIN="" TIMETOCAST="1 sec." />
+      </SPELLATTACKS>
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="29" NAME="Gorilla">
+    <DESCRIPTION>A great ape. Intelligent. Animal Handling rolls are at -1.</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Jungle" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Climbing 14" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="15" IQ="6" MOVE="7" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="15" WILL="10" WEIGHT="400 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Arm ST +3" />
+      <TRAIT NAME="Bad Grip 2" />
+      <TRAIT NAME="Brachiator" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Natural" USAGE="Punch" SKILL="12" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Crushing" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="30" NAME="Gryphon">
+    <DESCRIPTION>The gryphon is a beautiful creature, with the head, wings, and forefeet of an eagle, and the hindquarters of a lion. Size 2 hexes</DESCRIPTION>
+    <TACTICS>It is immune to abilities that affect only mammals or only birds, as it is neither!</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="17" IQ="5" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="17" WILL="11" WEIGHT="" CLASSIFICATION="Hybrid" />
+    <TRAITS>
+      <TRAIT NAME="Acute Vision 3" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Enhanced Move 1 (Air Speed 24)" />
+      <TRAIT NAME="Flight (Winged; Air Move 12)" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="12" BLOCK="No" DAMAGE="1d+3" DAMAGETYPE="Cutting" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Sharp Beak" USAGE="Peck" SKILL="14" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Large Piercing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="31" NAME="Hardings">
+    <DESCRIPTION>Hardings are goat-like creatures with short, thick tusks curling beside their mouths.</DESCRIPTION>
+    <TACTICS>Cost: $400</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="229" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Meat" />
+      <DROP NAME="Milk" />
+      <DROP NAME="Wool" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Survival (Mountain)-12" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="11" IQ="3" MOVE="7" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="11" WILL="11" WEIGHT="180 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Crushing Striker (Tusks; Cannot Parry)" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="9" BLOCK="No" DAMAGE="1d" DAMAGETYPE="crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Tusks" USAGE="Striking" SKILL="11" BLOCK="No" DAMAGE="1d" DAMAGETYPE="crushing" PARRY="8" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="32" NAME="Harpy">
+    <DESCRIPTION>Harpies appear to be half woman, half bird, no arms or hands but sharp claws on thier feet.</DESCRIPTION>
+    <TACTICS>Usually found in groups of 5 or more; travel at night. Usually attack from above with their claws, often striking for opponents heads.
+Less effective on the ground, Dodge falls to 6.
+Any wounded by a Harpy must roll against infection, treat it as a wound with infected matter in it.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="221" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 15" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="12" IQ="5" MOVE="3" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.5" STRENGTH="12" WILL="10" WEIGHT="150 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper 9" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Enhanced Move 1/2 (Air Move 19)" />
+      <TRAIT NAME="Flight (Winged; Air Move 13)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="13" BLOCK="No" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="No" REACH="C, 1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="33" NAME="Hellkitten">
+    <DESCRIPTION>These half-demon cats look and behave like ordinary house cats, but are strong and smart. They are attractive and tend to let themselves be adopted by a particular human, often a teenager, as pets.</DESCRIPTION>
+    <TACTICS>They prefer to sleep on their owner’s bed, curled up with them, purring quietly. Someone who lets a hellkitten sleep with her experiences odd dreams. These are always power-fantasies in which she relives wrongs done to her – and then goes on humiliate and torture the perpetrator. If the person keeps the hellkitten with her, the dreams continue, getting more sadistic and bizarre.
+Victims who spend time with hellkittens often develop Sadism as a disadvantage, and they become compelled to act out their dreams.
+Affliction 1 (Area Effect, 2 yards; Based on Will; Disadvantage, Sadism and Nightmares (12); Emanation; Extended Duration, Permanent; Malediction; Onset, Exposure Time, 1 day)</TACTICS>
+    <BOOK TITLE="Banestorm: Abydos" PAGE="58" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="2" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="Fur" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Any" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Jumping-16" />
+      <SKILL NAME="Stealth-18" />
+    </SKILLS>
+    <STATS DEXTERITY="14" DODGE="11" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="6" IQ="7" MOVE="10" PERCEPTION="12" SIZEMODIFIER="-2" SPEED="7" STRENGTH="6" WILL="10" WEIGHT="10 lbs" CLASSIFICATION="Hybrid" />
+    <TRAITS>
+      <TRAIT NAME="Affliction 1" />
+      <TRAIT NAME="Catfall" />
+      <TRAIT NAME="Claws (Sharp)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Striking ST 5" />
+      <TRAIT NAME="Teeth (Sharp)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="swing" SKILL="14" BLOCK="na" DAMAGE="1d-2" DAMAGETYPE="cutting" PARRY="na" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="34" NAME="Hellshark">
+    <DESCRIPTION>Fast, with rows of sharp teeht in huge, gaping jaws that can swallow a man whole.</DESCRIPTION>
+    <TACTICS>They devour anything that comes thier way. Known to attack boats.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="221" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Survival (Open Ocean) 14" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="60" IQ="2" MOVE="10" PERCEPTION="210" SIZEMODIFIER="+6" SPEED="6.25" STRENGTH="60" WILL="10" WEIGHT="22,000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper 12" />
+      <TRAIT NAME="Cold Blooded (50°)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Crushing Striker (Snout)" />
+      <TRAIT NAME="Disciminatory Smell" />
+      <TRAIT NAME="Doesn't Breath (Gills)" />
+      <TRAIT NAME="Ichthyoid" />
+      <TRAIT NAME="Pressure Support 2" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Subsonic Hearing" />
+      <TRAIT NAME="Vibration Sense" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Snout" USAGE="Slamming" SKILL="14" BLOCK="No" DAMAGE="8d+2" DAMAGETYPE="Crushing" PARRY="10" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="7d-2" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="35" NAME="Hippogriff">
+    <DESCRIPTION>Hindquarters of  ahorse, forequarters of a lion, and the head and wings of a eagle.</DESCRIPTION>
+    <TACTICS>Immune to abilities that affect only mammals or birds. Can be tamed but requires Animal Handling of either Raptor or Equine Hybrids.
+Attacks by kicking with hind legs, raking with front claws, or biting with beaksm, and will do so if angered or panicked.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="222" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="Feathers" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="18" IQ="3" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="18" WILL="11" WEIGHT="650 lbs" CLASSIFICATION="Hybrid" />
+    <TRAITS>
+      <TRAIT NAME="Acute Vision 2" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Enhanced Move 1 (Ground Move 12)" />
+      <TRAIT NAME="Enhanced Move 1/2 (Air Move 18)" />
+      <TRAIT NAME="Flight (Winged; Air Move 12)" />
+      <TRAIT NAME="Hooves (hind feet only)" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Sharp Claws (Front Feet only)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Kick" SKILL="11" BLOCK="No" DAMAGE="1d+3" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Slash" SKILL="13" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="9" REACH="C" />
+        <MELEEATTACK WEAPON="Beak" USAGE="Peck" SKILL="13" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Lrg Piercing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="36" NAME="Horse, Cavalry">
+    <DESCRIPTION>A light warhorse. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Will stamp and kick.
+Overrun damage is (22*velocity)/100.
+If target is knocked down then trample is automatic.
+Cost:
+Trained: 4,000
+Untrained: 2,600</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Horse hide" />
+      <DROP NAME="Horse meat" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 10" />
+      <SKILL NAME="Mount 12" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="24" IQ="3" MOVE="16" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5" STRENGTH="24" WILL="11" WEIGHT="1400 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Kick" SKILL="12" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="12" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Hooves" USAGE="Overrun" SKILL="12" BLOCK="No" DAMAGE="special" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="9" BLOCK="No" DAMAGE="2d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="37" NAME="Horse, Draft">
+    <DESCRIPTION>A pack horse. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 2,000
+Untrained: 1,200</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="25" IQ="3" MOVE="12" PERCEPTION="11" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="25" WILL="10" WEIGHT="2000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="7" BLOCK="No" DAMAGE="3d" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="9" BLOCK="No" DAMAGE="2d-1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="38" NAME="Horse, Pony">
+    <DESCRIPTION>A pack horse. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 1,500
+Untrained: 1,000</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="18" IQ="3" MOVE="14" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="18" WILL="11" WEIGHT="800 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="8" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="10" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="39" NAME="Horse, Racehorse">
+    <DESCRIPTION>A fast horse. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 4,000
+Untrained: 2,600</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="20" IQ="3" MOVE="18" PERCEPTION="11" SIZEMODIFIER="+1" SPEED="5" STRENGTH="20" WILL="11" WEIGHT="1100 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="7" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="9" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="40" NAME="Horse, Saddle">
+    <DESCRIPTION>An ordinary riding horse. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 1,200
+Untrained: 800</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Mount 11" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="21" IQ="3" MOVE="12" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5" STRENGTH="21" WILL="10" WEIGHT="1200 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="7" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="9" BLOCK="No" DAMAGE="2d-3" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="41" NAME="Horse, War">
+    <DESCRIPTION>A heavy war horse. Size 3 hexes</DESCRIPTION>
+    <TACTICS>Will stamp and kick.
+Will often attack anyone other than owner.
+Overrun damage is (24*velocity)/100.
+If target is knocked down then trample is automatic.
+Cost:
+Trained: 5,000
+Untrained: 3,300</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Horse hide" />
+      <DROP NAME="Horse meat" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 12" />
+      <SKILL NAME="Mount 13" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="24" IQ="3" MOVE="14" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="24" WILL="11" WEIGHT="1900 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper (12)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Kick" SKILL="12" BLOCK="No" DAMAGE="3d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="12" BLOCK="No" DAMAGE="3d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Hooves" USAGE="Overrun" SKILL="12" BLOCK="No" DAMAGE="special" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="2d" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="42" NAME="Hydra">
+    <DESCRIPTION>A hydra is a very rare quasi-reptilian creature with many heads.</DESCRIPTION>
+    <TACTICS>Blatantly magical and given to attacking humans on sight, hydras are regarded as evil menaces.
+The hydra’s body can take a great deal of damage, but that’s not what makes it formidable. If one of a hydra’s heads is destroyed, two more will grow in its place, unless the attacker applies 6 HP of fire to the wound within 10 seconds.
+A hydra may have one or many heads when first encountered (roll 3d2 for random determination); up to three can attack into any front or side hex simultaneously.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="222" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="Hydra blood" />
+      <DROP NAME="Hydra scales" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="18" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6.25" STRENGTH="18" WILL="13" WEIGHT="700 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper" />
+      <TRAIT NAME="Extra Attack 2" />
+      <TRAIT NAME="Fangs" />
+      <TRAIT NAME="Night Vision 2" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Regeneration (heads only)" />
+      <TRAIT NAME="Regrowth (heads only)" />
+      <TRAIT NAME="Supernatural Durability" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Fangs" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="imp" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="43" NAME="Kraken">
+    <DESCRIPTION>Krakens are huge deep-sea squid. They continue to grow throughout their lives and thus vary considerably in size – anywhere from a mere 30 yards long to over 100.</DESCRIPTION>
+    <TACTICS>A kraken attacking a ship will typically grab victims off the decks with its tentacles (treat as a grapple) and carry them to its beak while performing a constriction attack. Note that two of the tentacles have more reach than the other eight. When attacking something out of the water, a tentacle can reach one-third of its total length in height. The tentacles get no Dodge roll unless the kraken’s body is lying on the surface of the water – it must be able to see well to defend.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="223" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Survival (Open Ocean)-14" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="160" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+9" SPEED="6.25" STRENGTH="80" WILL="11" WEIGHT="500,000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Ambidexterity" />
+      <TRAIT NAME="Cold-Blooded (50°)" />
+      <TRAIT NAME="Constriction Attack" />
+      <TRAIT NAME="Doesn’t Breathe (Gills)" />
+      <TRAIT NAME="Enhanced Move 1/2 (Water Speed 9)" />
+      <TRAIT NAME="Extra Arms 8 (all arms are Extra-Flexible and Weak)" />
+      <TRAIT NAME="Extra Attack 1" />
+      <TRAIT NAME="Injury Tolerance (No Neck; No Vitals)" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="No Legs (Aquatic)" />
+      <TRAIT NAME="Pressure Support 2" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Subsonic Hearing" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Sharp Beak" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="9d-1" DAMAGETYPE="pi+" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="44" NAME="Kraken, Large">
+    <DESCRIPTION>Krakens are huge deep-sea squid. They continue to grow throughout their lives and thus vary considerably in size – anywhere from a mere 30 yards long to over 100.</DESCRIPTION>
+    <TACTICS>A kraken attacking a ship will typically grab victims off the decks with its tentacles (treat as a grapple) and carry them to its beak while performing a constriction attack. Note that two of the tentacles have more reach than the other eight. When attacking something out of the water, a tentacle can reach one-third of its total length in height. The tentacles get no Dodge roll unless the kraken’s body is lying on the surface of the water – it must be able to see well to defend.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="223" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Survival (Open Ocean)-14" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="240" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+11" SPEED="6.25" STRENGTH="120" WILL="11" WEIGHT="1,000,000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Ambidexterity" />
+      <TRAIT NAME="Cold-Blooded (50°)" />
+      <TRAIT NAME="Constriction Attack" />
+      <TRAIT NAME="Doesn’t Breathe (Gills)" />
+      <TRAIT NAME="Enhanced Move 1/2 (Water Speed 9)" />
+      <TRAIT NAME="Extra Arms 8 (all arms are Extra-Flexible and Weak)" />
+      <TRAIT NAME="Extra Attack 1" />
+      <TRAIT NAME="Injury Tolerance (No Neck; No Vitals)" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="No Legs (Aquatic)" />
+      <TRAIT NAME="Pressure Support 2" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Subsonic Hearing" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Sharp Beak" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="13d-1" DAMAGETYPE="pi+" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="45" NAME="Kraken, Small">
+    <DESCRIPTION>Krakens are huge deep-sea squid. They continue to grow throughout their lives and thus vary considerably in size – anywhere from a mere 30 yards long to over 100.</DESCRIPTION>
+    <TACTICS>A kraken attacking a ship will typically grab victims off the decks with its tentacles (treat as a grapple) and carry them to its beak while performing a constriction attack. Note that two of the tentacles have more reach than the other eight. When attacking something out of the water, a tentacle can reach one-third of its total length in height. The tentacles get no Dodge roll unless the kraken’s body is lying on the surface of the water – it must be able to see well to defend.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="223" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Survival (Open Ocean)-14" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="80" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+7" SPEED="6.25" STRENGTH="40" WILL="11" WEIGHT="50,000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Ambidexterity" />
+      <TRAIT NAME="Cold-Blooded (50°)" />
+      <TRAIT NAME="Constriction Attack" />
+      <TRAIT NAME="Doesn’t Breathe (Gills)" />
+      <TRAIT NAME="Enhanced Move 1/2 (Water Speed 9)" />
+      <TRAIT NAME="Extra Arms 8 (all arms are Extra-Flexible and Weak)" />
+      <TRAIT NAME="Extra Attack 1" />
+      <TRAIT NAME="Injury Tolerance (No Neck; No Vitals)" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="No Legs (Aquatic)" />
+      <TRAIT NAME="Pressure Support 2" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Subsonic Hearing" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Sharp Beak" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="4d-1" DAMAGETYPE="pi+" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="46" NAME="Lion">
+    <DESCRIPTION>A big, lazy cat, found in both plains and jungle. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Lions hunt in small groups</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 15" />
+      <SKILL NAME="Running 13" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="16" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="16" WILL="11" WEIGHT="500 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Claws (Sharp)" />
+      <TRAIT NAME="Laziness" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Teeth (Sharp)" />
+      <TRAIT NAME="Tempurature Tolerance 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="15" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Slash" SKILL="15" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="10" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="47" NAME="Milkfish">
+    <DESCRIPTION>Large mammals which live in shallow, sandy places along seashores. Their hide is tough and leathery, with thick blubber underneath.</DESCRIPTION>
+    <TACTICS>Milkfish are easy to domesticate, given a little ingenuity. Enterprising herders have found that, in addition to the rich milk that gives them their name, their meat is tender and tasty, and the fatty layer underneath the tough outer skin provides useful oils.
+Cost: $800</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="229" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="Fat" />
+      <DROP NAME="Meat" />
+      <DROP NAME="Milk" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="6" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="26" IQ="3" MOVE="3" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="3" STRENGTH="26" WILL="10" WEIGHT="2200 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Amphibious" />
+      <TRAIT NAME="Breath-Holding 4" />
+      <TRAIT NAME="Cannot Kick" />
+      <TRAIT NAME="Crushing Striker (Tail; Clumsy -2; Weak)" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1 (Water Speed 6)" />
+      <TRAIT NAME="Horizontal" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Pressure Support 1" />
+      <TRAIT NAME="Temperature Tolerance 2" />
+      <TRAIT NAME="Vibration Sense (Water)" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Tail" USAGE="Striking" SKILL="7" BLOCK="No" DAMAGE="3D" DAMAGETYPE="crushing" PARRY="5" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="48" NAME="Mule, Large">
+    <DESCRIPTION>Large Pack animal. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 1,400
+Untrained: 860</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="22" IQ="3" MOVE="9" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.5" STRENGTH="22" WILL="12" WEIGHT="1400 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1/2" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sterile" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="8" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="10" BLOCK="No" DAMAGE="2d-3" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="49" NAME="Mule, Small">
+    <DESCRIPTION>A small pack horse. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 1,000
+Untrained: 660</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="18" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.5" STRENGTH="18" WILL="12" WEIGHT="800 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1/2" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sterile" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="8" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="10" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="50" NAME="Nightstalkers">
+    <DESCRIPTION>Nightstalkers are giant, bear-like nocturnal animals of incredible ferocity.</DESCRIPTION>
+    <TACTICS>A nightstalker suffers the full effect of Bad Sight (Farsighted) in full sunlight, and a reduced effect (-1 to attack rolls) even if encountered in a darkened den by day. However, day or night, most nightstalkers will charge on sight, clawing, hugging, and biting. 
+Nightstalkers hunt large forest herbivores, but relish human meat. They cannot climb well, but will knock down quite large trees to get at climbing prey.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="223" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="2" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Fur" />
+      <DROP NAME="Teeth" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-14" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="25" IQ="4" MOVE="7" PERCEPTION="11" SIZEMODIFIER="+2" SPEED="6.25" STRENGTH="25" WILL="12" WEIGHT="2,000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Sight (Farsighted; Only in bright light)" />
+      <TRAIT NAME="Bad Temper (9)" />
+      <TRAIT NAME="Blunt Claws" />
+      <TRAIT NAME="Night Vision 8" />
+      <TRAIT NAME="SemiUpright" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Temperature Tolerance 2" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Sharp Teeth" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="2d+3" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Blunt Claws" USAGE="Kick" SKILL="12" BLOCK="No" DAMAGE="3d+3" DAMAGETYPE="Crushing" PARRY="No" REACH="C, 1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="51" NAME="Nuar-Kin">
+    <DESCRIPTION>Grey skinned, black eyed feral people</DESCRIPTION>
+    <TACTICS>Readies Weapon then casts Flaming Weapon for +2 burning damage.
+Bands together in 2's or 3's to attack a target, swinging fast to take full advantage of the extra attack.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="2" FOOT="0" HAND="0" HEAD="2" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Leather Armor (sm 0)" />
+      <DROP NAME="Obsidian Broadsword" />
+      <DROP NAME="Obsidian Knife" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Broadsword 13" />
+      <SKILL NAME="Flaming Weapon 10" />
+      <SKILL NAME="Knife 11" />
+      <SKILL NAME="Tracking 10" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="10" IQ="10" MOVE="5" PERCEPTION="11" SIZEMODIFIER="0" SPEED="5.50" STRENGTH="10" WILL="11" WEIGHT="180 lbs" CLASSIFICATION="Mundane" />
+    <TRAITS>
+      <TRAIT NAME="Appearance (Monsterous)" />
+      <TRAIT NAME="Extra Attack (Broadsword)" />
+      <TRAIT NAME="Magery 2 (Fire only)" />
+      <TRAIT NAME="Vulnerability (non-chaos Sanctity dmgx2)" />
+      <TRAIT NAME="Weakness (non chaos sanctity above normal 1d damage per minute)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Broadsword" USAGE="Swing" SKILL="13" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="9" REACH="1" />
+        <MELEEATTACK WEAPON="Broadsword" USAGE="Thrust" SKILL="13" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Crushing" PARRY="9" REACH="1" />
+        <MELEEATTACK WEAPON="Knife" USAGE="Swing" SKILL="11" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="7" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Flaming Weapon" USAGE="on weapon" SKILL="10" BLOCK="" DAMAGE="+2" DAMAGETYPE="Burning" PARRY="" REACH="" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="52" NAME="Orc Raider">
+    <DESCRIPTION>Large ugly humanoid creature with canines</DESCRIPTION>
+    <TACTICS>Fights hard and brutal, usually with All-Out attacks against weaker foes.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="0" HEAD="2" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Ax" />
+      <DROP NAME="Crossbow" />
+      <DROP NAME="Leather Armor (sm 0)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Ax 12" />
+      <SKILL NAME="Crossbow 10" />
+      <SKILL NAME="Stealth 13" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="7" FATIGUEPOINTS="10" HEALTH="11" HITPOINTS="12" IQ="9" MOVE="4" PERCEPTION="9" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="12" WILL="9" WEIGHT="200 lbs" CLASSIFICATION="Mundane" />
+    <TRAITS>
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Fearlessness 2" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Rapid Healing" />
+      <TRAIT NAME="Resistant to Disease 3" />
+      <TRAIT NAME="Sadism" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Ax" USAGE="Swing" SKILL="12" BLOCK="No" DAMAGE="2D" DAMAGETYPE="Cutting" PARRY="9U" REACH="1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS>
+        <RANGEDATTACK WEAPON="Crossbow (ST 12)" SKILL="10" BULK="-6" DAMAGE="1d+3" DAMAGETYPE="Impaling" HALFDAMAGE="240 yds." MAXRANGE="300 yds." RELOAD="4" ROF="1" />
+      </RANGEDATTACKS>
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="53" NAME="Oxen">
+    <DESCRIPTION>Steers trained to work in fields.  Size 3 hexes</DESCRIPTION>
+    <TACTICS>Cost:
+Trained: 1,500
+Untrained: 1,000</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="4" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="8" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="27" IQ="3" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+2" SPEED="5" STRENGTH="27" WILL="12" WEIGHT="2500 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Enhanced Move 1" />
+      <TRAIT NAME="Impaling Striker (Horns)" />
+      <TRAIT NAME="Neutered" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Horns" USAGE="Thrusting" SKILL="8" BLOCK="No" DAMAGE="3d+2" DAMAGETYPE="Impaling" PARRY="7" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="8" BLOCK="No" DAMAGE="2d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="54" NAME="Paladins">
+    <DESCRIPTION>Paladins are strange, turtle-like grazing mammals, covered in tough bony plates, articulated over the head and tail, with a solid dome covering the top of the main body.</DESCRIPTION>
+    <TACTICS>aladins are small-brained and very slow, but so well-protected that little bothers them. When trouble threatens, they generally continue ambling forward, swinging their tails back and forth, then swivel around to strike if the problem refuses to go away.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="223" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="4" LEG="1" TAIL="0" TORSO="6" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="6" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="2" MOVE="3" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="3" STRENGTH="15" WILL="10" WEIGHT="500 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="DR +3 (head and tail only)" />
+      <TRAIT NAME="DR +5 (upper body only)" />
+      <TRAIT NAME="Large Piercing Striker (Tail; Cannot Parry)" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Tail" USAGE="Swing" SKILL="12" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="pi+" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="55" NAME="Pegasi">
+    <DESCRIPTION>Pegasi are shy intelligent winged horses living in isolated valleys in the mountains.</DESCRIPTION>
+    <TACTICS>They rarely attack; if threatened, they simply fly away. Their flight powers are partly magical, and as with other such creatures, their feathers are valuable to enchanters.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="224" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Feathers" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="" HEALTH="12" HITPOINTS="" IQ="6" MOVE="7" PERCEPTION="13" SIZEMODIFIER="+1" SPEED="6.5" STRENGTH="20" WILL="11" WEIGHT="1100 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Enhanced Move 1 (Ground Speed 14)" />
+      <TRAIT NAME="Enhanced Move 1/2 (Air Speed 19)" />
+      <TRAIT NAME="Flight (Winged; Air Move 13)" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Shyness (Severe)" />
+      <TRAIT NAME="Weak Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="12" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="crushing" PARRY="No" REACH="C,1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="56" NAME="Reek">
+    <DESCRIPTION>Found in caverns, deep woods, and jungles, reeks look like decaying lumps of brown jelly.</DESCRIPTION>
+    <TACTICS>Anyone touching a Reek is bound then begins taking damage every turn.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="224" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="0" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-10" />
+      <SKILL NAME="Camouflage-12" />
+    </SKILLS>
+    <STATS DEXTERITY="5" DODGE="6" FATIGUEPOINTS="15" HEALTH="13" HITPOINTS="13" IQ="2" MOVE="1" PERCEPTION="13" SIZEMODIFIER="0" SPEED="3.5" STRENGTH="4" WILL="8" WEIGHT="40" CLASSIFICATION="Slime" />
+    <TRAITS>
+      <TRAIT NAME="Blindness" />
+      <TRAIT NAME="Cold-Blooded (50)" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Doesn't Breathe" />
+      <TRAIT NAME="Doesn't Sleep" />
+      <TRAIT NAME="Dread (Bright Sunlight 1 Yard)" />
+      <TRAIT NAME="Hard of Hearing" />
+      <TRAIT NAME="High Pain Threshold" />
+      <TRAIT NAME="Horizontal" />
+      <TRAIT NAME="Injury Tolerance (no blood eyes head or neck)" />
+      <TRAIT NAME="Invertebrate" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="No Legs (Slithers)" />
+      <TRAIT NAME="Universal Digestion" />
+      <TRAIT NAME="Vibration Sense (Air)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Binding" USAGE="Always On" SKILL="na" BLOCK="na" DAMAGE="na" DAMAGETYPE="na" PARRY="na" REACH="C" />
+        <MELEEATTACK WEAPON="Corrosion" USAGE="Always On" SKILL="na" BLOCK="na" DAMAGE="1 per turn" DAMAGETYPE="Corrosive" PARRY="na" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="57" NAME="Reek, Forest">
+    <DESCRIPTION>Found in caverns, deep woods, and jungles, reeks look like decaying lumps of brown jelly.</DESCRIPTION>
+    <TACTICS>Anyone touching a Reek is bound then begins taking damage every turn. Will climb onto trees to drop on unsuspecting prey.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="224" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="0" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-10" />
+      <SKILL NAME="Camouflage-12" />
+      <SKILL NAME="Climbing-12" />
+    </SKILLS>
+    <STATS DEXTERITY="5" DODGE="6" FATIGUEPOINTS="15" HEALTH="13" HITPOINTS="13" IQ="2" MOVE="1" PERCEPTION="13" SIZEMODIFIER="0" SPEED="3.5" STRENGTH="4" WILL="8" WEIGHT="40" CLASSIFICATION="Slime" />
+    <TRAITS>
+      <TRAIT NAME="Blindness" />
+      <TRAIT NAME="Cold-Blooded (50)" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Doesn't Breathe" />
+      <TRAIT NAME="Doesn't Sleep" />
+      <TRAIT NAME="Dread (Bright Sunlight 1 Yard)" />
+      <TRAIT NAME="Hard of Hearing" />
+      <TRAIT NAME="High Pain Threshold" />
+      <TRAIT NAME="Horizontal" />
+      <TRAIT NAME="Injury Tolerance (no blood eyes head or neck)" />
+      <TRAIT NAME="Invertebrate" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="No Legs (Slithers)" />
+      <TRAIT NAME="Universal Digestion" />
+      <TRAIT NAME="Vibration Sense (Air)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Binding" USAGE="Always On" SKILL="na" BLOCK="na" DAMAGE="na" DAMAGETYPE="na" PARRY="na" REACH="C" />
+        <MELEEATTACK WEAPON="Corrosion" USAGE="Always On" SKILL="na" BLOCK="na" DAMAGE="1 per turn" DAMAGETYPE="Corrosive" PARRY="na" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="58" NAME="Reek, River">
+    <DESCRIPTION>Found in rivers and swamps, reeks look like decaying lumps of brown jelly.</DESCRIPTION>
+    <TACTICS>Anyone touching a Reek is bound then begins taking damage every turn. Can climb city walls looking for any flesh to consume.</TACTICS>
+    <BOOK TITLE="Banestorm: Abydos" PAGE="43" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="0" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Slime" />
+      <DROP NAME="when boiled can create a sauce" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Fresh Water)" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-10" />
+      <SKILL NAME="Camouflage-12" />
+      <SKILL NAME="Climb-12" />
+      <SKILL NAME="Swim-12" />
+    </SKILLS>
+    <STATS DEXTERITY="5" DODGE="6" FATIGUEPOINTS="15" HEALTH="13" HITPOINTS="13" IQ="2" MOVE="1" PERCEPTION="13" SIZEMODIFIER="0" SPEED="3.5" STRENGTH="4" WILL="8" WEIGHT="40" CLASSIFICATION="Slime" />
+    <TRAITS>
+      <TRAIT NAME="Blindness" />
+      <TRAIT NAME="Cold-Blooded (50)" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Doesn't Breathe" />
+      <TRAIT NAME="Doesn't Sleep" />
+      <TRAIT NAME="Dread (Bright Sunlight 1 Yard)" />
+      <TRAIT NAME="Hard of Hearing" />
+      <TRAIT NAME="High Pain Threshold" />
+      <TRAIT NAME="Horizontal" />
+      <TRAIT NAME="Injury Tolerance (no blood eyes head or neck)" />
+      <TRAIT NAME="Invertebrate" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="No Legs (Slithers)" />
+      <TRAIT NAME="Universal Digestion" />
+      <TRAIT NAME="Vibration Sense (Air)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Binding" USAGE="Always On" SKILL="na" BLOCK="na" DAMAGE="na" DAMAGETYPE="na" PARRY="na" REACH="C" />
+        <MELEEATTACK WEAPON="Corrosion" USAGE="Always On" SKILL="na" BLOCK="na" DAMAGE="1 per turn" DAMAGETYPE="Corrosive" PARRY="na" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="59" NAME="Robot">
+    <DESCRIPTION>Real armed robots are remotely controlled. Movie denizens are autonomous! This one resembles a tiny tank.</DESCRIPTION>
+    <TACTICS>It’s dumb, a lousy shot, and coldly persistent.</TACTICS>
+    <BOOK TITLE="Action 2: Exploits" PAGE="46" />
+    <DAMAGERESISTANCE ARM="8" FOOT="8" HAND="8" HEAD="8" LEG="8" TAIL="0" TORSO="8" WING="0" />
+    <DROPS>
+      <DROP NAME="Ammo" />
+      <DROP NAME="Metal Scrap" />
+      <DROP NAME="Oil" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Guns-8" />
+    </SKILLS>
+    <STATS DEXTERITY="8" DODGE="8" FATIGUEPOINTS="N/A" HEALTH="12" HITPOINTS="26" IQ="6" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.00" STRENGTH="26" WILL="6" WEIGHT="300 lbs" CLASSIFICATION="Construct" />
+    <TRAITS>
+      <TRAIT NAME="Accessories (Bullhorn)" />
+      <TRAIT NAME="Accessories (Computer) " />
+      <TRAIT NAME="Accessories (Siren)" />
+      <TRAIT NAME="Accessories (Spotlight)" />
+      <TRAIT NAME="AI" />
+      <TRAIT NAME="Automaton" />
+      <TRAIT NAME="Doesn’t Breathe" />
+      <TRAIT NAME="Electrical" />
+      <TRAIT NAME="Indomitable" />
+      <TRAIT NAME="Infravision" />
+      <TRAIT NAME="Machine" />
+      <TRAIT NAME="No Legs(Tracked)" />
+      <TRAIT NAME="No Manipulators" />
+      <TRAIT NAME="No Sense of Smell/Taste" />
+      <TRAIT NAME="Parabolic Hearing 2" />
+      <TRAIT NAME="Telecommunication (Radio)" />
+      <TRAIT NAME="Telescopic Vision 2" />
+      <TRAIT NAME="Unfazeable" />
+      <TRAIT NAME="Weapon Mount" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="60" NAME="Sabercoil">
+    <DESCRIPTION>The front half of a large cat attached to the body of  a large constricting serpent.</DESCRIPTION>
+    <TACTICS>Grapples then constricts. Fights tooth and claw against others.
+Constricting: Roll contest of strength against higher of ST or HT of victim, on a win damage = margin of victory. Armor DR protects normally. 
+Any damage penetrating also starts suffocating him, every turn from the next one until he escapes he also loses 1 FP.
+While constricting it can not dodge, but can attack normally with claws and teeth.</TACTICS>
+    <BOOK TITLE="Custom" PAGE="" />
+    <DAMAGERESISTANCE ARM="1" FOOT="" HAND="1" HEAD="1" LEG="" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Pelt" />
+      <DROP NAME="Scales" />
+      <DROP NAME="Teeth" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 15" />
+      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Swimming 13" />
+      <SKILL NAME="Wrestling 13" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="10" HEALTH="11" HITPOINTS="11" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="15" WILL="11" WEIGHT="300 lbs" CLASSIFICATION="Hybrid" />
+    <TRAITS>
+      <TRAIT NAME="Cold Blooded (50 degrees)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Constriction Attack" />
+      <TRAIT NAME="Lifting ST +3" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="one attack only(constriction)" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Vermiform" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Slashing" SKILL="15" BLOCK="" DAMAGE="2d+1" DAMAGETYPE="Cutting" PARRY="" REACH="1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Biting" SKILL="15" BLOCK="" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="" REACH="c" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="61" NAME="Shark, Great White">
+    <DESCRIPTION>A apex predator. Size 7 hexes</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 12" />
+      <SKILL NAME="Survival (Open Ocean) 14" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="38" IQ="2" MOVE="7" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="5.5" STRENGTH="38" WILL="10" WEIGHT="7000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper (9)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Crushing Striker (Snout)" />
+      <TRAIT NAME="Discriminitory Smell" />
+      <TRAIT NAME="Doesn't Breath (Gills)" />
+      <TRAIT NAME="Enhanced Move 1 (Water Speed 14; Costs Fatigue 2)" />
+      <TRAIT NAME="Hard to Kill 2" />
+      <TRAIT NAME="Ichthyoid" />
+      <TRAIT NAME="Pressure Support 2" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Subsonic Hearing" />
+      <TRAIT NAME="Vibration Sense" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Snout" USAGE="striking" SKILL="12" BLOCK="No" DAMAGE="6d+1" DAMAGETYPE="Crushing" PARRY="9" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="4d+3" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="62" NAME="Shark, Tiger">
+    <DESCRIPTION>A large aggressive shark. Size 4 hexes</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Salt Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 15" />
+      <SKILL NAME="Survival (Open Ocean) 14" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="12" HEALTH="13" HITPOINTS="19" IQ="2" MOVE="7" PERCEPTION="12" SIZEMODIFIER="+2" SPEED="6.25" STRENGTH="19" WILL="10" WEIGHT="900 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bad Temper (9)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Crushing Striker (Snout)" />
+      <TRAIT NAME="Discriminitory Smell" />
+      <TRAIT NAME="Doesn't Breath (Gills)" />
+      <TRAIT NAME="Enhanced Move 1 (Water Speed 14; Costs Fatigue 2)" />
+      <TRAIT NAME="Ichthyoid" />
+      <TRAIT NAME="Pressure Support 2" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Subsonic Hearing" />
+      <TRAIT NAME="Vibration Sense" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Snout" USAGE="striking" SKILL="15" BLOCK="No" DAMAGE="2d+3" DAMAGETYPE="Crushing" PARRY="10" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="15" BLOCK="No" DAMAGE="2d" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="63" NAME="Skeleton Warrior">
+    <DESCRIPTION>Zombies eventually become skeletons</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Backdrops: Tower of Octavius" PAGE="28" />
+    <DAMAGERESISTANCE ARM="2" FOOT="0" HAND="0" HEAD="2" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Buckler" />
+      <DROP NAME="Leather Suit" />
+      <DROP NAME="Shortsword" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Any" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Bow-12" />
+      <SKILL NAME="Shield (Buckler)-13" />
+      <SKILL NAME="Shortsword-12" />
+      <SKILL NAME="Stealth-12" />
+      <SKILL NAME="Tactics-6" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="n/a" HEALTH="11" HITPOINTS="9" IQ="8" MOVE="7" PERCEPTION="8" SIZEMODIFIER="0" SPEED="7" STRENGTH="9" WILL="8" WEIGHT="70 lbs" CLASSIFICATION="Undead" />
+    <TRAITS />
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Shortsword" USAGE="swing" SKILL="12" BLOCK="9" DAMAGE="1d-1" DAMAGETYPE="cutting" PARRY="9" REACH="1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="64" NAME="Slake Hound">
+    <DESCRIPTION>An ugly green dog-shaped beast, human hands, hooved feet, hairless, large mouth, and flexible spines on its back</DESCRIPTION>
+    <TACTICS>Grapples to attach then drains victim 1 point per turn. 
+Up to 3 can attack a single target at once each adding +2 to effective ST.
+Attempts to break grapple are rolled against combined ST as though it was a single opponent.
+Will bite of the prey fights back or attempts to break free.
+Any Cutting, Impaling or Piercing damage over 6 to the torso ruptures the bile organ, spraying all within 4 yards with a 1d corrosive acid on a 10 or less costing the hound 1 damage per turn until it dies.</TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="2" LEG="2" TAIL="0" TORSO="2" WING="0" />
+    <DROPS>
+      <DROP NAME="Bile organ (Veterinary -4 to extract without breaking)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Grappling 12" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="11" HEALTH="12" HITPOINTS="12" IQ="4" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="10" WILL="8" WEIGHT="100 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Leech (FP until 0 then HP)" />
+      <TRAIT NAME="Night Vision" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="bite" SKILL="12" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="65" NAME="Snake, Python">
+    <DESCRIPTION>A large constrictor, 15' long.</DESCRIPTION>
+    <TACTICS>Constricting: Roll contest of strength against higher of ST or HT of victim, on a win damage = margin of victory. Armor DR protects normally. 
+Any damage penetrating also starts suffocating him, every turn from the next one until he escapes he also loses 1 FP.
+While constricting it can not dodge,</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="1" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Stealth 12" />
+      <SKILL NAME="Wrestling 13" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="13" IQ="2" MOVE="4" PERCEPTION="10" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="13" WILL="10" WEIGHT="225 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Cold Blooded (50°)" />
+      <TRAIT NAME="Constriction Attack" />
+      <TRAIT NAME="Vermiform" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="66" NAME="Snake, Rattlesnake">
+    <DESCRIPTION>A common venomous snake, 8' long.</DESCRIPTION>
+    <TACTICS>Bites if threatened.
+Toxic Attack 2D (Cyclic, 1 day, 4 cycles, Follow-up to fangs, Resistable, HT-4)
+Modifiers to HT roll for venom +1 if venom is immedaitly sucked out, +2 if antivenin is used.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="1" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Desert" />
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 15" />
+      <SKILL NAME="Stealth 13" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="5" IQ="2" MOVE="4" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="6.00" STRENGTH="5" WILL="10" WEIGHT="15 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Cold Blooded (50°)" />
+      <TRAIT NAME="Fangs" />
+      <TRAIT NAME="Toxic Attack" />
+      <TRAIT NAME="Vermiform" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Fangs" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1d-5" DAMAGETYPE="Impaling" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="67" NAME="Spider, Giant">
+    <DESCRIPTION>Large venomous arachnid 1' by 2' with a foot print of 3' by 4'</DESCRIPTION>
+    <TACTICS>Spiders will not attack the same target.
+They will attempt to bind with silk first then bite.
+Venom: 2 second onset delay, Resisted by Health, Damage 1 point Toxic, 10 minute cycle.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="220" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="1" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="Silk (DR1" />
+      <DROP NAME="ST5 per strand)" />
+      <DROP NAME="Venom" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Innate Attack (Projectile) 14" />
+      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Survival (Current Habitat) 11" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="10" MOVE="6" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="6.00" STRENGTH="5" WILL="10" WEIGHT="30 lbs" CLASSIFICATION="Giant Animal" />
+    <TRAITS>
+      <TRAIT NAME="Ambidexterity" />
+      <TRAIT NAME="Binding 5 (Engulfing" />
+      <TRAIT NAME="cannot kick)" />
+      <TRAIT NAME="Clinging" />
+      <TRAIT NAME="Extra Legs (8 legs" />
+      <TRAIT NAME="Jet)" />
+      <TRAIT NAME="No Physical Attack (Arms)" />
+      <TRAIT NAME="Semi-Upright" />
+      <TRAIT NAME="Super Climbing 3" />
+      <TRAIT NAME="Teeth (Fangs)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Fangs" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="1d-4" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS>
+        <RANGEDATTACK WEAPON="Silk" SKILL="14" BULK="0" DAMAGE="0" DAMAGETYPE="Binding" HALFDAMAGE="" MAXRANGE="3 yds" RELOAD="1" ROF="1" />
+      </RANGEDATTACKS>
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="68" NAME="Striders">
+    <DESCRIPTION>A huge, flightless bird, the strider has bristling hair-like feathers covering its elliptical body, but its neck and flat wedge-shaped head are bare.</DESCRIPTION>
+    <TACTICS>Though their favorite tactic is to run away, striders are extremely fast, and dangerous when cornered. Their heavy claws can kick out in a 2-hex radius – tales are told of striders disembowelling mounted knights – and their beaks are sharp and pointed, with the strong necks granting formidable striking power.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="224" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Egg" />
+      <DROP NAME="Feathers" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Desert" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="15" DODGE="11" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="20" IQ="3" MOVE="9" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="8" STRENGTH="20" WILL="10" WEIGHT="1000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Enhanced Move 1 (Ground Speed 18)" />
+      <TRAIT NAME="Long Legs and Neck (+1 SM)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="13" BLOCK="No" DAMAGE="2d-1" DAMAGETYPE="Cutting" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Beak" USAGE="Peck" SKILL="15" BLOCK="No" DAMAGE="2d-2" DAMAGETYPE="pi+" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="69" NAME="Strix">
+    <DESCRIPTION>A strix (plural striges) is a bloodsucking, birdlike creature about the size of a crow, with a long beak and large eyes.</DESCRIPTION>
+    <TACTICS>Striges are nocturnal. A strix attacks with its long, barbed beak. If the attack penetrates armor, the strix sucks its victim’s blood.
+Striges have excellent aim, and can even attack through the eyeslits of a helm. Only two striges can strike thus in a second, but a successful hit can also blind the eye!
+Bite drains 1 HP per second. Every 3 HP drained heals 1 point of HP or FP.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+      <HABITAT NAME="Swamp" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 17" />
+    </SKILLS>
+    <STATS DEXTERITY="15" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="5" IQ="4" MOVE="2" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="6.5" STRENGTH="5" WILL="10" WEIGHT="" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Bloodlust (9)" />
+      <TRAIT NAME="Flight (Winged; Air Move 12)" />
+      <TRAIT NAME="Night VIsion 5" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Sharp Beak" />
+      <TRAIT NAME="Vampiric Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Sharp Beak" USAGE="Peck" SKILL="17" BLOCK="No" DAMAGE="1d-4" DAMAGETYPE="Piercing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="70" NAME="Swarm, Bats">
+    <DESCRIPTION>A group of 12 small bats all together</DESCRIPTION>
+    <TACTICS>Attacks anything within its own hex.
+Swarm disperses after 8 damage.
+Individuals could stay behind but are no longer counted as part of a swarm.</TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="0" TORSO="" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="8" IQ="" MOVE="8" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Swarm (always hits always gets hit)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Swarm" USAGE="" SKILL="" BLOCK="" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="71" NAME="Swarm, Bees">
+    <DESCRIPTION>A swarm of about 1,000 bees</DESCRIPTION>
+    <TACTICS>Attacks anything within its own hex.
+Swarm disperses after 12 damage.
+Will give up the attack if foe is chased 50 yards from hive. 
+Note that bothering a hive may get several such swarms after you!
+</TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="0" TORSO="" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Jungle" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="12" IQ="" MOVE="6" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Swarm (always hits always gets hit)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Swarm" USAGE="" SKILL="" BLOCK="" DAMAGE="1 hp" DAMAGETYPE="" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="72" NAME="Swarm, D`baajori">
+    <DESCRIPTION>30-40 tiny climbing pseudo-primates. Breeds rapidly in hot, dry conditions. Normally shy but can be aggressive during late spring breeding seasons.</DESCRIPTION>
+    <TACTICS>Attacks anything within its own hex.
+Swarm disperses after 7 damage.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="219" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="0" TORSO="" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Desert" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="7" IQ="" MOVE="3" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Swarm (Always hits always gets hit)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="73" NAME="Swarm, Rat">
+    <DESCRIPTION>A group of 12 small rats all together</DESCRIPTION>
+    <TACTICS>Attacks anything within its own hex.
+Swarm disperses after 6 damage.
+Individuals could stay behind but are no longer counted as part of a swarm.</TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="0" TORSO="" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="" />
+    </SKILLS>
+    <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="6" IQ="" MOVE="4" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Swarm (always hits always gets hit)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Swarm" USAGE="" SKILL="" BLOCK="" DAMAGE="1d" DAMAGETYPE="Cutting" PARRY="" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="74" NAME="Tiger">
+    <DESCRIPTION>A solitary hunting cat, usually a jungle dweller. Size 2 hexes</DESCRIPTION>
+    <TACTICS>Sneaks up then pounces, fighting tooth and claw</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Jungle" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 15" />
+      <SKILL NAME="Running 13" />
+      <SKILL NAME="Stealth 13" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="15" WILL="11" WEIGHT="500 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Claws (Sharp)" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Night Vision 5" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Teeth (Sharp)" />
+      <TRAIT NAME="Tempurature Tolerance 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="15" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Slash" SKILL="15" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Cutting" PARRY="10" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="75" NAME="Treetippers">
+    <DESCRIPTION>Treetippers are hulking, unwieldy animals with long shaggy fur, four short, strong limbs ending in long, curved, blunt claws, and heavy tails which they use for balance.</DESCRIPTION>
+    <TACTICS>Treetippers have only their size, claws, and toughness to protect them.
+They also occasionally bite if annoyed.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="225" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Fur" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="34" IQ="3" MOVE="4" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="27" WILL="10" WEIGHT="2500 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Blunt Claws" />
+      <TRAIT NAME="SemiUpright" />
+      <TRAIT NAME="Temperature Tolerance 2" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Punch" SKILL="10" BLOCK="No" DAMAGE="3d+1" DAMAGETYPE="Crushing" PARRY="8" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="76" NAME="Unicorns">
+    <DESCRIPTION>The unicorn resembles a slender horse with a goat’s beard and a sharp, twisted, yard-long, pure white horn growing out of its forehead.</DESCRIPTION>
+    <TACTICS>Unicorns have uncanny senses and are very stealthy. If they detect anyone approaching, they usually steal away before they are even seen. If cornered, they will, as the legends suggest, fight viciously, though they will likely take the first opportunity to flee if the battle goes against them. A unicorn fights primarily with its horn, with which it can even parry, although it can also kick and bite like a horse.</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="225" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Horn (10" />
+      <DROP NAME="000 value)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-18" />
+      <SKILL NAME="Stealth-18" />
+    </SKILLS>
+    <STATS DEXTERITY="15" DODGE="12" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="20" IQ="5" MOVE="9" PERCEPTION="18" SIZEMODIFIER="+1" SPEED="9" STRENGTH="20" WILL="13" WEIGHT="1000 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Enhanced Move 1 (Ground Speed 18)" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Impaling Striker (Long" />
+      <TRAIT NAME="+1 SM)" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="13" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Horn" USAGE="Thrust" SKILL="15" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="imp" PARRY="10" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="77" NAME="Vasnacuri">
+    <DESCRIPTION>Vasnacuri are vicious, two-foot-long river fish, similar to a shorter barracuda.</DESCRIPTION>
+    <TACTICS>Whenever blood is released in the water, roll 1d; on a result of 1 or 2, 2d vasnacuri swim over to investigate within 1d minutes. Up to six vasnacuri can attack a submerged adult human simultaneously, and as more blood is released into the water, more fish swim over to investigate.</TACTICS>
+    <BOOK TITLE="Lair of the Fat Man" PAGE="9" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="0" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Meat" />
+      <DROP NAME="Scales" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Aquatic (Fresh Water)" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Tracking-17" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="4" IQ="2" MOVE="5 (Water)" PERCEPTION="10" SIZEMODIFIER="-2" SPEED="5.25" STRENGTH="4" WILL="10" WEIGHT="15 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Doesn't Breath (Gills)" />
+      <TRAIT NAME="Ichthyoid" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="11" BLOCK="" DAMAGE="1 point" DAMAGETYPE="Cutting" PARRY="N/A" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="78" NAME="Warrior Creation">
+    <DESCRIPTION>Created by the Create Warrior spell</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Any" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="any one weapon skill of casters choice at lvl 16" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="12" IQ="10" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="12" WILL="10" WEIGHT="180 lbs" CLASSIFICATION="Construct" />
+    <TRAITS>
+      <TRAIT NAME="swing damage 1d+2" />
+      <TRAIT NAME="thrust damage 1d-1" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="79" NAME="Warrior Creation, Brute">
+    <DESCRIPTION>Created by the Create Warrior spell</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Any" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="One weapon skill at casters choice at lvl 16" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="16" IQ="10" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="16" WILL="10" WEIGHT="210 lbs" CLASSIFICATION="Construct" />
+    <TRAITS>
+      <TRAIT NAME="swing damage 2d+2" />
+      <TRAIT NAME="thrust damage 1d+1" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="80" NAME="Wolf">
+    <DESCRIPTION>Large wild canine</DESCRIPTION>
+    <TACTICS>Circles target and attacks as a pack. Tries to single out the weakest target.</TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="Claws" />
+      <DROP NAME="Teeth" />
+      <DROP NAME="Wolf meat" />
+      <DROP NAME="Wolf pelt" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Arctic" />
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 12" />
+      <SKILL NAME="Tracking 14" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="10" IQ="4" MOVE="9" PERCEPTION="14" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="10" WILL="11" WEIGHT="120 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Night Vision 2" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Tempurature Tolerance 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="81" NAME="Wolf, Timber">
+    <DESCRIPTION>Large canine, pack hunter.</DESCRIPTION>
+    <TACTICS>Will hunt and attack in packs. Attacking the weakest or anyone separated.</TACTICS>
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Tracking 14" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="10" IQ="4" MOVE="9" PERCEPTION="14" SIZEMODIFIER="0" SPEED="6" STRENGTH="10" WILL="11" WEIGHT="120 lbs." CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Night Vision 2" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Tempurature Tolerance 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="14" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Cutting" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="82" NAME="Woolens (Blacksheep)">
+    <DESCRIPTION>Woolens (or “blacksheep”) are small grazing beasts, closely resembling sheep. Always black.</DESCRIPTION>
+    <TACTICS>Always black, their fleece is thick, fine, and easily spun, making it a favorite textile. Their meat is delicious.
+Cost: $300</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="229" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="Fleece" />
+      <DROP NAME="Meat" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.25" STRENGTH="9" WILL="10" WEIGHT="100" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="11" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="crushing" PARRY="No" REACH="C, 1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="83" NAME="Wyverns">
+    <DESCRIPTION>A wyvern is a dragon-like beast with two legs, wings, a serpentine body, and a long, barbed, poisontipped tail.</DESCRIPTION>
+    <TACTICS>A wyvern will usually strike with its tail from above, then land to grapple and carry off its prey. The tail does relatively limited damage, making wyverns less effective against well-armored opponents. However, they have the tactical sense to slam tough foes to take them out of the fight for a while. Note that wyvern venom causes both HP loss (half of which can be avoided with a HT-5 roll) and DX reduction (also resisted with a HT-5 roll).</TACTICS>
+    <BOOK TITLE="Banestorm" PAGE="226" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="3" LEG="3" TAIL="0" TORSO="3" WING="0" />
+    <DROPS>
+      <DROP NAME="Venom" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+      <HABITAT NAME="Mountain" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling-15" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="19" IQ="5" MOVE="3" PERCEPTION="12" SIZEMODIFIER="+3" SPEED="6.25" STRENGTH="19" WILL="10" WEIGHT="950 lbs" CLASSIFICATION="Animal" />
+    <TRAITS>
+      <TRAIT NAME="Affliction 6 (-4 DX Penalty; Extended Duration x1000; FollowUp: Striker)" />
+      <TRAIT NAME="Enhanced Move 1/2 (Air Speed 18)" />
+      <TRAIT NAME="Flight (Winged; Air Move 12)" />
+      <TRAIT NAME="Impaling Striker (Tail; Weak)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Sharp Claws" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Toxic Attack 1d (Follow-Up: Striker; Resistible: HT-5)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="kick" SKILL="11" BLOCK="No" DAMAGE="2d-1" DAMAGETYPE="cutting" PARRY="No" REACH="C, 1" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Slash" SKILL="13" BLOCK="No" DAMAGE="2d-2" DAMAGETYPE="cutting" PARRY="9" REACH="C" />
+        <MELEEATTACK WEAPON="Tail" USAGE="Striking" SKILL="13" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="imp" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="84" NAME="Zombie">
+    <DESCRIPTION>Undead rotting humanoid</DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="" PAGE="" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" />
+    <DROPS>
+      <DROP NAME="" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling 10" />
+      <SKILL NAME="Grapple 10" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="N/A" HEALTH="10" HITPOINTS="15" IQ="8" MOVE="5" PERCEPTION="8" SIZEMODIFIER="0" SPEED="5.00" STRENGTH="11" WILL="8" WEIGHT="180 lbs" CLASSIFICATION="Undead" />
+    <TRAITS>
+      <TRAIT NAME="" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Punch" USAGE="Swing" SKILL="10" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+  <MONSTERINFO ID="85" NAME="Zombie Warrior">
+    <DESCRIPTION></DESCRIPTION>
+    <TACTICS></TACTICS>
+    <BOOK TITLE="Backdrops: Tower of Octavius" PAGE="28" />
+    <DAMAGERESISTANCE ARM="4/2" FOOT="0" HAND="0" HEAD="2" LEG="4/2" TAIL="0" TORSO="4/2" WING="0" />
+    <DROPS>
+      <DROP NAME="Broadsword" />
+      <DROP NAME="Mail Suit" />
+      <DROP NAME="Medium Shield (DB 2)" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Any" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Bow-11" />
+      <SKILL NAME="Brawling-12" />
+      <SKILL NAME="Broadsword-12" />
+      <SKILL NAME="Climbing-10" />
+      <SKILL NAME="Shield-11" />
+      <SKILL NAME="Tactics-6" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="n/a" HEALTH="11" HITPOINTS="16" IQ="8" MOVE="5" PERCEPTION="8" SIZEMODIFIER="0" SPEED="5.50" STRENGTH="12" WILL="8" WEIGHT="110" CLASSIFICATION="Undead" />
+    <TRAITS>
+      <TRAIT NAME="" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Broadsword" USAGE="Swing" SKILL="12" BLOCK="8" DAMAGE="1d+3" DAMAGETYPE="cutting" PARRY="9" REACH="1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+  </MONSTERINFO>
+</MONSTERS>

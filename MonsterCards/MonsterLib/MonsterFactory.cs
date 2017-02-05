@@ -70,5 +70,10 @@ namespace MonsterLib
         {
             return new Attacks();
         }
+
+        public IClassification GetClassificationInstance()
+        {
+            return new Classification();
+        }
     }
 }

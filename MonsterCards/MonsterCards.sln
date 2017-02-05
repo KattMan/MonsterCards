@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterLibAbstracts", "MonsterLibAbstracts\MonsterLibAbstracts.csproj", "{23CEFACE-374C-4631-AC03-431D67F7FB24}"
 EndProject
@@ -16,6 +16,19 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterDALAbstracts", "MonsterDALAbstracts\MonsterDALAbstracts.csproj", "{23FBD46C-1073-49EF-9ED5-4EAA484105F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterDalTests", "MonsterDalTests\MonsterDalTests.csproj", "{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterPDF", "MonsterPDF\MonsterPDF.csproj", "{9858BB3B-C9F7-49AE-97EE-0ECB024D0DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterPDFTests", "MonsterPDFTests\MonsterPDFTests.csproj", "{B4698669-DA48-47E4-B484-E51C971409A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterPDFAbstracts", "MonsterPDFAbstracts\MonsterPDFAbstracts.csproj", "{8B933971-0374-4745-AF56-191D36E785F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BC5E5AD-E0FE-4A10-B2DE-ACBC4113A3D0}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Books.xml = Data\Books.xml
+		Data\Classifications.xml = Data\Classifications.xml
+		Data\Monsters.xml = Data\Monsters.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +64,18 @@ Global
 		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA87D46-8695-4E90-B743-1AEBDF7E5A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9858BB3B-C9F7-49AE-97EE-0ECB024D0DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9858BB3B-C9F7-49AE-97EE-0ECB024D0DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9858BB3B-C9F7-49AE-97EE-0ECB024D0DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9858BB3B-C9F7-49AE-97EE-0ECB024D0DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4698669-DA48-47E4-B484-E51C971409A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4698669-DA48-47E4-B484-E51C971409A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4698669-DA48-47E4-B484-E51C971409A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4698669-DA48-47E4-B484-E51C971409A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B933971-0374-4745-AF56-191D36E785F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B933971-0374-4745-AF56-191D36E785F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B933971-0374-4745-AF56-191D36E785F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B933971-0374-4745-AF56-191D36E785F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

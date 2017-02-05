@@ -36,6 +36,7 @@ namespace MonsterLib
         public string Classification { get; set; }
 
         public string Weight { get; set; }
+        public string Height { get; set; }
 
     }
 }

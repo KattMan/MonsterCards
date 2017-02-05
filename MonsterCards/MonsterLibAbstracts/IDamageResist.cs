@@ -8,6 +8,8 @@ namespace MonsterLibAbstracts
 {
     public interface IDamageResist
     {
+        BodyType BodyType { get; set; }
+        bool Winged { get; set; }
         string Head { get; set; }
         string Torso { get; set; }
         string Arm { get; set; }
@@ -16,5 +18,6 @@ namespace MonsterLibAbstracts
         string Foot { get; set; }
         string Wing { get; set; }
         string Tail { get; set; }
+        string Fin { get; set; }
     }
 }

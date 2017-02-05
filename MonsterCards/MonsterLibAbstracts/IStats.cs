@@ -22,6 +22,7 @@ namespace MonsterLibAbstracts
         string SizeModifier { get; set; }
         string Classification { get; set; }
         string Weight { get; set; }
+        string Height { get; set; }
 
     }
 }

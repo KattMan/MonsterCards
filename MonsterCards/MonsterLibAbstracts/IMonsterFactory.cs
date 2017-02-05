@@ -21,6 +21,7 @@ namespace MonsterLibAbstracts
         IDamageResist GetDRInstance();
         IStats GetStatsInstance();
         IAttacks GetAttacksInstance();
+        IClassification GetClassificationInstance();
 
     }
 }

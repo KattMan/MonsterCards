@@ -24,5 +24,11 @@ namespace MonsterLib
         public string Wing { get; set; }
 
         public string Tail { get; set; }
+
+        public BodyType BodyType { get; set; }
+
+        public bool Winged { get; set; }
+
+        public string Fin { get; set; }
     }
 }

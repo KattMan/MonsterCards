@@ -14,10 +14,10 @@ namespace MonsterDalTests
         [TestMethod, TestCategory("MonsterData")]
         public void LoadDataTest()
         {
-            var readerMock = new Mock<IMonsterFileReader>();
+            var readerMock = new Mock<IFileReader<IMonster>>();
             readerMock.Setup(s => s.LoadData(It.IsAny<string>())).Returns(new List<IMonster>()).Verifiable();
 
-            var writerMock = new Mock<IMonsterFileWriter>();
+            var writerMock = new Mock<IFileWriter<IMonster>>();
             writerMock.Setup(s => s.SaveData(It.IsAny<string>(), It.IsAny<List<IMonster>>())).Verifiable();
 
             var monsterData = new MonsterData(readerMock.Object, writerMock.Object);
@@ -32,10 +32,10 @@ namespace MonsterDalTests
         [TestMethod, TestCategory("MonsterData")]
         public void SaveDataTest()
         {
-            var readerMock = new Mock<IMonsterFileReader>();
+            var readerMock = new Mock<IFileReader<IMonster>>();
             readerMock.Setup(s => s.LoadData(It.IsAny<string>())).Returns(new List<IMonster>()).Verifiable();
 
-            var writerMock = new Mock<IMonsterFileWriter>();
+            var writerMock = new Mock<IFileWriter<IMonster>>();
             writerMock.Setup(s => s.SaveData(It.IsAny<string>(), It.IsAny<List<IMonster>>())).Verifiable();
 
             var monsterData = new MonsterData(readerMock.Object, writerMock.Object);

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Books>
+	<Book name="" code="" />
+	<Book name="Custom" code="" />
+	<Book name="Action 1: Heros" code="" />
+	<Book name="Action 2: Exploits" code="" />
+	<Book name="Action 3: Furious Fists" code="" />
+	<Book name="Action 4: Specialists" code="" />
+	<Book name="Adaptations" code="" />
+	<Book name="After the End 01: Wastelanders" code="" />
+	<Book name="After the End 02: The New World" code="" />
+	<Book name="Aliens: Sparrials" code="" />
+	<Book name="Alphabet Arcane" code="" />
+	<Book name="Alphabet Arcane: Lost Serifs" code="" />
+	<Book name="Banestorm" code="" />
+	<Book name="Banestorm: Maps" code="" />
+	<Book name="Banestorm: Abydos" code="" />
+	<Book name="Basic Set: Campaigns" code="" />
+	<Book name="Basic Set: Characters" code="" />
+	<Book name="Big Lizzy" code="" />
+	<Book name="Bio-Tech" code="" />
+	<Book name="Boardroom and Curia" code="" />
+	<Book name="City Stats" code="" />
+	<Book name="Creatures of the Night V1" code="" />
+	<Book name="Creatures of the Night V2" code="" />
+	<Book name="Creatures of the Night V3" code="" />
+	<Book name="Creatures of the Night V4" code="" />
+	<Book name="Creatures of the Night V5" code="" />
+	<Book name="Crusades" code="" />
+	<Book name="Disasters: Meltdown and Fallout" code="" />
+	<Book name="Dragons" code="" />
+	<Book name="Dungeon Fantasy 01: Adventurers" code="" />
+	<Book name="Dungeon Fantasy 02 - Dungeons" code="" />
+	<Book name="Dungeon Fantasy 03: The Next Level" code="" />
+	<Book name="Dungeon Fantasy 04 - Sages" code="" />
+	<Book name="Dungeon Fantasy 05 - Allies" code="" />
+	<Book name="Dungeon Fantasy 06 - 40 Artifacts" code="" />
+	<Book name="Dungeon Fantasy 07: Clerics" code="" />
+	<Book name="Dungeon Fantasy 08: Treasure Tables" code="" />
+	<Book name="Dungeon Fantasy 09: Summoners" code="" />
+	<Book name="Dungeon Fantasy 10: Taverns" code="" />
+	<Book name="Dungeon Fantasy 11: Power-Ups" code="" />
+	<Book name="Dungeon Fantasy 12: Ninja" code="" />
+	<Book name="Dungeon Fantasy 13: Loadouts" code="" />
+	<Book name="Dungeon Fantasy 14: Psi" code="" />
+	<Book name="Dungeon Fantasy 15: Henchmen" code="" />
+	<Book name="Dungeon Fantasy 16: Wilderness Adventures" code="" />
+	<Book name="Dungeon Fantasy 17: Guilds" code="" />
+	<Book name="Dungeon Fantasy 18: Power Items" code="" />
+	<Book name="Dungeon Fantasy Adventure 1: Mirror of the Fire Demon" code="" />
+	<Book name="Dungeon Fantasy Denizens: Barbarians" code="" />
+	<Book name="Dungeon Fantasy Monsters 1" code="" />
+	<Book name="Dungeon Fantasy Monsters 2 Icky Goo" code="" />
+	<Book name="Dungeon Fantasy Monsters 3 Born of Myth and Magic" code="" />
+	<Book name="Dungeon Fantasy Treasures 1: Glittering Prizes" code="" />
+	<Book name="Dungeon Fantasy Treasures 2: Epic Treasures" code="" />
+	<Book name="Fantasy" code="" />
+	<Book name="Fantasy-Tech 1: The Edge of Reality" code="" />
+	<Book name="Gun Fu" code="" />
+	<Book name="High Tech" code="" />
+	<Book name="High Tech: Adventure Guns" code="" />
+	<Book name="High Tech: Pulp Guns 1" code="" />
+	<Book name="High Tech: Pulp Guns 2" code="" />
+	<Book name="High Tech: Weapon Tables" code="" />
+	<Book name="Horror" code="" />
+	<Book name="Horror: The Madness Dossier" code="" />
+	<Book name="Hot Spots: Constantinople, 527-1204 AD" code="" />
+	<Book name="Hot Spots: Renaissance Florence" code="" />
+	<Book name="How to be a GURPS GM" code="" />
+	<Book name="Infinite Worlds" code="" />
+	<Book name="Infinite Worlds - Britannica-6" code="" />
+	<Book name="Infinite Worlds - Collegio Januari" code="" />
+	<Book name="Infinite Worlds - IST" code="" />
+	<Book name="Infinite Worlds - Lost Worlds" code="" />
+	<Book name="Infinite Worlds - Worlds of Horror" code="" />
+	<Book name="Lair of the Fat Man" code="" />
+	<Book name="Lands Out of Time" code="" />
+	<Book name="Loadouts - Low-Tech Armor" code="" />
+	<Book name="Loadouts - Monster Hunters" code="" />
+	<Book name="Locations - Hellsgate" code="" />
+	<Book name="Locations - Metro of Madness" code="" />
+	<Book name="Locations - St. George's Cathedral" code="" />
+	<Book name="Backdrops: Tower of Octavius" code="" />
+	<Book name="Locations: Worminghall" code="" />
+	<Book name="Low-Tech" code="" />
+	<Book name="Low-Tech Companion 1: Philosophers and Kings" code="" />
+	<Book name="Low-Tech Companion 2: Weapons and Warriors" code="" />
+	<Book name="Low-Tech Companion 3: Daily Life and Economics" code="" />
+	<Book name="Low-Tech: Instant Armor" code="" />
+	<Book name="Macguffin Alphabet" code="" />
+	<Book name="Magic" code="" />
+	<Book name="Magic: Death Spells" code="" />
+	<Book name="Magic: Plant Spells" code="" />
+	<Book name="Martial Arts" code="" />
+	<Book name="Martial Arts - Fairbairn Close Combat Systems" code="" />
+	<Book name="Martial Arts: Gladiators" code="" />
+	<Book name="Martial Arts: Technical Grappling" code="" />
+	<Book name="Martial Arts: Yrth Fighting Styles" code="" />
+	<Book name="Mass Combat" code="" />
+	<Book name="Monster Hunters 1: Champions" code="" />
+	<Book name="Monster Hunters 2: The Mission" code="" />
+	<Book name="Monster Hunters 3: The Enemy" code="" />
+	<Book name="Monster Hunters 4: Sidekicks" code="" />
+	<Book name="Monster Hunters 5: Applied Xenology" code="" />
+	<Book name="Mysteries" code="" />
+	<Book name="Power-Downs 1 - Quirks" code="" />
+	<Book name="Powers" code="" />
+	<Book name="Powers: Divine Favor" code="" />
+	<Book name="Powers: Enhanced Senses" code="" />
+	<Book name="Powers: The Weird" code="" />
+	<Book name="Power-Ups 1 - Imbuements" code="" />
+	<Book name="Power-Ups 2 - Perks" code="" />
+	<Book name="Power-Ups 3: Talents" code="" />
+	<Book name="Power-Ups 4: Enhancements" code="" />
+	<Book name="Power-Ups 5: Impulse Buys" code="" />
+	<Book name="Power-Ups 6: Quirks" code="" />
+	<Book name="Power-Ups 7: Wildcard Skills" code="" />
+	<Book name="Power-Ups 8: Limitations" code="" />
+	<Book name="Psionic Campaigns" code="" />
+	<Book name="Psionic Powers" code="" />
+	<Book name="Psis" code="" />
+	<Book name="Psi-Tech" code="" />
+	<Book name="SEALs In Vietnam" code="" />
+	<Book name="Social Engineering" code="" />
+	<Book name="Social Engineering: Back To School" code="" />
+	<Book name="Social Engineering: Pulling Rank" code="" />
+	<Book name="Sorcery: Protection and Warning Spells" code="" />
+	<Book name="Space" code="" />
+	<Book name="Spaceships" code="" />
+	<Book name="Spaceships 2: Traders, Liners, and Transports" code="" />
+	<Book name="Spaceships 3: Warships and Space Pirates" code="" />
+	<Book name="Spaceships 4: Fighters, Carriers, and Mecha" code="" />
+	<Book name="Spaceships 5: Exploration and Colony Spacecraft" code="" />
+	<Book name="Spaceships 6: Mining and Industrial Spacecraft" code="" />
+	<Book name="Spaceships 7: Divergent and Paranormal Tech" code="" />
+	<Book name="Spaceships 8: Transhuman Spacecraft" code="" />
+	<Book name="Supers" code="" />
+	<Book name="Supporting Cast: Age of Sail Pirate Crew" code="" />
+	<Book name="Tactical Shooting" code="" />
+	<Book name="Tales of the Solar Patrol" code="" />
+	<Book name="Template Toolkit 1: Characters" code="" />
+	<Book name="Thaumatology" code="" />
+	<Book name="Thaumatology Setting: Age of Gold" code="" />
+	<Book name="Thaumatology Setting: Alchemical Baroque" code="" />
+	<Book name="Thaumatology: Chinese Elemental Powers" code="" />
+	<Book name="Thaumatology: Ritual Path Magic" code="" />
+	<Book name="Thaumatology: Urban Magics" code="" />
+	<Book name="Thaumatology: Magical Styles" code="" />
+	<Book name="Thaumatology: Magical Styles: Dungeon Magic" code="" />
+	<Book name="Thaumatology: Sorcery" code="" />
+	<Book name="Transhuman Space - Bioroid Bazaar" code="" />
+	<Book name="Transhuman Space - Biotech 2100" code="" />
+	<Book name="Transhuman Space - Changing Times" code="" />
+	<Book name="Transhuman Space - Cities on the Edge" code="" />
+	<Book name="Transhuman Space - Martial Arts 2100" code="" />
+	<Book name="Transhuman Space - Personnel Files 2 - The Meme Team" code="" />
+	<Book name="Transhuman Space - Personnel Files 3 - Wild Justice" code="" />
+	<Book name="Transhuman Space - Personnel Files 4 - Martingale Security" code="" />
+	<Book name="Transhuman Space - Personnel Files 5 - School Days 2100" code="" />
+	<Book name="Transhuman Space - Shell-Tech" code="" />
+	<Book name="Transhuman Space - Teralogos News 2100 - Fourth Quarter" code="" />
+	<Book name="Transhuman Space - Teralogos News 2101 - First Quarter" code="" />
+	<Book name="Transhuman Space - Teralogos News 2101 - Second Quarter" code="" />
+	<Book name="Transhuman Space - Teralogos News 2101 - Third Quarter" code="" />
+	<Book name="Transhuman Space - Wings of the Rising Sun" code="" />
+	<Book name="Traveller - Psionics Institutes" code="" />
+	<Book name="Traveller - Interstellar Wars" code="" />
+	<Book name="Traveller - Interstellar Wars - Combat Counters" code="" />
+	<Book name="Ultra-Tech" code="" />
+	<Book name="Ultra-Tech: Weapon Tables" code="" />
+	<Book name="Underground Adventures" code="" />
+	<Book name="Zombies" code="" />
+	<Book name="Zombies: Day One" code="" />
+</Books>
+
