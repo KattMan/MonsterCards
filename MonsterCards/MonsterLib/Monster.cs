@@ -10,12 +10,14 @@ namespace MonsterLib
     public class Monster : IMonster
     {
         IBook _Book = new Book();
+        IClassification _Classification = new Classification();
         IStats _Stats = new Stats();
         IDamageResist _DamageResist = new DamageResist();
         List<IHabitat> _Habitats = new List<IHabitat>();
         List<ITrait> _Traits = new List<ITrait>();
         List<ISkill> _Skills = new List<ISkill>();
         List<IDrop> _Drops = new List<IDrop>();
+        List<ITactic> _Tactics = new List<ITactic>();
         IAttacks _Attacks = new Attacks();
 
         public int ID { get; set; }
@@ -24,12 +26,22 @@ namespace MonsterLib
 
         public string Description { get; set; }
 
-        public string Tactics { get; set; }
+        public List<ITactic> Tactics 
+        {
+            get { return _Tactics; }
+            set { _Tactics = value; }
+        }
 
         public IBook Book
         {
             get { return _Book; }
             set { _Book = value; }
+        }
+
+        public IClassification Classification
+        {
+            get { return _Classification; }
+            set { _Classification = value; }
         }
 
         public IStats Stats

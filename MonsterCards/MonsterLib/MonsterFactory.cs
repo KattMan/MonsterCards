@@ -75,5 +75,10 @@ namespace MonsterLib
         {
             return new Classification();
         }
+
+        public ITactic GetTacticIntance()
+        {
+            return new Tactic();
+        }
     }
 }

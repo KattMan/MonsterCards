@@ -11,9 +11,10 @@ namespace MonsterLibAbstracts
         int ID { get; }
         string Name { get; set; }
         string Description { get; set; }
-        string Tactics { get; set; }
+        List<ITactic> Tactics { get; set; }
 
         IBook Book { get; set; }
+        IClassification Classification { get; set; }
         IStats Stats { get; set; }
         IDamageResist DamageResist { get; set; }
         List<IHabitat> Habitats { get; set; }

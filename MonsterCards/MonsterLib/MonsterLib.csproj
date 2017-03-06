@@ -53,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skill.cs" />
     <Compile Include="Stats.cs" />
+    <Compile Include="Tactic.cs" />
     <Compile Include="Trait.cs" />
   </ItemGroup>
   <ItemGroup>

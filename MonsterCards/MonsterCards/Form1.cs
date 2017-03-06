@@ -19,12 +19,13 @@ namespace MonsterCards
     {
         IDataAccess<IMonster> _monsterDal;
         IDataAccess<IBook> _bookDal;
+        IDataAccess<IClassification> _classDal;
         IMonsterCard _monsterCard;
         IMonsterFactory _monsterFactory;
         List<IMonster> _monsters;
         IMonster _selectedMonster;
 
-        public Form1(IDataAccess<IMonster> monsterDal, IDataAccess<IBook> bookDal, IMonsterCard monsterCard, IMonsterFactory monsterFactory)
+        public Form1(IDataAccess<IMonster> monsterDal, IDataAccess<IBook> bookDal, IDataAccess<IClassification> classDal, IMonsterCard monsterCard, IMonsterFactory monsterFactory)
         {
             InitializeComponent();
 
@@ -34,6 +35,7 @@ namespace MonsterCards
             _monsterFactory = monsterFactory;
             _monsters = _monsterDal.LoadData(Path.Combine(System.IO.Directory.GetCurrentDirectory(), "Data"));
             _selectedMonster = _monsterFactory.GetMonsterInstance(0);
+            _classDal = classDal;
 
             listMelee.View = View.Details;
             lstRanged.View = View.Details;
@@ -42,14 +44,24 @@ namespace MonsterCards
             UpdateForm(_selectedMonster);
         }
 
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            SaveData();
+        }
+
+        public void SaveData()
+        {
+            _monsterDal.SaveData(Path.Combine(System.IO.Directory.GetCurrentDirectory(), "Data"), _monsters);
+        }
+
         public bool UpdateForm(IMonster monster)
         {
             UpdateDescription(monster.Description, monster.Name);
             UpdateDR(monster.DamageResist);
             UpdateBook(monster.Book);
-            UpdateStats(monster.Stats);
+            UpdateStats(monster.Stats, monster.Classification);
             UpdateSkills(monster.Skills);
-            UpdateTactics(monster.Tactics);
+            UpdateTactics(monster.Classification, monster.Tactics);
             UpdateTraits(monster.Traits);
             UpdateDrops(monster.Drops);
             UpdateHabitats(monster.Habitats);
@@ -95,7 +107,15 @@ namespace MonsterCards
         {
             if (DamageResist != null)
             {
-                this.txtBodyType.Text = DamageResist.BodyType.ToString();
+                if (DamageResist.Winged && DamageResist.BodyType != BodyType.Avian)
+                {
+                    this.txtBodyType.Text = "Winged " + DamageResist.BodyType.ToString();
+                }
+                else
+                {
+                    this.txtBodyType.Text = DamageResist.BodyType.ToString();
+                }
+
                 this.txtDRArms.Text = DamageResist.Arm;
                 this.txtDRFeet.Text = DamageResist.Foot;
                 this.txtDRFins.Text = DamageResist.Fin;
@@ -109,11 +129,10 @@ namespace MonsterCards
             return true;
         }
 
-        public bool UpdateStats(IStats Stats)
+        public bool UpdateStats(IStats Stats, IClassification Classification)
         {
             if (Stats != null)
             {
-                this.txtClass.Text = Stats.Classification;
                 this.txtDodge.Text = Stats.Dodge;
                 this.txtDX.Text = Stats.Dexterity;
                 this.txtFP.Text = Stats.FatiguePoints;
@@ -129,6 +148,9 @@ namespace MonsterCards
                 this.txtWeight.Text = Stats.Weight;
                 this.txtWill.Text = Stats.Will;
             }
+
+            this.txtClass.Text = Classification.Name;
+
             return true;
         }
 
@@ -149,11 +171,19 @@ namespace MonsterCards
             return true;
         }
 
-        public bool UpdateTactics(string Tactics)
+        public bool UpdateTactics(IClassification Classificiation, List<ITactic> Tactics)
         {
+            this.txtTactics.Text = Classificiation.Description;
             if (Tactics != null)
             {
-                this.txtTactics.Text = Tactics;
+                var itemList = new StringBuilder();
+                var divider = "\r\n";
+                foreach (var item in Tactics.OrderBy(x => x.Order))
+                {
+                    itemList.AppendFormat("{0}{1}", divider, item.Text);
+                }
+
+                this.txtTactics.Text += itemList.ToString();
             }
             return true;
         }
@@ -271,7 +301,18 @@ namespace MonsterCards
 
         private void attributesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var subForm = new Attributes(UpdateStats, _selectedMonster.Stats);
+            var subForm = new Attributes(UpdateStats, UpdateTactics, _selectedMonster, _classDal);
+            subForm.ShowDialog();
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var subForm = new DRConfig(UpdateDR, _selectedMonster.DamageResist);
             subForm.ShowDialog();
         }
 

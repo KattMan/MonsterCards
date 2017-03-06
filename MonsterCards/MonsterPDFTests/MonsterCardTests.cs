@@ -105,7 +105,7 @@ namespace MonsterPDFTests
             var monsterMock = new Mock<IMonster>();
             monsterMock.SetupGet(s => s.Description).Returns("Monster Description.");
             monsterMock.SetupGet(s => s.Name).Returns("Monster Name.");
-            monsterMock.SetupGet(s => s.Tactics).Returns("Monster Tactics.");
+            //monsterMock.SetupGet(s => s.Tactics).Returns("Monster Tactics.");
 
             var meleeMock = new Mock<IMelee>();
             meleeMock.SetupGet(s => s.Block).Returns("B");
@@ -174,7 +174,6 @@ namespace MonsterPDFTests
             monsterMock.SetupGet(s => s.Skills).Returns(new List<ISkill>() { skillMock.Object });
 
             var statMock = new Mock<IStats>();
-            statMock.SetupGet(s => s.Classification).Returns("CL");
             statMock.SetupGet(s => s.Dexterity).Returns("DX");
             statMock.SetupGet(s => s.Dodge).Returns("DO");
             statMock.SetupGet(s => s.FatiguePoints).Returns("FP");

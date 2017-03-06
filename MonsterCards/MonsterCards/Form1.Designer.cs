@@ -204,27 +204,28 @@
             // descriptionToolStripMenuItem
             // 
             this.descriptionToolStripMenuItem.Name = "descriptionToolStripMenuItem";
-            this.descriptionToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.descriptionToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.descriptionToolStripMenuItem.Text = "Description";
             this.descriptionToolStripMenuItem.Click += new System.EventHandler(this.descriptionToolStripMenuItem_Click);
             // 
             // attributesToolStripMenuItem
             // 
             this.attributesToolStripMenuItem.Name = "attributesToolStripMenuItem";
-            this.attributesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.attributesToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.attributesToolStripMenuItem.Text = "Attributes";
             this.attributesToolStripMenuItem.Click += new System.EventHandler(this.attributesToolStripMenuItem_Click);
             // 
             // dRToolStripMenuItem
             // 
             this.dRToolStripMenuItem.Name = "dRToolStripMenuItem";
-            this.dRToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dRToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.dRToolStripMenuItem.Text = "DR";
+            this.dRToolStripMenuItem.Click += new System.EventHandler(this.dRToolStripMenuItem_Click);
             // 
             // classificationToolStripMenuItem
             // 
             this.classificationToolStripMenuItem.Name = "classificationToolStripMenuItem";
-            this.classificationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.classificationToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.classificationToolStripMenuItem.Text = "Habitats";
             // 
             // traitsToolStripMenuItem
@@ -759,11 +760,12 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(519, 199);
+            this.label23.Location = new System.Drawing.Point(519, 193);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(44, 13);
+            this.label23.Size = new System.Drawing.Size(50, 26);
             this.label23.TabIndex = 53;
-            this.label23.Text = "Height";
+            this.label23.Text = "Height/\r\nLength\r\n";
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label24
             // 
@@ -1180,6 +1182,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Monster Cards";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

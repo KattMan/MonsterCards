@@ -75,6 +75,7 @@
             this.Name = "MonsterList";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Monster List";
             this.ResumeLayout(false);
 

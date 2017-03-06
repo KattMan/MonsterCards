@@ -53,6 +53,7 @@
     <Compile Include="IMonsterFactory.cs" />
     <Compile Include="ISkill.cs" />
     <Compile Include="IStats.cs" />
+    <Compile Include="ITactic.cs" />
     <Compile Include="ITrait.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

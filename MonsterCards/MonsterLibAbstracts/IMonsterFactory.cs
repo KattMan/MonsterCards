@@ -22,6 +22,7 @@ namespace MonsterLibAbstracts
         IStats GetStatsInstance();
         IAttacks GetAttacksInstance();
         IClassification GetClassificationInstance();
+        ITactic GetTacticIntance();
 
     }
 }

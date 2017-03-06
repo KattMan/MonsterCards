@@ -381,24 +381,23 @@ namespace MonsterDalTests
             Assert.AreEqual("11", result.Strength);
             Assert.AreEqual("12", result.Will);
             Assert.AreEqual("13", result.Weight);
-            Assert.AreEqual("14", result.Classification);
         }
 
-        [TestMethod, TestCategory("MonsterFileReader")]
-        public void GetTacticsTest()
-        {
-            var reader = GetMonsterFileReader();
+        //[TestMethod, TestCategory("MonsterFileReader")]
+        //public void GetTacticsTest()
+        //{
+        //    var reader = GetMonsterFileReader();
 
-            var element = new XElement("MONSTERINFO"
-                , new XElement("TACTICS"
-                    , "Monster Tactics"
-                    )
-                );
+        //    var element = new XElement("MONSTERINFO"
+        //        , new XElement("TACTICS"
+        //            , "Monster Tactics"
+        //            )
+        //        );
 
-            var result = reader.GetTactics(element);
+        //    var result = reader.GetTactics(element);
 
-            Assert.AreEqual("Monster Tactics", result);
-        }
+        //    Assert.AreEqual("Monster Tactics", result);
+        //}
 
         [TestMethod, TestCategory("MonsterFileReader")]
         public void GetTraitsTest()

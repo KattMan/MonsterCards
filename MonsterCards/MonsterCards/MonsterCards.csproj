@@ -66,6 +66,12 @@
     <Compile Include="Attributes.Designer.cs">
       <DependentUpon>Attributes.cs</DependentUpon>
     </Compile>
+    <Compile Include="DRConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DRConfig.Designer.cs">
+      <DependentUpon>DRConfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Attributes.resx">
       <DependentUpon>Attributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DRConfig.resx">
+      <DependentUpon>DRConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

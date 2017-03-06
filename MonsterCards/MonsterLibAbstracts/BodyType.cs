@@ -17,6 +17,7 @@ namespace MonsterLibAbstracts
         Octopod,
         Cancroid,
         Ichthyoid,
-        Arachnoid
+        Arachnoid,
+        Hybrid
     }
 }

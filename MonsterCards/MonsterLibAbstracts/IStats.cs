@@ -20,7 +20,6 @@ namespace MonsterLibAbstracts
         string Move { get; set; }
         string Dodge { get; set; }
         string SizeModifier { get; set; }
-        string Classification { get; set; }
         string Weight { get; set; }
         string Height { get; set; }
 
