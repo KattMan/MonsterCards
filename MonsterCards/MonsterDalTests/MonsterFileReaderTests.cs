@@ -159,6 +159,8 @@ namespace MonsterDalTests
                     , new XAttribute("TAIL", "6")
                     , new XAttribute("TORSO", "7")
                     , new XAttribute("WING", "8")
+                    , new XAttribute("WINGED", "false")
+                    , new XAttribute("BODYTYPE", "Vermiform")
                     )
                 );
 
@@ -173,6 +175,8 @@ namespace MonsterDalTests
             Assert.AreEqual("6", result.Tail);
             Assert.AreEqual("7", result.Torso);
             Assert.AreEqual("8", result.Wing);
+            Assert.IsFalse(result.Winged);
+            Assert.AreEqual(BodyType.Vermiform, result.BodyType);
         }
 
         [TestMethod, TestCategory("MonsterFileReader")]
@@ -330,7 +334,8 @@ namespace MonsterDalTests
             var element = new XElement("MONSTERINFO"
                 , new XElement("SKILLS"
                     , new XElement("SKILL"
-                        , new XAttribute("NAME", "Skill 1")
+                        , new XAttribute("NAME", "Skill")
+                        , new XAttribute("LEVEL", "1")
                         )
                     )
                 );
@@ -338,7 +343,7 @@ namespace MonsterDalTests
             var result = reader.GetSkills(element);
 
             Assert.IsInstanceOfType(result, typeof(List<ISkill>));
-            Assert.AreEqual("Skill 1", result[0].Name);
+            Assert.AreEqual("Skill", result[0].Name);
         }
 
         [TestMethod, TestCategory("MonsterFileReader")]
@@ -361,7 +366,7 @@ namespace MonsterDalTests
                     , new XAttribute("STRENGTH", "11")
                     , new XAttribute("WILL", "12")
                     , new XAttribute("WEIGHT", "13")
-                    , new XAttribute("CLASSIFICATION", "14")
+                    , new XAttribute("HEIGHT", "14")
                     )
                 );
 
@@ -381,6 +386,7 @@ namespace MonsterDalTests
             Assert.AreEqual("11", result.Strength);
             Assert.AreEqual("12", result.Will);
             Assert.AreEqual("13", result.Weight);
+            Assert.AreEqual("14", result.Height);
         }
 
         //[TestMethod, TestCategory("MonsterFileReader")]

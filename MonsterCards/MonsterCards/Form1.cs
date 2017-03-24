@@ -162,7 +162,7 @@ namespace MonsterCards
                 var divider = "";
                 foreach (var item in Skills)
                 {
-                    itemList.AppendFormat("{0}{1}:{2}", divider, item.Name, item.Level);
+                    itemList.AppendFormat("{0}{1}", divider, item.ToString());
                     divider = ", ";
                 }
 
@@ -316,5 +316,59 @@ namespace MonsterCards
             subForm.ShowDialog();
         }
 
+        private void habitatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var subForm = new Habitats(UpdateHabitats, _selectedMonster.Habitats, _monsterFactory);
+            subForm.ShowDialog();
+        }
+
+        private void dropsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var subForm = new Drops(UpdateDrops, _selectedMonster.Drops, _monsterFactory);
+            subForm.ShowDialog();
+        }
+
+        private void skillsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var subForm = new Skills(UpdateSkills, _selectedMonster.Skills, _monsterFactory);
+            subForm.ShowDialog();
+        }
+
+        private void traitsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var subForm = new Traits(UpdateTraits, _selectedMonster.Traits, _monsterFactory);
+            subForm.ShowDialog();
+        }
+
+        private void tacticsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var subForm = new Tactics(UpdateTactics, _selectedMonster.Classification, _selectedMonster.Tactics, _monsterFactory);
+            subForm.ShowDialog();
+        }
+
+        private void meleeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rangedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spellsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void allToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selectToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

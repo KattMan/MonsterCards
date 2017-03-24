@@ -72,11 +72,23 @@
     <Compile Include="DRConfig.Designer.cs">
       <DependentUpon>DRConfig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Drops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drops.Designer.cs">
+      <DependentUpon>Drops.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Habitats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Habitats.Designer.cs">
+      <DependentUpon>Habitats.cs</DependentUpon>
     </Compile>
     <Compile Include="MonsterList.cs">
       <SubType>Form</SubType>
@@ -92,14 +104,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skills.Designer.cs">
+      <DependentUpon>Skills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tactics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tactics.Designer.cs">
+      <DependentUpon>Tactics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Traits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Traits.Designer.cs">
+      <DependentUpon>Traits.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Attributes.resx">
       <DependentUpon>Attributes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DRConfig.resx">
       <DependentUpon>DRConfig.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Drops.resx">
+      <DependentUpon>Drops.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Habitats.resx">
+      <DependentUpon>Habitats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MonsterList.resx">
       <DependentUpon>MonsterList.cs</DependentUpon>
@@ -116,6 +152,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Skills.resx">
+      <DependentUpon>Skills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tactics.resx">
+      <DependentUpon>Tactics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Traits.resx">
+      <DependentUpon>Traits.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

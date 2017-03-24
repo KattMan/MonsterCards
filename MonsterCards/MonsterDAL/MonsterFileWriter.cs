@@ -140,6 +140,7 @@ namespace MonsterDAL
             {
                 var skillXML = new XElement("SKILL");
                 skillXML.Add(new XAttribute("NAME", skill.Name));
+                skillXML.Add(new XAttribute("LEVEL", skill.Level));
                 skillsListXML.Add(skillXML);
             }
 

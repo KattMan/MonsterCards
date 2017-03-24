@@ -10,5 +10,9 @@ namespace MonsterLib
     public class Drop: IDrop
     {
         public string Name { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

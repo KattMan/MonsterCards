@@ -211,6 +211,7 @@ namespace MonsterDAL
             {
                 var item = _monsterFactory.GetSkillInstance();
                 item.Name = element.Attribute("NAME").Value;
+                item.Level = element.Attribute("LEVEL").Value;
                 items.Add(item);
             }
 

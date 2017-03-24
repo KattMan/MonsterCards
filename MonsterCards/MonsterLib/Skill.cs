@@ -12,5 +12,10 @@ namespace MonsterLib
         public string Name { get; set; }
 
         public string Level { get; set; }
+
+        public override string ToString()
+        {
+            return Name + "-" + Level;
+        }
     }
 }

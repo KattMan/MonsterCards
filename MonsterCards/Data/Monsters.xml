@@ -542,8 +542,8 @@ Damage to arms, body or legs regenerates at 1 HP per turn unless severed (8 HP t
     <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="2" LEG="1" TAIL="0" TORSO="1" WING="0" />
     <DROPS />
     <HABITATS>
-      <HABITAT NAME="Aquatic (Fresh Water)" />
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticFreshWater" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Brawling-15" />
@@ -570,7 +570,7 @@ Damage to arms, body or legs regenerates at 1 HP per turn unless severed (8 HP t
     <DAMAGERESISTANCE ARM="4" FOOT="4" HAND="4" HEAD="4" LEG="4" TAIL="0" TORSO="4" WING="0" />
     <DROPS />
     <HABITATS>
-      <HABITAT NAME="Aquatic (Fresh Water)" />
+      <HABITAT NAME="AquaticFreshWater" />
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
@@ -1226,7 +1226,7 @@ Affliction 1 (Area Effect, 2 yards; Based on Will; Disadvantage, Sadism and Nigh
       <DROP NAME="" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Brawling 14" />
@@ -1522,7 +1522,7 @@ A hydra may have one or many heads when first encountered (roll 3d2 for random d
       <DROP NAME="Hydra scales" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
@@ -1557,7 +1557,7 @@ A hydra may have one or many heads when first encountered (roll 3d2 for random d
       <DROP NAME="" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Survival (Open Ocean)-14" />
@@ -1596,7 +1596,7 @@ A hydra may have one or many heads when first encountered (roll 3d2 for random d
       <DROP NAME="" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Survival (Open Ocean)-14" />
@@ -1635,7 +1635,7 @@ A hydra may have one or many heads when first encountered (roll 3d2 for random d
       <DROP NAME="" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Survival (Open Ocean)-14" />
@@ -1713,7 +1713,7 @@ Cost: $800</TACTICS>
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="" />
@@ -2120,7 +2120,7 @@ Untrained: 1,000</TACTICS>
       <DROP NAME="when boiled can create a sauce" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Fresh Water)" />
+      <HABITAT NAME="AquaticFreshWater" />
       <HABITAT NAME="Subterranean" />
       <HABITAT NAME="Swamp" />
     </HABITATS>
@@ -2258,7 +2258,7 @@ While constricting it can not dodge, but can attack normally with claws and teet
       <DROP NAME="" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Brawling 12" />
@@ -2298,7 +2298,7 @@ While constricting it can not dodge, but can attack normally with claws and teet
       <DROP NAME="" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Salt Water)" />
+      <HABITAT NAME="AquaticSaltWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Brawling 15" />
@@ -2808,7 +2808,7 @@ They also occasionally bite if annoyed.</TACTICS>
       <DROP NAME="Scales" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="Aquatic (Fresh Water)" />
+      <HABITAT NAME="AquaticFreshWater" />
     </HABITATS>
     <SKILLS>
       <SKILL NAME="Tracking-17" />

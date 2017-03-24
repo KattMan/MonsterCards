@@ -75,10 +75,12 @@ namespace MonsterDalTests
             elementMock.SetupGet(g => g.Tail).Returns("6");
             elementMock.SetupGet(g => g.Torso).Returns("7");
             elementMock.SetupGet(g => g.Wing).Returns("8");
+            elementMock.SetupGet(g => g.BodyType).Returns(BodyType.Vermiform);
+            elementMock.SetupGet(g => g.Winged).Returns(false);
 
             var result = writer.BuildDRs(elementMock.Object);
 
-            Assert.AreEqual("<DAMAGERESISTANCE ARM=\"1\" FOOT=\"2\" HAND=\"3\" HEAD=\"4\" LEG=\"5\" TAIL=\"6\" TORSO=\"7\" WING=\"8\" />", result.ToString());
+            Assert.AreEqual("<DAMAGERESISTANCE ARM=\"1\" FOOT=\"2\" HAND=\"3\" HEAD=\"4\" LEG=\"5\" TAIL=\"6\" TORSO=\"7\" WING=\"8\" WINGED=\"false\" BODYTYPE=\"Vermiform\" />", result.ToString());
         }
 
         [TestMethod, TestCategory("MonsterFileWriter")]
@@ -126,16 +128,18 @@ namespace MonsterDalTests
 
             var elementList = new List<ISkill>();
             var elementMock = new Mock<ISkill>();
-            elementMock.SetupGet(g => g.Name).Returns("1");
+            elementMock.SetupGet(g => g.Name).Returns("Skill1");
+            elementMock.SetupGet(g => g.Level).Returns("1");
             elementList.Add(elementMock.Object);
 
             elementMock = new Mock<ISkill>();
-            elementMock.SetupGet(g => g.Name).Returns("2");
+            elementMock.SetupGet(g => g.Name).Returns("Skill2");
+            elementMock.SetupGet(g => g.Level).Returns("2");
             elementList.Add(elementMock.Object);
 
             var result = writer.BuildSkills(elementList);
 
-            Assert.AreEqual("<SKILLS>\r\n  <SKILL NAME=\"1\" />\r\n  <SKILL NAME=\"2\" />\r\n</SKILLS>", result.ToString());
+            Assert.AreEqual("<SKILLS>\r\n  <SKILL NAME=\"Skill1\" LEVEL=\"1\" />\r\n  <SKILL NAME=\"Skill2\" LEVEL=\"2\" />\r\n</SKILLS>", result.ToString());
         }
 
         [TestMethod, TestCategory("MonsterFileWriter")]
@@ -176,10 +180,11 @@ namespace MonsterDalTests
             elementMock.SetupGet(g => g.Strength).Returns("12");
             elementMock.SetupGet(g => g.Weight).Returns("13");
             elementMock.SetupGet(g => g.Will).Returns("14");
+            elementMock.SetupGet(g => g.Height).Returns("15");
 
             var result = writer.BuildStats(elementMock.Object);
 
-            Assert.AreEqual("<STATS DEXTERITY=\"2\" DODGE=\"3\" FATIGUEPOINTS=\"4\" HEALTH=\"5\" HITPOINTS=\"6\" IQ=\"7\" MOVE=\"8\" PERCEPTION=\"9\" SIZEMODIFIER=\"10\" SPEED=\"11\" STRENGTH=\"12\" WILL=\"14\" WEIGHT=\"13\" />", result.ToString());
+            Assert.AreEqual("<STATS DEXTERITY=\"2\" DODGE=\"3\" FATIGUEPOINTS=\"4\" HEALTH=\"5\" HITPOINTS=\"6\" IQ=\"7\" MOVE=\"8\" PERCEPTION=\"9\" SIZEMODIFIER=\"10\" SPEED=\"11\" STRENGTH=\"12\" WILL=\"14\" WEIGHT=\"13\" HEIGHT=\"15\" />", result.ToString());
         }
 
         [TestMethod, TestCategory("MonsterFileWriter")]

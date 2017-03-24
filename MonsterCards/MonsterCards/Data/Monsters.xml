@@ -3,19 +3,17 @@
   <MONSTERINFO ID="0" NAME="Basilisk">
     <DESCRIPTION>This creature resembles a small snake with a hideous face and a crested head. It attacks with a “death gaze”: if it meets its victim’s eyes, it can kill using the power of its mind.</DESCRIPTION>
     <TACTICS>
-      <TACTIC ORDER="1" TEXT="Toxic gaze is a quick contest of WIll with the basilisk taking -1 per yard of range." />
+      <TACTIC ORDER="1" TEXT="Toxic gaze is a quick contest of Will with the basilisk taking -1 per yard of range." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Mountain" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="2" IQ="3" MOVE="4" PERCEPTION="10" SIZEMODIFIER="-3" SPEED="6" STRENGTH="2" WILL="10" WEIGHT="2 lbs" HEIGHT="18&quot; - 2'" />
     <TRAITS>
@@ -49,9 +47,9 @@
       <HABITAT NAME="Forest" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
-      <SKILL NAME="Survival (Woodlands) 13" />
-      <SKILL NAME="Swimming 13" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Survival (Woodlands)" LEVEL="13" />
+      <SKILL NAME="Swimming" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="14" IQ="4" MOVE="7" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="14" WILL="12" WEIGHT="300 lbs." HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -93,8 +91,8 @@
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
-      <SKILL NAME="Survival (Woodlands) 13" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Survival (Woodlands)" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="19" IQ="4" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="23" WILL="11" WEIGHT="1400 lbs." HEIGHT="6' - 9'" />
     <TRAITS>
@@ -135,9 +133,9 @@
       <HABITAT NAME="Forest" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
-      <SKILL NAME="Survival (Woodlands) 13" />
-      <SKILL NAME="Swimming 13" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Survival (Woodlands)" LEVEL="13" />
+      <SKILL NAME="Swimming" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="19" IQ="4" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="19" WILL="11" WEIGHT="800 lbs." HEIGHT="6' - 9'" />
     <TRAITS>
@@ -179,9 +177,9 @@
       <HABITAT NAME="Arctic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
-      <SKILL NAME="Survival (Arctic) 13" />
-      <SKILL NAME="Swimming 13" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Survival (Arctic)" LEVEL="13" />
+      <SKILL NAME="Swimming" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="20" IQ="4" MOVE="7" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="20" WILL="11" WEIGHT="1000 lbs." HEIGHT="6' - 9'" />
     <TRAITS>
@@ -214,13 +212,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="15" IQ="5" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.5" STRENGTH="15" WILL="12" WEIGHT="400 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -248,13 +244,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="8" IQ="5" MOVE="7" PERCEPTION="12" SIZEMODIFIER="-1" SPEED="6" STRENGTH="8" WILL="12" WEIGHT="45 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -288,8 +282,8 @@
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 12" />
-      <SKILL NAME="Tracking 12" />
+      <SKILL NAME="Brawling" LEVEL="12" />
+      <SKILL NAME="Tracking" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="8" IQ="3" MOVE="6" PERCEPTION="14" SIZEMODIFIER="0" SPEED="5.25" STRENGTH="8" WILL="11" WEIGHT="80 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -320,13 +314,12 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Survival (Desert) 12" />
+      <SKILL NAME="Survival (Desert)" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="22" IQ="3" MOVE="14" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="22" WILL="11" WEIGHT="1400 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -356,15 +349,14 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 16" />
-      <SKILL NAME="Jumping 14" />
-      <SKILL NAME="Stealth 14" />
+      <SKILL NAME="Brawling" LEVEL="16" />
+      <SKILL NAME="Jumping" LEVEL="14" />
+      <SKILL NAME="Stealth" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="4" IQ="4" MOVE="8" PERCEPTION="10" SIZEMODIFIER="-3" SPEED="6" STRENGTH="4" WILL="11" WEIGHT="10 lbs" HEIGHT="18&quot; - 2'" />
     <TRAITS>
@@ -400,9 +392,9 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Stealth 15" />
-      <SKILL NAME="Survival (Swamp) 14" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Stealth" LEVEL="15" />
+      <SKILL NAME="Survival (Swamp)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="14" IQ="10" MOVE="6" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.75" STRENGTH="14" WILL="10" WEIGHT="200 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -439,13 +431,12 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Jungle" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Climbing 14" />
+      <SKILL NAME="Climbing" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="11" IQ="6" MOVE="7" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="11" WILL="10" WEIGHT="140 lbs." HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -471,14 +462,13 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Running 13" />
+      <SKILL NAME="Running" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="12" IQ="3" MOVE="9" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.25" STRENGTH="12" WILL="10" WEIGHT="200 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -511,8 +501,8 @@
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-13" />
-      <SKILL NAME="Flight-16" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Flight" LEVEL="16" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="2" MOVE="2/10" PERCEPTION="12" SIZEMODIFIER="+5" SPEED="5.75" STRENGTH="13" WILL="11" WEIGHT="95 lbs" HEIGHT="30' - 45'" />
     <TRAITS>
@@ -549,9 +539,9 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-13" />
-      <SKILL NAME="Running-12" />
-      <SKILL NAME="Tracking-15" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Running" LEVEL="12" />
+      <SKILL NAME="Tracking" LEVEL="15" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="34" IQ="2" MOVE="17" PERCEPTION="14" SIZEMODIFIER="+5" SPEED="7" STRENGTH="34" WILL="12" WEIGHT="2..5 tons" HEIGHT="30' - 45'" />
     <TRAITS>
@@ -585,8 +575,8 @@
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-15" />
-      <SKILL NAME="Swimming-17" />
+      <SKILL NAME="Brawling" LEVEL="15" />
+      <SKILL NAME="Swimming" LEVEL="17" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="8" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="31" IQ="2" MOVE="0.5/10" PERCEPTION="10" SIZEMODIFIER="+4" SPEED="5.75" STRENGTH="31" WILL="10" WEIGHT="2 tons" HEIGHT="21' - 30'" />
     <TRAITS>
@@ -616,12 +606,12 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-14" />
-      <SKILL NAME="Intimidation-10" />
-      <SKILL NAME="Running-14" />
-      <SKILL NAME="Stealth-14" />
-      <SKILL NAME="Swimming-14" />
-      <SKILL NAME="Tracking-15" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Intimidation" LEVEL="10" />
+      <SKILL NAME="Running" LEVEL="14" />
+      <SKILL NAME="Stealth" LEVEL="14" />
+      <SKILL NAME="Swimming" LEVEL="14" />
+      <SKILL NAME="Tracking" LEVEL="15" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="21" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="+5" SPEED="6.75" STRENGTH="21" WILL="11" WEIGHT="5 tons" HEIGHT="30' - 45'" />
     <TRAITS>
@@ -657,7 +647,7 @@
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Running-11" />
+      <SKILL NAME="Running" LEVEL="11" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="38" IQ="1" MOVE="4" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="5.25" STRENGTH="38" WILL="10" WEIGHT="3.5 Tons" HEIGHT="15' - 21'" />
     <TRAITS>
@@ -686,8 +676,8 @@
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Tracking 13" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Tracking" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="9" WILL="10" WEIGHT="90 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -719,9 +709,9 @@
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Tracking 15" />
-      <SKILL NAME="Wrestling 14" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Tracking" LEVEL="15" />
+      <SKILL NAME="Wrestling" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.75" STRENGTH="9" WILL="10" WEIGHT="90 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -752,8 +742,8 @@
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Tracking 15" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Tracking" LEVEL="15" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="-1" SPEED="5.75" STRENGTH="9" WILL="10" WEIGHT="90 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -780,13 +770,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.25" STRENGTH="15" WILL="11" WEIGHT="500 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -820,7 +808,6 @@
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="7" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="45" IQ="5" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="4" STRENGTH="45" WILL="10" WEIGHT="12,000 lbs" HEIGHT="15' - 21'" />
     <TRAITS>
@@ -850,7 +837,6 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="1" LEG="0" TAIL="" TORSO="0" WING="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -858,7 +844,7 @@
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 16" />
+      <SKILL NAME="Brawling" LEVEL="16" />
     </SKILLS>
     <STATS DEXTERITY="14" DODGE="9" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="3" IQ="3" MOVE="2" PERCEPTION="12" SIZEMODIFIER="-4" SPEED="6" STRENGTH="3" WILL="10" WEIGHT="5 lbs" HEIGHT="10&quot; - 18&quot;" />
     <TRAITS>
@@ -903,9 +889,9 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Riding (Dogs) 12" />
-      <SKILL NAME="Shortsword 12" />
-      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Riding (Dogs)" LEVEL="12" />
+      <SKILL NAME="Shortsword" LEVEL="12" />
+      <SKILL NAME="Stealth" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="5" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="5.50" STRENGTH="10" WILL="10" WEIGHT="40 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -951,10 +937,10 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Bow 12" />
-      <SKILL NAME="Riding (Dogs) 12" />
-      <SKILL NAME="Shortsword 12" />
-      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Bow" LEVEL="12" />
+      <SKILL NAME="Riding (Dogs)" LEVEL="12" />
+      <SKILL NAME="Shortsword" LEVEL="12" />
+      <SKILL NAME="Stealth" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="5" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="5.50" STRENGTH="10" WILL="10" WEIGHT="40 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -1000,9 +986,9 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Glaive 14" />
-      <SKILL NAME="Riding (Dogs) 12" />
-      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Glaive" LEVEL="14" />
+      <SKILL NAME="Riding (Dogs)" LEVEL="12" />
+      <SKILL NAME="Stealth" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="5" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="5.50" STRENGTH="10" WILL="10" WEIGHT="40 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -1034,7 +1020,6 @@
     <BOOK TITLE="Custom" PAGE="" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="3" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
@@ -1044,9 +1029,9 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
-      <SKILL NAME="Stealth 13" />
-      <SKILL NAME="Tracking 13" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Stealth" LEVEL="13" />
+      <SKILL NAME="Tracking" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="1" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="12" IQ="4" MOVE="10" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="13" WILL="10" WEIGHT="75 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -1086,11 +1071,11 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Acrobatics 13" />
-      <SKILL NAME="Riding (Dogs) 13" />
-      <SKILL NAME="Singing 14" />
-      <SKILL NAME="Stealth 14" />
-      <SKILL NAME="Whip 13" />
+      <SKILL NAME="Acrobatics" LEVEL="13" />
+      <SKILL NAME="Riding (Dogs)" LEVEL="13" />
+      <SKILL NAME="Singing" LEVEL="14" />
+      <SKILL NAME="Stealth" LEVEL="14" />
+      <SKILL NAME="Whip" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="15" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="6" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="6.00" STRENGTH="8" WILL="11" WEIGHT="40 lbs." HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -1123,13 +1108,12 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Jungle" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Climbing 14" />
+      <SKILL NAME="Climbing" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="15" IQ="6" MOVE="7" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="15" WILL="10" WEIGHT="400 lbs." HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1157,14 +1141,13 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="0" WINGED="true" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Mountain" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
+      <SKILL NAME="Brawling" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="17" IQ="5" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="17" WILL="11" WEIGHT="500 lbs." HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1206,7 +1189,7 @@
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Survival (Mountain)-12" />
+      <SKILL NAME="Survival (Mountain)" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="11" IQ="3" MOVE="7" PERCEPTION="12" SIZEMODIFIER="-1" SPEED="5.75" STRENGTH="11" WILL="11" WEIGHT="180 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -1237,14 +1220,13 @@
     <BOOK TITLE="Banestorm" PAGE="221" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 15" />
+      <SKILL NAME="Brawling" LEVEL="15" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="12" IQ="5" MOVE="3" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.5" STRENGTH="12" WILL="10" WEIGHT="150 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -1281,8 +1263,8 @@
       <HABITAT NAME="Any" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Jumping-16" />
-      <SKILL NAME="Stealth-18" />
+      <SKILL NAME="Jumping" LEVEL="16" />
+      <SKILL NAME="Stealth" LEVEL="18" />
     </SKILLS>
     <STATS DEXTERITY="14" DODGE="11" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="6" IQ="7" MOVE="10" PERCEPTION="12" SIZEMODIFIER="-3" SPEED="7" STRENGTH="6" WILL="10" WEIGHT="10 lbs" HEIGHT="18&quot; - 2'" />
     <TRAITS>
@@ -1312,14 +1294,13 @@
     <BOOK TITLE="Banestorm" PAGE="221" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Survival (Open Ocean) 14" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Survival (Open Ocean)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="60" IQ="2" MOVE="10" PERCEPTION="210" SIZEMODIFIER="+6" SPEED="6.25" STRENGTH="60" WILL="10" WEIGHT="22,000 lbs" HEIGHT="45' - 60'" />
     <TRAITS>
@@ -1361,7 +1342,7 @@
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
+      <SKILL NAME="Brawling" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="18" IQ="3" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="18" WILL="11" WEIGHT="650 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1405,8 +1386,8 @@
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 10" />
-      <SKILL NAME="Mount 12" />
+      <SKILL NAME="Brawling" LEVEL="10" />
+      <SKILL NAME="Mount" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="24" IQ="3" MOVE="16" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5" STRENGTH="24" WILL="11" WEIGHT="1400 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1438,13 +1419,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="25" IQ="3" MOVE="12" PERCEPTION="11" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="25" WILL="10" WEIGHT="2000 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1508,7 +1487,6 @@
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="20" IQ="3" MOVE="18" PERCEPTION="11" SIZEMODIFIER="+1" SPEED="5" STRENGTH="20" WILL="11" WEIGHT="1100 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1537,13 +1515,12 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Mount 11" />
+      <SKILL NAME="Mount" LEVEL="11" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="21" IQ="3" MOVE="12" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5" STRENGTH="21" WILL="10" WEIGHT="1200 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1583,8 +1560,8 @@
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 12" />
-      <SKILL NAME="Mount 13" />
+      <SKILL NAME="Brawling" LEVEL="12" />
+      <SKILL NAME="Mount" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="24" IQ="3" MOVE="14" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="24" WILL="11" WEIGHT="1900 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1627,7 +1604,6 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="18" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6.25" STRENGTH="18" WILL="13" WEIGHT="700 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1658,13 +1634,12 @@
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Survival (Open Ocean)-14" />
+      <SKILL NAME="Survival (Open Ocean)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="160" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+9" SPEED="6.25" STRENGTH="80" WILL="11" WEIGHT="500,000 lbs" HEIGHT="150' - 210'" />
     <TRAITS>
@@ -1700,13 +1675,12 @@
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Survival (Open Ocean)-14" />
+      <SKILL NAME="Survival (Open Ocean)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="240" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+11" SPEED="6.25" STRENGTH="120" WILL="11" WEIGHT="1,000,000 lbs" HEIGHT="300' - 450'" />
     <TRAITS>
@@ -1742,13 +1716,12 @@
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Survival (Open Ocean)-14" />
+      <SKILL NAME="Survival (Open Ocean)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="80" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+7" SPEED="6.25" STRENGTH="40" WILL="11" WEIGHT="50,000 lbs" HEIGHT="60' - 90'" />
     <TRAITS>
@@ -1784,15 +1757,14 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Jungle" />
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 15" />
-      <SKILL NAME="Running 13" />
+      <SKILL NAME="Brawling" LEVEL="15" />
+      <SKILL NAME="Running" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="16" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6" STRENGTH="16" WILL="11" WEIGHT="500 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -1832,7 +1804,6 @@
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="9" DODGE="6" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="26" IQ="3" MOVE="3" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="3" STRENGTH="26" WILL="10" WEIGHT="2200 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1866,13 +1837,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="22" IQ="3" MOVE="9" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.5" STRENGTH="22" WILL="12" WEIGHT="1400 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -1901,13 +1870,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="18" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.5" STRENGTH="18" WILL="12" WEIGHT="800 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -1945,7 +1912,7 @@
       <HABITAT NAME="Forest" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-14" />
+      <SKILL NAME="Brawling" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="25" IQ="4" MOVE="7" PERCEPTION="11" SIZEMODIFIER="+2" SPEED="6.25" STRENGTH="25" WILL="12" WEIGHT="2,000 lbs" HEIGHT="9' - 15'" />
     <TRAITS>
@@ -1985,11 +1952,11 @@
       <HABITAT NAME="Civilization" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 13" />
-      <SKILL NAME="Broadsword 13" />
-      <SKILL NAME="Flaming Weapon 10" />
-      <SKILL NAME="Knife 11" />
-      <SKILL NAME="Tracking 10" />
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Broadsword" LEVEL="13" />
+      <SKILL NAME="Flaming Weapon" LEVEL="10" />
+      <SKILL NAME="Knife" LEVEL="11" />
+      <SKILL NAME="Tracking" LEVEL="10" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="10" IQ="10" MOVE="5" PERCEPTION="11" SIZEMODIFIER="0" SPEED="5.50" STRENGTH="10" WILL="11" WEIGHT="180 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2027,9 +1994,9 @@
       <HABITAT NAME="Civilization" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Ax 12" />
-      <SKILL NAME="Crossbow 10" />
-      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Ax" LEVEL="12" />
+      <SKILL NAME="Crossbow" LEVEL="10" />
+      <SKILL NAME="Stealth" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="7" FATIGUEPOINTS="10" HEALTH="11" HITPOINTS="12" IQ="9" MOVE="4" PERCEPTION="9" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="12" WILL="9" WEIGHT="200 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2059,13 +2026,11 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="8" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="27" IQ="3" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="5" STRENGTH="27" WILL="12" WEIGHT="2500 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -2094,13 +2059,11 @@
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="4" LEG="1" TAIL="1" TORSO="6" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="6" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="2" MOVE="3" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="3" STRENGTH="15" WILL="10" WEIGHT="500 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -2164,7 +2127,6 @@
     <BOOK TITLE="Banestorm" PAGE="224" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
@@ -2173,8 +2135,8 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-10" />
-      <SKILL NAME="Camouflage-12" />
+      <SKILL NAME="Brawling" LEVEL="10" />
+      <SKILL NAME="Camouflage" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="5" DODGE="6" FATIGUEPOINTS="15" HEALTH="13" HITPOINTS="13" IQ="2" MOVE="1" PERCEPTION="13" SIZEMODIFIER="0" SPEED="3.5" STRENGTH="4" WILL="8" WEIGHT="40" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2218,9 +2180,9 @@
       <HABITAT NAME="Jungle" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-10" />
-      <SKILL NAME="Camouflage-12" />
-      <SKILL NAME="Climbing-12" />
+      <SKILL NAME="Brawling" LEVEL="10" />
+      <SKILL NAME="Camouflage" LEVEL="12" />
+      <SKILL NAME="Climbing" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="5" DODGE="6" FATIGUEPOINTS="15" HEALTH="13" HITPOINTS="13" IQ="2" MOVE="1" PERCEPTION="13" SIZEMODIFIER="0" SPEED="3.5" STRENGTH="4" WILL="8" WEIGHT="40" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2268,10 +2230,10 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-10" />
-      <SKILL NAME="Camouflage-12" />
-      <SKILL NAME="Climb-12" />
-      <SKILL NAME="Swim-12" />
+      <SKILL NAME="Brawling" LEVEL="10" />
+      <SKILL NAME="Camouflage" LEVEL="12" />
+      <SKILL NAME="Climb" LEVEL="12" />
+      <SKILL NAME="Swim" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="5" DODGE="6" FATIGUEPOINTS="15" HEALTH="13" HITPOINTS="13" IQ="2" MOVE="1" PERCEPTION="13" SIZEMODIFIER="0" SPEED="3.5" STRENGTH="4" WILL="8" WEIGHT="40" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2315,10 +2277,9 @@
       <DROP NAME="Oil" />
     </DROPS>
     <HABITATS>
-      <HABITAT NAME="" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Guns-8" />
+      <SKILL NAME="Guns" LEVEL="8" />
     </SKILLS>
     <STATS DEXTERITY="8" DODGE="8" FATIGUEPOINTS="N/A" HEALTH="12" HITPOINTS="26" IQ="6" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.00" STRENGTH="26" WILL="6" WEIGHT="300 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2371,10 +2332,10 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 15" />
-      <SKILL NAME="Stealth 13" />
-      <SKILL NAME="Swimming 13" />
-      <SKILL NAME="Wrestling 13" />
+      <SKILL NAME="Brawling" LEVEL="15" />
+      <SKILL NAME="Stealth" LEVEL="13" />
+      <SKILL NAME="Swimming" LEVEL="13" />
+      <SKILL NAME="Wrestling" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="10" HEALTH="11" HITPOINTS="11" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6" STRENGTH="15" WILL="11" WEIGHT="300 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -2405,14 +2366,13 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 12" />
-      <SKILL NAME="Survival (Open Ocean) 14" />
+      <SKILL NAME="Brawling" LEVEL="12" />
+      <SKILL NAME="Survival (Open Ocean)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="38" IQ="2" MOVE="7" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="5.5" STRENGTH="38" WILL="10" WEIGHT="7000 lbs" HEIGHT="15' - 21'" />
     <TRAITS>
@@ -2446,14 +2406,13 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 15" />
-      <SKILL NAME="Survival (Open Ocean) 14" />
+      <SKILL NAME="Brawling" LEVEL="15" />
+      <SKILL NAME="Survival (Open Ocean)" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="12" HEALTH="13" HITPOINTS="19" IQ="2" MOVE="7" PERCEPTION="12" SIZEMODIFIER="+2" SPEED="6.25" STRENGTH="19" WILL="10" WEIGHT="900 lbs" HEIGHT="9' - 15'" />
     <TRAITS>
@@ -2494,11 +2453,11 @@
       <HABITAT NAME="Any" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Bow-12" />
-      <SKILL NAME="Shield (Buckler)-13" />
-      <SKILL NAME="Shortsword-12" />
-      <SKILL NAME="Stealth-12" />
-      <SKILL NAME="Tactics-6" />
+      <SKILL NAME="Bow" LEVEL="12" />
+      <SKILL NAME="Shield (Buckler)" LEVEL="13" />
+      <SKILL NAME="Shortsword" LEVEL="12" />
+      <SKILL NAME="Stealth" LEVEL="12" />
+      <SKILL NAME="Tactics" LEVEL="6" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="n/a" HEALTH="11" HITPOINTS="9" IQ="8" MOVE="7" PERCEPTION="8" SIZEMODIFIER="0" SPEED="7" STRENGTH="9" WILL="8" WEIGHT="70 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS />
@@ -2530,7 +2489,7 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Grappling 12" />
+      <SKILL NAME="Grappling" LEVEL="12" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="11" HEALTH="12" HITPOINTS="12" IQ="4" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="10" WILL="8" WEIGHT="100 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2557,15 +2516,14 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Jungle" />
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Stealth 12" />
-      <SKILL NAME="Wrestling 13" />
+      <SKILL NAME="Stealth" LEVEL="12" />
+      <SKILL NAME="Wrestling" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="13" IQ="2" MOVE="4" PERCEPTION="10" SIZEMODIFIER="+2" SPEED="5.75" STRENGTH="13" WILL="10" WEIGHT="225 lbs" HEIGHT="9' - 15'" />
     <TRAITS>
@@ -2591,15 +2549,14 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Desert" />
       <HABITAT NAME="Forest" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 15" />
-      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Brawling" LEVEL="15" />
+      <SKILL NAME="Stealth" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="5" IQ="2" MOVE="4" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.00" STRENGTH="5" WILL="10" WEIGHT="15 lbs." HEIGHT="6' - 9'" />
     <TRAITS>
@@ -2640,10 +2597,10 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Innate Attack (Projectile) 14" />
-      <SKILL NAME="Stealth 13" />
-      <SKILL NAME="Survival (Current Habitat) 11" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Innate Attack (Projectile)" LEVEL="14" />
+      <SKILL NAME="Stealth" LEVEL="13" />
+      <SKILL NAME="Survival (Current Habitat)" LEVEL="11" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="9" IQ="10" MOVE="6" PERCEPTION="10" SIZEMODIFIER="-1" SPEED="6.00" STRENGTH="5" WILL="10" WEIGHT="30 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -2715,7 +2672,6 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
@@ -2726,7 +2682,7 @@
       <HABITAT NAME="Swamp" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 17" />
+      <SKILL NAME="Brawling" LEVEL="17" />
     </SKILLS>
     <STATS DEXTERITY="15" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="5" IQ="4" MOVE="2" PERCEPTION="10" SIZEMODIFIER="-3" SPEED="6.5" STRENGTH="5" WILL="10" WEIGHT="" HEIGHT="18&quot; - 2'" />
     <TRAITS>
@@ -2757,7 +2713,6 @@
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="true" BODYTYPE="Hybrid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Civilization" />
@@ -2767,7 +2722,6 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="8" IQ="" MOVE="8" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" HEIGHT="" />
     <TRAITS>
@@ -2793,7 +2747,6 @@
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="true" BODYTYPE="Hybrid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Civilization" />
@@ -2804,7 +2757,6 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="12" IQ="" MOVE="6" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" HEIGHT="" />
     <TRAITS>
@@ -2855,7 +2807,6 @@
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Hybrid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Civilization" />
@@ -2865,7 +2816,6 @@
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="" />
     </SKILLS>
     <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="6" IQ="" MOVE="4" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" HEIGHT="" />
     <TRAITS>
@@ -2888,15 +2838,14 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Jungle" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 15" />
-      <SKILL NAME="Running 13" />
-      <SKILL NAME="Stealth 13" />
+      <SKILL NAME="Brawling" LEVEL="15" />
+      <SKILL NAME="Running" LEVEL="13" />
+      <SKILL NAME="Stealth" LEVEL="13" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="10" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="4" MOVE="10" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6" STRENGTH="15" WILL="11" WEIGHT="500 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -2966,8 +2915,8 @@
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-18" />
-      <SKILL NAME="Stealth-18" />
+      <SKILL NAME="Brawling" LEVEL="18" />
+      <SKILL NAME="Stealth" LEVEL="18" />
     </SKILLS>
     <STATS DEXTERITY="15" DODGE="12" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="20" IQ="5" MOVE="9" PERCEPTION="18" SIZEMODIFIER="+1" SPEED="9" STRENGTH="20" WILL="13" WEIGHT="1000 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
@@ -3004,7 +2953,7 @@
       <HABITAT NAME="Aquatic (Fresh Water)" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Tracking-17" />
+      <SKILL NAME="Tracking" LEVEL="17" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="9" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="4" IQ="2" MOVE="5 (Water)" PERCEPTION="10" SIZEMODIFIER="-2" SPEED="5.25" STRENGTH="4" WILL="10" WEIGHT="15 lbs" HEIGHT="2' - 3'" />
     <TRAITS>
@@ -3033,7 +2982,7 @@
       <HABITAT NAME="Any" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="any one weapon skill of casters choice at lvl 16" />
+      <SKILL NAME="any one weapon skill of casters choice" LEVEL="16" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="12" IQ="10" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="12" WILL="10" WEIGHT="180 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -3053,13 +3002,12 @@
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Any" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="One weapon skill at casters choice at lvl 16" />
+      <SKILL NAME="One weapon skill at casters choice" LEVEL="16" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="16" IQ="10" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="16" WILL="10" WEIGHT="210 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
@@ -3093,8 +3041,8 @@
       <HABITAT NAME="Plains" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 12" />
-      <SKILL NAME="Tracking 14" />
+      <SKILL NAME="Brawling" LEVEL="12" />
+      <SKILL NAME="Tracking" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="10" IQ="4" MOVE="9" PERCEPTION="14" SIZEMODIFIER="-1" SPEED="6.00" STRENGTH="10" WILL="11" WEIGHT="120 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -3122,15 +3070,14 @@
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 14" />
-      <SKILL NAME="Tracking 14" />
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Tracking" LEVEL="14" />
     </SKILLS>
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="10" IQ="4" MOVE="9" PERCEPTION="14" SIZEMODIFIER="-1" SPEED="6" STRENGTH="10" WILL="11" WEIGHT="120 lbs." HEIGHT="3' - 4.5'" />
     <TRAITS>
@@ -3199,7 +3146,7 @@
       <HABITAT NAME="Mountain" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling-15" />
+      <SKILL NAME="Brawling" LEVEL="15" />
     </SKILLS>
     <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="19" IQ="5" MOVE="3" PERCEPTION="12" SIZEMODIFIER="+3" SPEED="6.25" STRENGTH="19" WILL="10" WEIGHT="950 lbs" HEIGHT="15' - 21'" />
     <TRAITS>
@@ -3230,19 +3177,17 @@
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
-      <DROP NAME="" />
     </DROPS>
     <HABITATS>
       <HABITAT NAME="Civilization" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Brawling 10" />
-      <SKILL NAME="Grapple 10" />
+      <SKILL NAME="Brawling" LEVEL="10" />
+      <SKILL NAME="Grapple" LEVEL="10" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="N/A" HEALTH="10" HITPOINTS="15" IQ="8" MOVE="5" PERCEPTION="8" SIZEMODIFIER="0" SPEED="5.00" STRENGTH="11" WILL="8" WEIGHT="180 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
-      <TRAIT NAME="" />
     </TRAITS>
     <ATTACKS>
       <MELEEATTACKS>
@@ -3267,16 +3212,15 @@
       <HABITAT NAME="Any" />
     </HABITATS>
     <SKILLS>
-      <SKILL NAME="Bow-11" />
-      <SKILL NAME="Brawling-12" />
-      <SKILL NAME="Broadsword-12" />
-      <SKILL NAME="Climbing-10" />
-      <SKILL NAME="Shield-11" />
-      <SKILL NAME="Tactics-6" />
+      <SKILL NAME="Bow" LEVEL="11" />
+      <SKILL NAME="Brawling" LEVEL="12" />
+      <SKILL NAME="Broadsword" LEVEL="12" />
+      <SKILL NAME="Climbing" LEVEL="10" />
+      <SKILL NAME="Shield" LEVEL="11" />
+      <SKILL NAME="Tactics" LEVEL="6" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="n/a" HEALTH="11" HITPOINTS="16" IQ="8" MOVE="5" PERCEPTION="8" SIZEMODIFIER="0" SPEED="5.50" STRENGTH="12" WILL="8" WEIGHT="110" HEIGHT="4.5' - 6'" />
     <TRAITS>
-      <TRAIT NAME="" />
     </TRAITS>
     <ATTACKS>
       <MELEEATTACKS>

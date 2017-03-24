@@ -10,4 +10,5 @@ namespace MonsterLibAbstracts
     {
         string Name { get; set; }
     }
+
 }
