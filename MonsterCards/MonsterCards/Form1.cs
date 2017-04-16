@@ -37,10 +37,6 @@ namespace MonsterCards
             _selectedMonster = _monsterFactory.GetMonsterInstance(0);
             _classDal = classDal;
 
-            listMelee.View = View.Details;
-            lstRanged.View = View.Details;
-            listSpells.View = View.Details;
-
             UpdateForm(_selectedMonster);
         }
 
@@ -71,6 +67,24 @@ namespace MonsterCards
             UpdateSpellAttacks(monster.Attacks.Spell);
 
             return true;
+        }
+
+        private void PaintList(ListView listView)
+        {
+            listView.BackColor = Color.Cornsilk;
+
+            foreach (ListViewItem item in listView.Items)
+            {
+                if (item.Index % 2 != 0)
+                {
+                    item.BackColor = Color.Cornsilk;
+                }
+                else
+                {
+                    item.BackColor = Color.BlanchedAlmond;
+                }
+
+            }
         }
 
         public bool ChangeMonster(IMonster monster)
@@ -248,6 +262,9 @@ namespace MonsterCards
                 var listItem = new ListViewItem(new[] { item.Weapon, item.Usage, item.Skill, item.Parry, item.Block, item.Damage, item.DamageType, item.Reach});
                 listMelee.Items.Add(listItem);
             }
+
+            PaintList(listMelee);
+
             return true;
         }
 
@@ -260,6 +277,8 @@ namespace MonsterCards
                 var listItem = new ListViewItem(new[] { item.Weapon, item.ROF, item.Reload, item.Skill, item.Damage, item.DamageType, item.HalfDmg, item.MaxRange, item.Bulk });
                 lstRanged.Items.Add(listItem);
             }
+            PaintList(lstRanged);
+
             return true;
         }
 
@@ -272,6 +291,8 @@ namespace MonsterCards
                 var listItem = new ListViewItem(new[] { item.Name, item.Skill, item.Cost, item.TimeToCast, item.Duration, item.Maintain });
                 listSpells.Items.Add(listItem);
             }
+            PaintList(listSpells);
+
             return true;
         }
 
@@ -348,25 +369,23 @@ namespace MonsterCards
 
         private void meleeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var subForm = new MeleeAttacks(UpdateMeleeAttacks, _selectedMonster.Attacks.Melee, _monsterFactory);
+            subForm.ShowDialog();
         }
 
         private void rangedToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var subForm = new RangedAttacks(UpdateRangedAttacks, _selectedMonster.Attacks.Ranged, _monsterFactory);
+            subForm.ShowDialog();
         }
 
         private void spellsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var subForm = new SpellAttacks(UpdateSpellAttacks, _selectedMonster.Attacks.Spell, _monsterFactory);
+            subForm.ShowDialog();
         }
 
-        private void allToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void selectToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void pDFToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

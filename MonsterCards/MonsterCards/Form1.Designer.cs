@@ -46,8 +46,6 @@
             this.rangedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spellsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.selectToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtBook = new System.Windows.Forms.TextBox();
@@ -270,37 +268,30 @@
             // meleeToolStripMenuItem
             // 
             this.meleeToolStripMenuItem.Name = "meleeToolStripMenuItem";
-            this.meleeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.meleeToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.meleeToolStripMenuItem.Text = "Melee";
             this.meleeToolStripMenuItem.Click += new System.EventHandler(this.meleeToolStripMenuItem_Click);
             // 
             // rangedToolStripMenuItem
             // 
             this.rangedToolStripMenuItem.Name = "rangedToolStripMenuItem";
-            this.rangedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rangedToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.rangedToolStripMenuItem.Text = "Ranged";
             this.rangedToolStripMenuItem.Click += new System.EventHandler(this.rangedToolStripMenuItem_Click);
             // 
             // spellsToolStripMenuItem
             // 
             this.spellsToolStripMenuItem.Name = "spellsToolStripMenuItem";
-            this.spellsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.spellsToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.spellsToolStripMenuItem.Text = "Spells";
             this.spellsToolStripMenuItem.Click += new System.EventHandler(this.spellsToolStripMenuItem_Click);
             // 
-            // allToolStripMenuItem
+            // pDFToolStripMenuItem
             // 
-            this.allToolStripMenuItem.Name = "allToolStripMenuItem";
-            this.allToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.allToolStripMenuItem.Text = "All";
-            this.allToolStripMenuItem.Click += new System.EventHandler(this.allToolStripMenuItem_Click);
-            // 
-            // selectToolStripMenuItem1
-            // 
-            this.selectToolStripMenuItem1.Name = "selectToolStripMenuItem1";
-            this.selectToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.selectToolStripMenuItem1.Text = "Select";
-            this.selectToolStripMenuItem1.Click += new System.EventHandler(this.selectToolStripMenuItem1_Click);
+            this.pDFToolStripMenuItem.Name = "pDFToolStripMenuItem";
+            this.pDFToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.pDFToolStripMenuItem.Text = "PDF";
+            this.pDFToolStripMenuItem.Click += new System.EventHandler(this.pDFToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -951,6 +942,7 @@
             this.listMelee.Size = new System.Drawing.Size(700, 104);
             this.listMelee.TabIndex = 0;
             this.listMelee.UseCompatibleStateImageBehavior = false;
+            this.listMelee.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -1018,6 +1010,7 @@
             this.lstRanged.Size = new System.Drawing.Size(700, 50);
             this.lstRanged.TabIndex = 0;
             this.lstRanged.UseCompatibleStateImageBehavior = false;
+            this.lstRanged.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader17
             // 
@@ -1081,6 +1074,7 @@
             this.listSpells.Size = new System.Drawing.Size(700, 66);
             this.listSpells.TabIndex = 0;
             this.listSpells.UseCompatibleStateImageBehavior = false;
+            this.listSpells.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader27
             // 
@@ -1210,8 +1204,6 @@
         private System.Windows.Forms.ToolStripMenuItem rangedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem spellsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pDFToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem selectToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtBook;
