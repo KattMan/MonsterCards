@@ -82,7 +82,7 @@ namespace MonsterCards
                 checkedMonsters.Add((IMonster)item);
             }
 
-            _monsterCard.CreateMonsterCard(checkedMonsters, "C:\\Users\\Patrick\\Desktop\\MonsterCards");
+            _monsterCard.CreateMonsterCard(checkedMonsters, Directory.GetCurrentDirectory());
         }
 
         private void cbSourceBook_SelectedIndexChanged(object sender, EventArgs e)
