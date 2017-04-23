@@ -92,6 +92,7 @@ namespace MonsterDAL
             drXML.Add(new XAttribute("TAIL", drs.Tail));
             drXML.Add(new XAttribute("TORSO", drs.Torso));
             drXML.Add(new XAttribute("WING", drs.Wing));
+            drXML.Add(new XAttribute("FIN", drs.Fin));
             drXML.Add(new XAttribute("WINGED", drs.Winged));
             drXML.Add(new XAttribute("BODYTYPE", drs.BodyType));
 

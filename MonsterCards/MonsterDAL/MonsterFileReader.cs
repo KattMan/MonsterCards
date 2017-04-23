@@ -117,6 +117,7 @@ namespace MonsterDAL
             dr.Tail = element.Attribute("TAIL").Value;
             dr.Torso = element.Attribute("TORSO").Value;
             dr.Wing = element.Attribute("WING").Value;
+            dr.Fin = element.Attribute("FIN").Value;
             dr.Winged = bool.Parse(element.Attribute("WINGED").Value);
 
             var bodyType = element.Attribute("BODYTYPE").Value;

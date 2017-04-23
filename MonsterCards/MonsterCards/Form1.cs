@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using MonsterLibAbstracts;
 using MonsterLibAbstracts.AttackTypes;
 using System.IO;
+using MonsterPDFAbstracts;
 
 namespace MonsterCards
 {
@@ -387,6 +388,8 @@ namespace MonsterCards
 
         private void pDFToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            var subForm = new PDFExporter(_monsters, _monsterCard, _bookDal);
+            subForm.ShowDialog();
 
         }
     }

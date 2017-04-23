@@ -285,11 +285,11 @@ namespace MonsterPDF
             row.Cells[5].Style = "DataStatBox";
 
             paragraph = row.Cells[13].AddParagraph();
-            paragraph.AddText("Weight:");
+            paragraph.AddText("Hgt/Wgt:");
             row.Cells[13].Style = "LabelStatBox";
 
             paragraph = row.Cells[14].AddParagraph();
-            paragraph.AddText(stats.Weight);
+            paragraph.AddText(stats.Height + "/" + stats.Weight);
             row.Cells[14].Style = "DataStatBox";
 
             row = table.AddRow();
@@ -509,11 +509,11 @@ namespace MonsterPDF
 
             table.AddColumn().Width = PageWidth * 0.26;
             table.AddColumn().Width = PageWidth * 0.20;
-            table.AddColumn().Width = PageWidth * 0.08;
-            table.AddColumn().Width = PageWidth * 0.08;
-            table.AddColumn().Width = PageWidth * 0.08;
+            table.AddColumn().Width = PageWidth * 0.05;
+            table.AddColumn().Width = PageWidth * 0.06;
+            table.AddColumn().Width = PageWidth * 0.06;
             table.AddColumn().Width = PageWidth * 0.10;
-            table.AddColumn().Width = PageWidth * 0.12;
+            table.AddColumn().Width = PageWidth * 0.19;
             table.AddColumn().Width = PageWidth * 0.08;
 
             Row row;

@@ -6,7 +6,7 @@
       <TACTIC ORDER="1" TEXT="Toxic gaze is a quick contest of Will with the basilisk taking -1 per yard of range." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Vermiform" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -37,7 +37,7 @@
       <TACTIC ORDER="2" TEXT="Any mother bear with cubs will be aggressive: -3 to reactions!" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Hide" />
@@ -80,7 +80,7 @@
       <TACTIC ORDER="2" TEXT="Any mother bear with cubs will be aggressive: -3 to reactions!" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Hide" />
@@ -123,7 +123,7 @@
       <TACTIC ORDER="2" TEXT="Any mother bear with cubs will be aggressive: -3 to reactions!" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Hide" />
@@ -167,7 +167,7 @@
       <TACTIC ORDER="3" TEXT="Water Move 3" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Hide" />
@@ -210,7 +210,7 @@
       <TACTIC ORDER="2" TEXT="Overrun damage is (15*velocity)/100." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -242,7 +242,7 @@
       <TACTIC ORDER="2" TEXT="Overrun damage is (15*velocity)/100." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -274,7 +274,7 @@
       <TACTIC ORDER="2" TEXT="Usually kills by crshing its prey's skull." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="219" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
@@ -312,7 +312,7 @@
       <TACTIC ORDER="2" TEXT="Cost: Trained: 1,500 Untrained: 1,000" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -347,7 +347,7 @@
     <DESCRIPTION>A domestic feline, kept as a pet, familiar or mouser</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -386,7 +386,7 @@
       <TACTIC ORDER="3" TEXT="-1 to attack for each torch within 6 hexes. Flash or fireballs will make it flee." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="220" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Swamp" />
@@ -429,7 +429,7 @@
       <TACTIC ORDER="1" TEXT="A chimp won’t fight unless it or its young are threatened." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -460,7 +460,7 @@
     <DESCRIPTION>A large deer.</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -495,7 +495,7 @@
       <TACTIC ORDER="1" TEXT="A bat may try to drag an opponent away. Treat this as a leg grapple; it rolls DX+3 to “hit.” On subsequent turns, it attempts to lift the person into the air; the prey may make a ST roll each turn (ST +3 if he has a hand free) to resist. (This is passive; on the victim’s turn, he may try to break free from the grapple by winning a Quick Contest of ST versus the bat’s ST+7.) Once the prey fails a ST roll, the bat will fly away with him at Move 4, rising two yards per second, dropping himonce it reaches 50 yards up. " />
     </TACTICS>
     <BOOK TITLE="Big Lizzy" PAGE="19" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="2" LEG="1" TAIL="" TORSO="1" WING="0" WINGED="true" BODYTYPE="Avian" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="2" LEG="1" TAIL="" TORSO="1" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Plains" />
@@ -519,7 +519,7 @@
       <MELEEATTACKS>
         <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1d-3" DAMAGETYPE="Large Piercing(x1.5)" PARRY="No" REACH="C" />
         <MELEEATTACK WEAPON="Claw" USAGE="Striking" SKILL="13" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Cutting(x1.5)" PARRY="No" REACH="C" />
-        <MELEEATTACK WEAPON="Grapple and Drop" USAGE="Special" SKILL="15" BLOCK="No" DAMAGE="7d at 50 yards" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Grapple and Drop" USAGE="Special 7d at 50 yards" SKILL="15" BLOCK="No" DAMAGE="" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
       </MELEEATTACKS>
       <RANGEDATTACKS />
       <SPELLATTACKS />
@@ -530,7 +530,7 @@
     <DESCRIPTION>Real name: Tyrannosaurus. Huge at 40’ long, this 16’ tall biped carnivore is ponderous but mighty, with six-inch-long teeth.</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Big Lizzy" PAGE="19" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
@@ -568,7 +568,7 @@
       <TACTIC ORDER="1" TEXT="They travel in schools and feed from the surface on fish. They are very maneuverable and have mottled green markings on topside." />
     </TACTICS>
     <BOOK TITLE="Big Lizzy" PAGE="19" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Fresh Water)" />
@@ -599,7 +599,7 @@
       <TACTIC ORDER="1" TEXT="If the encounter takes place on the river, it is accompanied by its full-grown mate or a young one." />
     </TACTICS>
     <BOOK TITLE="Big Lizzy" PAGE="19" />
-    <DAMAGERESISTANCE ARM="" FOOT="4" HAND="" HEAD="4" LEG="4" TAIL="4" TORSO="4" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="4" HAND="" HEAD="4" LEG="4" TAIL="4" TORSO="4" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Fresh Water)" />
@@ -640,7 +640,7 @@
       <TACTIC ORDER="1" TEXT="When attacking a mounted person, there is a 4-in-6 chance that the dragon swipes at the horse. Because the creature is so stupid, it has one turn for attacking even after killed." />
     </TACTICS>
     <BOOK TITLE="Big Lizzy" PAGE="20" />
-    <DAMAGERESISTANCE ARM="" FOOT="4" HAND="" HEAD="4" LEG="4" TAIL="4" TORSO="4" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="4" HAND="" HEAD="4" LEG="4" TAIL="4" TORSO="4" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Jungle" />
@@ -670,7 +670,7 @@
       <TACTIC ORDER="1" TEXT="Lunges in close and bites" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -703,7 +703,7 @@
       <TACTIC ORDER="2" TEXT="Wrestling gives a +2 to ST for grabbing hands." />
     </TACTICS>
     <BOOK TITLE="Action 2: Exploits" PAGE="46" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -736,7 +736,7 @@
       <TACTIC ORDER="1" TEXT="Lunges in close and bites" />
     </TACTICS>
     <BOOK TITLE="Action 2: Exploits" PAGE="46" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -768,7 +768,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 1,000 Untrained: 660" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -800,7 +800,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 20,000 Partially Trained: 10,000 Untrained: 6,600" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="4" HAND="" HEAD="6" LEG="4" TAIL="4" TORSO="4" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="4" HAND="" HEAD="6" LEG="4" TAIL="4" TORSO="4" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -835,7 +835,7 @@
       <TACTIC ORDER="1" TEXT="Uses it's speed as it's defense. Will usually flee unless it is trained. A diving falcon could reach speeds up to Move 70!" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="1" LEG="0" TAIL="" TORSO="0" WING="0" WINGED="true" BODYTYPE="Avian" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="1" LEG="0" TAIL="" TORSO="0" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -873,7 +873,7 @@
       <TACTIC ORDER="2" TEXT="Fright check -2 on Major Wound or below 0 HP." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Leather Armor (sm -1)" />
       <DROP NAME="Light Shield (low quality)" />
@@ -920,7 +920,7 @@
       <TACTIC ORDER="2" TEXT="Fright check -2 on Major Wound or below 0 HP." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Leather Armor (sm -1)" />
       <DROP NAME="Light Shield (low quality)" />
@@ -971,7 +971,7 @@
       <TACTIC ORDER="2" TEXT="Fright check -2 on Major Wound or below 0 HP." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Glaive (low quality)" />
       <DROP NAME="Leather Armor (sm -1)" />
@@ -1018,7 +1018,7 @@
       <TACTIC ORDER="3" TEXT="Affliction: Goblin Rash, resisted by HT, causes Itching" />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="3" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="3" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1057,7 +1057,7 @@
       <TACTIC ORDER="1" TEXT="Sings Bravery for other goblins, sings Fear if threatened. Fright check -2 on Major Wound or below 0 HP." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="5" LEG="0" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="3-foot whip" />
       <DROP NAME="Leather scraps" />
@@ -1106,7 +1106,7 @@
     <DESCRIPTION>A great ape. Intelligent. Animal Handling rolls are at -1.</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1139,7 +1139,7 @@
       <TACTIC ORDER="1" TEXT="It is immune to abilities that affect only mammals or only birds, as it is neither!" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="0" WINGED="true" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="0" FIN="0" WINGED="true" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1176,7 +1176,7 @@
       <TACTIC ORDER="1" TEXT="Cost: $400" />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="229" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Meat" />
       <DROP NAME="Milk" />
@@ -1218,7 +1218,7 @@
       <TACTIC ORDER="3" TEXT="Any wounded by a Harpy must roll against infection, treat it as a wound with infected matter in it." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="221" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="0" WINGED="true" BODYTYPE="Avian" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1255,7 +1255,7 @@
       <TACTIC ORDER="3" TEXT="Affliction 1 (Area Effect, 2 yards; Based on Will; Disadvantage, Sadism and Nightmares (12); Emanation; Extended Duration, Permanent; Malediction; Onset, Exposure Time, 1 day)" />
     </TACTICS>
     <BOOK TITLE="Banestorm: Abydos" PAGE="58" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="2" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="2" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Fur" />
     </DROPS>
@@ -1292,7 +1292,7 @@
       <TACTIC ORDER="1" TEXT="They devour anything that comes thier way. Known to attack boats." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="221" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1334,7 +1334,7 @@
       <TACTIC ORDER="2" TEXT="Attacks by kicking with hind legs, raking with front claws, or biting with beaksm, and will do so if angered or panicked." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="222" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="0" WINGED="true" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="0" FIN="0" WINGED="true" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Feathers" />
     </DROPS>
@@ -1377,7 +1377,7 @@
       <TACTIC ORDER="4" TEXT="Cost: Trained: 4,000 Untrained: 2,600" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Horse hide" />
       <DROP NAME="Horse meat" />
@@ -1417,7 +1417,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 2,000 Untrained: 1,200" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1450,7 +1450,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 1,500 Untrained: 1,000" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -1481,7 +1481,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 4,000 Untrained: 2,600" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
@@ -1513,7 +1513,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 1,200 Untrained: 800" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1551,7 +1551,7 @@
       <TACTIC ORDER="5" TEXT="Cost: Trained: 5,000 Untrained: 3,300" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Horse hide" />
       <DROP NAME="Horse meat" />
@@ -1594,7 +1594,7 @@
       <TACTIC ORDER="3" TEXT="A hydra may have one or many heads when first encountered (roll 3d2 for random determination); up to three can attack into any front or side hex simultaneously." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="222" />
-    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Hydra blood" />
       <DROP NAME="Hydra scales" />
@@ -1632,7 +1632,7 @@
       <TACTIC ORDER="1" TEXT="A kraken attacking a ship will typically grab victims off the decks with its tentacles (treat as a grapple) and carry them to its beak while performing a constriction attack. Note that two of the tentacles have more reach than the other eight. When attacking something out of the water, a tentacle can reach one-third of its total length in height. The tentacles get no Dodge roll unless the kraken’s body is lying on the surface of the water – it must be able to see well to defend." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1673,7 +1673,7 @@
       <TACTIC ORDER="1" TEXT="A kraken attacking a ship will typically grab victims off the decks with its tentacles (treat as a grapple) and carry them to its beak while performing a constriction attack. Note that two of the tentacles have more reach than the other eight. When attacking something out of the water, a tentacle can reach one-third of its total length in height. The tentacles get no Dodge roll unless the kraken’s body is lying on the surface of the water – it must be able to see well to defend." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1714,7 +1714,7 @@
       <TACTIC ORDER="1" TEXT="A kraken attacking a ship will typically grab victims off the decks with its tentacles (treat as a grapple) and carry them to its beak while performing a constriction attack. Note that two of the tentacles have more reach than the other eight. When attacking something out of the water, a tentacle can reach one-third of its total length in height. The tentacles get no Dodge roll unless the kraken’s body is lying on the surface of the water – it must be able to see well to defend." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1755,7 +1755,7 @@
       <TACTIC ORDER="1" TEXT="Lions hunt in small groups" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1793,7 +1793,7 @@
       <TACTIC ORDER="2" TEXT="Cost: $800" />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="229" />
-    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Fat" />
       <DROP NAME="Meat" />
@@ -1835,7 +1835,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 1,400 Untrained: 860" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1868,7 +1868,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 1,000 Untrained: 660" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -1902,7 +1902,7 @@
       <TACTIC ORDER="2" TEXT="Nightstalkers hunt large forest herbivores, but relish human meat. They cannot climb well, but will knock down quite large trees to get at climbing prey." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="2" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="2" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Fur" />
@@ -1942,7 +1942,7 @@
       <TACTIC ORDER="2" TEXT="Bands together in 2's or 3's to attack a target, swinging fast to take full advantage of the extra attack." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="2" FOOT="0" HAND="0" HEAD="2" LEG="2" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="2" FOOT="0" HAND="0" HEAD="2" LEG="2" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Leather Armor (sm 0)" />
       <DROP NAME="Obsidian Broadsword" />
@@ -1984,7 +1984,7 @@
       <TACTIC ORDER="1" TEXT="Fights hard and brutal, usually with All-Out attacks against weaker foes." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="2" LEG="2" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="2" FOOT="2" HAND="2" HEAD="2" LEG="2" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Ax" />
       <DROP NAME="Crossbow" />
@@ -2024,7 +2024,7 @@
       <TACTIC ORDER="1" TEXT="Cost: Trained: 1,500 Untrained: 1,000" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2057,7 +2057,7 @@
       <TACTIC ORDER="1" TEXT="Paladins are small-brained and very slow, but so well-protected that little bothers them. When trouble threatens, they generally continue ambling forward, swinging their tails back and forth, then swivel around to strike if the problem refuses to go away." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="4" LEG="1" TAIL="1" TORSO="6" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="4" LEG="1" TAIL="1" TORSO="6" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2090,7 +2090,7 @@
       <TACTIC ORDER="1" TEXT="They rarely attack; if threatened, they simply fly away. Their flight powers are partly magical, and as with other such creatures, their feathers are valuable to enchanters." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="224" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" WINGED="true" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="0" FIN="0" WINGED="true" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Feathers" />
     </DROPS>
@@ -2125,7 +2125,7 @@
       <TACTIC ORDER="1" TEXT="Anyone touching a Reek is bound then begins taking damage every turn." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="224" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Vermiform" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2173,7 +2173,7 @@
       <TACTIC ORDER="1" TEXT="Anyone touching a Reek is bound then begins taking damage every turn. Will climb onto trees to drop on unsuspecting prey." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="224" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Vermiform" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
@@ -2219,7 +2219,7 @@
       <TACTIC ORDER="1" TEXT="Anyone touching a Reek is bound then begins taking damage every turn. Can climb city walls looking for any flesh to consume." />
     </TACTICS>
     <BOOK TITLE="Banestorm: Abydos" PAGE="43" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Vermiform" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
       <DROP NAME="Slime" />
       <DROP NAME="when boiled can create a sauce" />
@@ -2270,7 +2270,7 @@
       <TACTIC ORDER="1" TEXT="It’s dumb, a lousy shot, and coldly persistent." />
     </TACTICS>
     <BOOK TITLE="Action 2: Exploits" PAGE="46" />
-    <DAMAGERESISTANCE ARM="8" FOOT="" HAND="8" HEAD="8" LEG="8" TAIL="" TORSO="8" WING="" WINGED="false" BODYTYPE="Hybrid" />
+    <DAMAGERESISTANCE ARM="8" FOOT="" HAND="8" HEAD="8" LEG="8" TAIL="" TORSO="8" WING="" FIN="0" WINGED="false" BODYTYPE="Hybrid" />
     <DROPS>
       <DROP NAME="Ammo" />
       <DROP NAME="Metal Scrap" />
@@ -2319,7 +2319,7 @@
       <TACTIC ORDER="4" TEXT="While constricting it can not dodge, but can attack normally with claws and teeth." />
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
-    <DAMAGERESISTANCE ARM="1" FOOT="" HAND="1" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Hybrid" />
+    <DAMAGERESISTANCE ARM="1" FOOT="" HAND="1" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Hybrid" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Pelt" />
@@ -2364,7 +2364,7 @@
     <DESCRIPTION>A apex predator.</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2404,7 +2404,7 @@
     <DESCRIPTION>A large aggressive shark.</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2443,7 +2443,7 @@
     <DESCRIPTION>Zombies eventually become skeletons</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Backdrops: Tower of Octavius" PAGE="28" />
-    <DAMAGERESISTANCE ARM="2" FOOT="0" HAND="0" HEAD="2" LEG="2" TAIL="" TORSO="2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="2" FOOT="0" HAND="0" HEAD="2" LEG="2" TAIL="" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Buckler" />
       <DROP NAME="Leather Suit" />
@@ -2480,7 +2480,7 @@
       <TACTIC ORDER="5" TEXT="Any Cutting, Impaling or Piercing damage over 6 to the torso ruptures the bile organ, spraying all within 4 yards with a 1d corrosive acid on a 10 or less costing the hound 1 damage per turn until it dies." />
     </TACTICS>
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="2" LEG="2" TAIL="2" TORSO="2" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="2" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Bile organ (Veterinary -4 to extract without breaking)" />
     </DROPS>
@@ -2514,7 +2514,7 @@
       <TACTIC ORDER="3" TEXT="While constricting it can not dodge," />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Vermiform" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2547,7 +2547,7 @@
       <TACTIC ORDER="3" TEXT="Modifiers to HT roll for venom +1 if venom is immedaitly sucked out, +2 if antivenin is used." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Vermiform" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2583,7 +2583,7 @@
       <TACTIC ORDER="3" TEXT="Venom: 2 second onset delay, Resisted by Health, Damage 1 point Toxic, 10 minute cycle." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="220" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="1" TAIL="" TORSO="1" WING="" WINGED="false" BODYTYPE="Arachnoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="1" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Arachnoid" />
     <DROPS>
       <DROP NAME="Silk (DR1" />
       <DROP NAME="ST5 per strand)" />
@@ -2632,7 +2632,7 @@
       <TACTIC ORDER="1" TEXT="Though their favorite tactic is to run away, striders are extremely fast, and dangerous when cornered. Their heavy claws can kick out in a 2-hex radius – tales are told of striders disembowelling mounted knights – and their beaks are sharp and pointed, with the strong necks granting formidable striking power." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="224" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="0" WINGED="true" BODYTYPE="Avian" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
       <DROP NAME="Egg" />
       <DROP NAME="Feathers" />
@@ -2670,7 +2670,7 @@
       <TACTIC ORDER="3" TEXT="Bite drains 1 HP per second. Every 3 HP drained heals 1 point of HP or FP." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="0" WINGED="true" BODYTYPE="Avian" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2711,7 +2711,7 @@
       <TACTIC ORDER="3" TEXT="Individuals could stay behind but are no longer counted as part of a swarm." />
     </TACTICS>
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="true" BODYTYPE="Hybrid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="true" BODYTYPE="Hybrid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2745,7 +2745,7 @@
       <TACTIC ORDER="4" TEXT="Note that bothering a hive may get several such swarms after you!" />
     </TACTICS>
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="true" BODYTYPE="Hybrid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="true" BODYTYPE="Hybrid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2778,7 +2778,7 @@
       <TACTIC ORDER="2" TEXT="Swarm disperses after 7 damage." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="219" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Hybrid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Hybrid" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Desert" />
@@ -2805,7 +2805,7 @@
       <TACTIC ORDER="3" TEXT="Individuals could stay behind but are no longer counted as part of a swarm." />
     </TACTICS>
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Hybrid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Hybrid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2836,7 +2836,7 @@
       <TACTIC ORDER="1" TEXT="Sneaks up then pounces, fighting tooth and claw" />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -2874,7 +2874,7 @@
       <TACTIC ORDER="2" TEXT="They also occasionally bite if annoyed." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="225" />
-    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Fur" />
@@ -2905,7 +2905,7 @@
       <TACTIC ORDER="1" TEXT="Unicorns have uncanny senses and are very stealthy. If they detect anyone approaching, they usually steal away before they are even seen. If cornered, they will, as the legends suggest, fight viciously, though they will likely take the first opportunity to flee if the battle goes against them. A unicorn fights primarily with its horn, with which it can even parry, although it can also kick and bite like a horse." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="225" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Horn (10" />
       <DROP NAME="000 value)" />
@@ -2944,7 +2944,7 @@
       <TACTIC ORDER="1" TEXT="Whenever blood is released in the water, roll 1d; on a result of 1 or 2, 2d vasnacuri swim over to investigate within 1d minutes. Up to six vasnacuri can attack a submerged adult human simultaneously, and as more blood is released into the water, more fish swim over to investigate." />
     </TACTICS>
     <BOOK TITLE="Lair of the Fat Man" PAGE="9" />
-    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
     <DROPS>
       <DROP NAME="Meat" />
       <DROP NAME="Scales" />
@@ -2976,7 +2976,7 @@
     <DESCRIPTION>Created by the Create Warrior spell</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS />
     <HABITATS>
       <HABITAT NAME="Any" />
@@ -3000,7 +3000,7 @@
     <DESCRIPTION>Created by the Create Warrior spell</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -3027,7 +3027,7 @@
       <TACTIC ORDER="1" TEXT="Circles target and attacks as a pack. Tries to single out the weakest target." />
     </TACTICS>
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Claws" />
       <DROP NAME="Teeth" />
@@ -3068,7 +3068,7 @@
       <TACTIC ORDER="1" TEXT="Will hunt and attack in packs. Attacking the weakest or anyone separated." />
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
-    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -3104,7 +3104,7 @@
       <TACTIC ORDER="2" TEXT="Cost: $300" />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="229" />
-    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Fleece" />
       <DROP NAME="Meat" />
@@ -3137,7 +3137,7 @@
       <TACTIC ORDER="1" TEXT="A wyvern will usually strike with its tail from above, then land to grapple and carry off its prey. The tail does relatively limited damage, making wyverns less effective against well-armored opponents. However, they have the tactical sense to slam tough foes to take them out of the fight for a while. Note that wyvern venom causes both HP loss (half of which can be avoided with a HT-5 roll) and DX reduction (also resisted with a HT-5 roll)." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="226" />
-    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="1" WINGED="true" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="3" HAND="" HEAD="3" LEG="3" TAIL="3" TORSO="3" WING="1" FIN="0" WINGED="true" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Venom" />
     </DROPS>
@@ -3175,7 +3175,7 @@
     <DESCRIPTION>Undead rotting humanoid</DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
     </DROPS>
     <HABITATS>
@@ -3202,7 +3202,7 @@
     <DESCRIPTION></DESCRIPTION>
     <TACTICS />
     <BOOK TITLE="Backdrops: Tower of Octavius" PAGE="28" />
-    <DAMAGERESISTANCE ARM="4/2" FOOT="0" HAND="0" HEAD="2" LEG="4/2" TAIL="" TORSO="4/2" WING="" WINGED="false" BODYTYPE="Humanoid" />
+    <DAMAGERESISTANCE ARM="4/2" FOOT="0" HAND="0" HEAD="2" LEG="4/2" TAIL="" TORSO="4/2" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
     <DROPS>
       <DROP NAME="Broadsword" />
       <DROP NAME="Mail Suit" />
