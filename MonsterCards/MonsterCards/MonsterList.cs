@@ -24,7 +24,7 @@ namespace MonsterCards
             InitializeComponent();
             _ChangeMonster = ChangeMonster;
             _ShowMonster = ShowMonster;
-            _monsters = monsters;
+            _monsters = monsters.OrderBy(s => s.Name).ToList();
             _currentMonster = currentMonster;
 
             listBox1.DisplayMember = "Name";
