@@ -35,9 +35,10 @@ namespace MonsterCards
             _monsterCard = monsterCard;
             _monsterFactory = monsterFactory;
             _monsters = _monsterDal.LoadData(Path.Combine(System.IO.Directory.GetCurrentDirectory(), "Data"));
-            _selectedMonster = _monsterFactory.GetMonsterInstance(0);
             _classDal = classDal;
 
+            _selectedMonster = _monsterFactory.GetMonsterInstance(0);
+            _selectedMonster.Name = string.Empty;
             UpdateForm(_selectedMonster);
         }
 
@@ -310,7 +311,9 @@ namespace MonsterCards
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            _selectedMonster = _monsterFactory.GetMonsterInstance(0);
+            var newID = _monsters.Max(m => m.ID) + 1;
+            _selectedMonster = _monsterFactory.GetMonsterInstance(newID);
+            _monsters.Add(_selectedMonster);
             UpdateForm(_selectedMonster);
         }
 
@@ -391,6 +394,11 @@ namespace MonsterCards
             var subForm = new PDFExporter(_monsters, _monsterCard, _bookDal);
             subForm.ShowDialog();
 
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveData();
         }
     }
 }

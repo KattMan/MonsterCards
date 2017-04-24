@@ -13,7 +13,23 @@ namespace MonsterLib
     {
         public IMonster GetMonsterInstance(int ID)
         {
-            return new Monster() { ID=ID };
+            var monster =  new Monster() { ID=ID };
+
+            monster.Name = " New Monster";
+            monster.Description = "";
+
+            monster.Book = GetBookInstance();
+            monster.Attacks = GetAttacksInstance();
+            monster.Classification = GetClassificationInstance();
+            monster.DamageResist = GetDRInstance();
+            monster.Drops = new List<IDrop>();
+            monster.Habitats = new List<IHabitat>();
+            monster.Skills = new List<ISkill>();
+            monster.Stats = GetStatsInstance();
+            monster.Tactics = new List<ITactic>();
+            monster.Traits = new List<ITrait>();
+            
+            return monster;
         }
 
         public IHabitat GetHabitatInstance()
@@ -53,17 +69,50 @@ namespace MonsterLib
 
         public IBook GetBookInstance()
         {
-            return new Book();
+            var book = new Book();
+            book.Title = string.Empty;
+            book.Page = string.Empty;
+            return book;
         }
 
         public IDamageResist GetDRInstance()
         {
-            return new DamageResist();
+            var dr = new DamageResist();
+
+            dr.Arm = string.Empty;
+            dr.Fin = string.Empty;
+            dr.Foot = string.Empty;
+            dr.Hand = string.Empty;
+            dr.Head = string.Empty;
+            dr.Leg = string.Empty;
+            dr.Tail = string.Empty;
+            dr.Torso = string.Empty;
+            dr.Wing = string.Empty;
+            dr.Winged = false;
+
+            return dr;
         }
 
         public IStats GetStatsInstance()
         {
-            return new Stats();
+            var stats = new Stats();
+
+            stats.Dexterity = string.Empty;
+            stats.Dodge = string.Empty;
+            stats.FatiguePoints = string.Empty;
+            stats.Health = string.Empty;
+            stats.Height = string.Empty;
+            stats.HitPoints = string.Empty;
+            stats.IQ = string.Empty;
+            stats.Move = string.Empty;
+            stats.Perception = string.Empty;
+            stats.SizeModifier = string.Empty;
+            stats.Speed = string.Empty;
+            stats.Strength = string.Empty;
+            stats.Weight = string.Empty;
+            stats.Will = string.Empty;
+
+            return stats;
         }
 
         public IAttacks GetAttacksInstance()
@@ -73,7 +122,12 @@ namespace MonsterLib
 
         public IClassification GetClassificationInstance()
         {
-            return new Classification();
+            var classification = new Classification();
+
+            classification.Description = string.Empty;
+            classification.Name = string.Empty;
+
+            return classification;
         }
 
         public ITactic GetTacticIntance()
