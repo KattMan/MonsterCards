@@ -31,10 +31,10 @@ namespace MonsterPDF
                 CreateDescriptionArea(monsterInfo);
                 CreateStatsArea(monsterInfo, monsterInfo.Stats);
 
-                CreateTraitsArea(monsterInfo.Traits);
-                CreateSkillsArea(monsterInfo.Skills);
+                if (monsterInfo.Traits.Any()) CreateTraitsArea(monsterInfo.Traits);
+                if (monsterInfo.Skills.Any()) CreateSkillsArea(monsterInfo.Skills);
                 CreateTacticsArea(monsterInfo.Classification.Description, monsterInfo.Tactics);
-                CreateDropsArea(monsterInfo.Drops);
+                if (monsterInfo.Drops.Any()) CreateDropsArea(monsterInfo.Drops);
 
                 if (monsterInfo.Attacks.Melee.Any()) MeleeAttacksArea(monsterInfo.Attacks.Melee);
                 if (monsterInfo.Attacks.Ranged.Any()) RangedAttacksArea(monsterInfo.Attacks.Ranged);
@@ -446,7 +446,7 @@ namespace MonsterPDF
 
             paragraph = row.Cells[1].AddParagraph();
             paragraph.Style = "DataStatBox";
-            paragraph.AddText(string.Join(", ", Skills.OrderBy(s => s.Name).Select(s => s.Name)));
+            paragraph.AddText(string.Join(", ", Skills.OrderBy(s => s.Name).Select(s => s.Name + "-" + s.Level)));
 
         }
 

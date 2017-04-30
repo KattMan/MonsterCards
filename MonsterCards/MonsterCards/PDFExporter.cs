@@ -54,11 +54,11 @@ namespace MonsterCards
 
             if (selectedBook != "")
             {
-                _filteredMonsters = _monsters.Where(s => s.Book.Title == selectedBook).ToList();
+                _filteredMonsters = _monsters.Where(s => s.Book.Title == selectedBook).OrderBy(s => s.Name).ToList();
             }
             else
             {
-                _filteredMonsters = _monsters;
+                _filteredMonsters = _monsters.OrderBy(s => s.Name).ToList();
             }
 
             chbResults.DataSource = _filteredMonsters;

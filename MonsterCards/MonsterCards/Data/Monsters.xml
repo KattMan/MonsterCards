@@ -7,14 +7,12 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Mountain" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="2" IQ="3" MOVE="4" PERCEPTION="10" SIZEMODIFIER="-3" SPEED="6" STRENGTH="2" WILL="10" WEIGHT="2 lbs" HEIGHT="18&quot; - 2'" />
     <TRAITS>
       <TRAIT NAME="Toxic Attack 3d (Malediction 1; Psychokinetic; Vision Based)" />
@@ -211,13 +209,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="0" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="14" HEALTH="14" HITPOINTS="15" IQ="5" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="6.5" STRENGTH="15" WILL="12" WEIGHT="400 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
       <TRAIT NAME="Bad Temper (9)" />
@@ -243,13 +239,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="0" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="8" IQ="5" MOVE="7" PERCEPTION="12" SIZEMODIFIER="-1" SPEED="6" STRENGTH="8" WILL="12" WEIGHT="45 lbs" HEIGHT="3' - 4.5'" />
     <TRAITS>
       <TRAIT NAME="Bad Temper (9)" />
@@ -313,8 +307,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
@@ -348,8 +341,7 @@
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
@@ -430,8 +422,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Jungle" />
     </HABITATS>
@@ -461,8 +452,7 @@
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Mountain" />
@@ -769,13 +759,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.25" STRENGTH="15" WILL="11" WEIGHT="500 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
       <TRAIT NAME="Domestic Animal" />
@@ -807,8 +795,7 @@
       <HABITAT NAME="Jungle" />
       <HABITAT NAME="Plains" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="12" DODGE="7" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="45" IQ="5" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="4" STRENGTH="45" WILL="10" WEIGHT="12,000 lbs" HEIGHT="15' - 21'" />
     <TRAITS>
       <TRAIT NAME="Crushing Striker (Tusks)" />
@@ -836,8 +823,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="1" LEG="0" TAIL="" TORSO="0" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
       <HABITAT NAME="Forest" />
@@ -1019,8 +1005,7 @@
     </TACTICS>
     <BOOK TITLE="Custom" PAGE="" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="3" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Jungle" />
@@ -1107,8 +1092,7 @@
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Jungle" />
     </HABITATS>
@@ -1140,8 +1124,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="0" FIN="0" WINGED="true" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Mountain" />
       <HABITAT NAME="Subterranean" />
@@ -1219,8 +1202,7 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="221" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="" TORSO="1" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Mountain" />
@@ -1293,8 +1275,7 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="221" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
@@ -1418,13 +1399,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="459" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="25" IQ="3" MOVE="12" PERCEPTION="11" SIZEMODIFIER="+1" SPEED="5.25" STRENGTH="25" WILL="10" WEIGHT="2000 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="Domestic Animal" />
@@ -1486,8 +1465,7 @@
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="20" IQ="3" MOVE="18" PERCEPTION="11" SIZEMODIFIER="+1" SPEED="5" STRENGTH="20" WILL="11" WEIGHT="1100 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="Domestic Animal" />
@@ -1514,8 +1492,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
@@ -1603,8 +1580,7 @@
       <HABITAT NAME="Aquatic (Salt Water)" />
       <HABITAT NAME="Swamp" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="18" IQ="2" MOVE="6" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="6.25" STRENGTH="18" WILL="13" WEIGHT="700 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="Bad Temper" />
@@ -1633,8 +1609,7 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
@@ -1674,8 +1649,7 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
@@ -1715,8 +1689,7 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="3" LEG="" TAIL="3" TORSO="3" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
@@ -1756,8 +1729,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Jungle" />
       <HABITAT NAME="Plains" />
@@ -1803,8 +1775,7 @@
       <HABITAT NAME="Domestic" />
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="9" DODGE="6" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="26" IQ="3" MOVE="3" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="3" STRENGTH="26" WILL="10" WEIGHT="2200 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="Amphibious" />
@@ -1836,13 +1807,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="22" IQ="3" MOVE="9" PERCEPTION="12" SIZEMODIFIER="+1" SPEED="5.5" STRENGTH="22" WILL="12" WEIGHT="1400 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="Domestic Animal" />
@@ -1869,13 +1838,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="0" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="18" IQ="3" MOVE="8" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.5" STRENGTH="18" WILL="12" WEIGHT="800 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
       <TRAIT NAME="Domestic Animal" />
@@ -2025,13 +1992,11 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="460" />
     <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Domestic" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="8" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="27" IQ="3" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="5" STRENGTH="27" WILL="12" WEIGHT="2500 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="Domestic Animal" />
@@ -2058,13 +2023,11 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="223" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="4" LEG="1" TAIL="1" TORSO="6" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Plains" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="12" DODGE="6" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="15" IQ="2" MOVE="3" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="3" STRENGTH="15" WILL="10" WEIGHT="500 lbs" HEIGHT="6' - 9'" />
     <TRAITS>
       <TRAIT NAME="DR +3 (head and tail only)" />
@@ -2126,8 +2089,7 @@
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="224" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Jungle" />
@@ -2276,8 +2238,7 @@
       <DROP NAME="Metal Scrap" />
       <DROP NAME="Oil" />
     </DROPS>
-    <HABITATS>
-    </HABITATS>
+    <HABITATS />
     <SKILLS>
       <SKILL NAME="Guns" LEVEL="8" />
     </SKILLS>
@@ -2365,8 +2326,7 @@
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
@@ -2405,8 +2365,7 @@
     <TACTICS />
     <BOOK TITLE="Basic Set: Campaigns" PAGE="457" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Ichthyoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Aquatic (Salt Water)" />
     </HABITATS>
@@ -2474,13 +2433,15 @@
     <DESCRIPTION>An ugly green dog-shaped beast, human hands, hooved feet, hairless, large mouth, and flexible spines on its back</DESCRIPTION>
     <TACTICS>
       <TACTIC ORDER="1" TEXT="Grapples to attach then drains victim 1 point per turn." />
-      <TACTIC ORDER="2" TEXT="Up to 3 can attack a single target at once each adding +2 to effective ST." />
-      <TACTIC ORDER="3" TEXT="Attempts to break grapple are rolled against combined ST as though it was a single opponent." />
-      <TACTIC ORDER="4" TEXT="Will bite of the prey fights back or attempts to break free." />
-      <TACTIC ORDER="5" TEXT="Any Cutting, Impaling or Piercing damage over 6 to the torso ruptures the bile organ, spraying all within 4 yards with a 1d corrosive acid on a 10 or less costing the hound 1 damage per turn until it dies." />
+      <TACTIC ORDER="2" TEXT="Up to 3 can attack a single target at once each adding +2 to effective ST. Attempts to break grapple are rolled against combined ST as though it was a single opponent." />
+      <TACTIC ORDER="3" TEXT="Will bite of the prey fights back or attempts to break free." />
+      <TACTIC ORDER="4" TEXT="Any Cutting, Impaling or Piercing damage over 6 to the torso ruptures the bile organ for the corrosive attack." />
+      <TACTIC ORDER="5" TEXT="Corrosive Attack 1d (Area Effect, 4 yards; Blockable; Bombardment; Cosmic, No Active Defense, Dodge only; Costs Hit Points, 1 HP; Emanation; Unconscious Only; Uncontrollable)" />
+      <TACTIC ORDER="6" TEXT="Leech 2 (Contact Agent; Dehydration; Link; Only Heals FP; Steal FP then HP)" />
+      <TACTIC ORDER="7" TEXT="Leech 1 (Contact Agent; Extended Duration, Only when other Leech drains HP; Link; Only Heals FP; Steal HT; Takes Extra Time 1)" />
     </TACTICS>
     <BOOK TITLE="" PAGE="" />
-    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="2" LEG="2" TAIL="2" TORSO="2" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="4" LEG="0" TAIL="0" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Quadruped" />
     <DROPS>
       <DROP NAME="Bile organ (Veterinary -4 to extract without breaking)" />
     </DROPS>
@@ -2491,11 +2452,24 @@
     <SKILLS>
       <SKILL NAME="Grappling" LEVEL="12" />
     </SKILLS>
-    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="11" HEALTH="12" HITPOINTS="12" IQ="4" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="10" WILL="8" WEIGHT="100 lbs" HEIGHT="4.5' - 6'" />
+    <STATS DEXTERITY="12" DODGE="10" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="10" IQ="4" MOVE="6" PERCEPTION="10" SIZEMODIFIER="0" SPEED="6.00" STRENGTH="10" WILL="8" WEIGHT="100 lbs" HEIGHT="4.5' - 6'" />
     <TRAITS>
       <TRAIT NAME="Combat Reflexes" />
-      <TRAIT NAME="Leech (FP until 0 then HP)" />
-      <TRAIT NAME="Night Vision" />
+      <TRAIT NAME="Corrosive Attack 1d" />
+      <TRAIT NAME="Deafness" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="DR 10 (Limited, Corrosive)" />
+      <TRAIT NAME="Extra Arm (Grappling Spines; Extra-Flexible)" />
+      <TRAIT NAME="Ham-Fisted 2" />
+      <TRAIT NAME="Horizontal" />
+      <TRAIT NAME="Leech 1" />
+      <TRAIT NAME="Leech 2" />
+      <TRAIT NAME="Night Vision (Special)" />
+      <TRAIT NAME="Restricted Diet (Bodily Fluids)" />
+      <TRAIT NAME="Striking ST +7 (Bite Only)" />
+      <TRAIT NAME="Teeth (Sharp)" />
+      <TRAIT NAME="Vibration Sense (Air)" />
+      <TRAIT NAME="Wild Animal" />
     </TRAITS>
     <ATTACKS>
       <MELEEATTACKS>
@@ -2515,8 +2489,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Jungle" />
       <HABITAT NAME="Swamp" />
@@ -2548,8 +2521,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="1" LEG="" TAIL="" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Vermiform" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Desert" />
       <HABITAT NAME="Forest" />
@@ -2671,8 +2643,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
     <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="0" FIN="0" WINGED="true" BODYTYPE="Avian" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Jungle" />
@@ -2709,11 +2680,11 @@
       <TACTIC ORDER="1" TEXT="Attacks anything within its own hex." />
       <TACTIC ORDER="2" TEXT="Swarm disperses after 8 damage." />
       <TACTIC ORDER="3" TEXT="Individuals could stay behind but are no longer counted as part of a swarm." />
+      <TACTIC ORDER="4" TEXT="Diffuse so impaling and piercing only do 1 point of damage all others do 2 points. Area effect, cone and explosion do normal damage." />
     </TACTICS>
-    <BOOK TITLE="" PAGE="" />
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="true" BODYTYPE="Hybrid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Civilization" />
       <HABITAT NAME="Forest" />
@@ -2721,8 +2692,7 @@
       <HABITAT NAME="Plains" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="8" IQ="" MOVE="8" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" HEIGHT="" />
     <TRAITS>
       <TRAIT NAME="Swarm (always hits always gets hit)" />
@@ -2743,11 +2713,11 @@
       <TACTIC ORDER="2" TEXT="Swarm disperses after 12 damage." />
       <TACTIC ORDER="3" TEXT="Will give up the attack if foe is chased 50 yards from hive." />
       <TACTIC ORDER="4" TEXT="Note that bothering a hive may get several such swarms after you!" />
+      <TACTIC ORDER="5" TEXT="Diffuse so impaling and piercing only do 1 point of damage all others do 2 points. Area effect, cone and explosion do normal damage." />
     </TACTICS>
-    <BOOK TITLE="" PAGE="" />
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="true" BODYTYPE="Hybrid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Civilization" />
       <HABITAT NAME="Forest" />
@@ -2756,8 +2726,7 @@
       <HABITAT NAME="Plains" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="12" IQ="" MOVE="6" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" HEIGHT="" />
     <TRAITS>
       <TRAIT NAME="Swarm (always hits always gets hit)" />
@@ -2776,6 +2745,7 @@
     <TACTICS>
       <TACTIC ORDER="1" TEXT="Attacks anything within its own hex." />
       <TACTIC ORDER="2" TEXT="Swarm disperses after 7 damage." />
+      <TACTIC ORDER="3" TEXT="Diffuse so impaling and piercing only do 1 point of damage all others do 2 points. Area effect, cone and explosion do normal damage." />
     </TACTICS>
     <BOOK TITLE="Banestorm" PAGE="219" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Hybrid" />
@@ -2803,11 +2773,11 @@
       <TACTIC ORDER="1" TEXT="Attacks anything within its own hex." />
       <TACTIC ORDER="2" TEXT="Swarm disperses after 6 damage." />
       <TACTIC ORDER="3" TEXT="Individuals could stay behind but are no longer counted as part of a swarm." />
+      <TACTIC ORDER="4" TEXT="Diffuse so impaling and piercing only do 1 point of damage all others do 2 points. Area effect, cone and explosion do normal damage." />
     </TACTICS>
-    <BOOK TITLE="" PAGE="" />
+    <BOOK TITLE="Basic Set: Campaigns" PAGE="461" />
     <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="" LEG="" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Hybrid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Civilization" />
       <HABITAT NAME="Forest" />
@@ -2815,8 +2785,7 @@
       <HABITAT NAME="Plains" />
       <HABITAT NAME="Subterranean" />
     </HABITATS>
-    <SKILLS>
-    </SKILLS>
+    <SKILLS />
     <STATS DEXTERITY="" DODGE="" FATIGUEPOINTS="" HEALTH="" HITPOINTS="6" IQ="" MOVE="4" PERCEPTION="" SIZEMODIFIER="" SPEED="5" STRENGTH="" WILL="" WEIGHT="" HEIGHT="" />
     <TRAITS>
       <TRAIT NAME="Swarm (always hits always gets hit)" />
@@ -2837,8 +2806,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="456" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Jungle" />
     </HABITATS>
@@ -3001,8 +2969,7 @@
     <TACTICS />
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Any" />
     </HABITATS>
@@ -3069,8 +3036,7 @@
     </TACTICS>
     <BOOK TITLE="Basic Set: Campaigns" PAGE="458" />
     <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="0" WINGED="false" BODYTYPE="Quadruped" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Forest" />
       <HABITAT NAME="Mountain" />
@@ -3176,8 +3142,7 @@
     <TACTICS />
     <BOOK TITLE="" PAGE="" />
     <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" FIN="0" WINGED="false" BODYTYPE="Humanoid" />
-    <DROPS>
-    </DROPS>
+    <DROPS />
     <HABITATS>
       <HABITAT NAME="Civilization" />
       <HABITAT NAME="Subterranean" />
@@ -3187,8 +3152,7 @@
       <SKILL NAME="Grapple" LEVEL="10" />
     </SKILLS>
     <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="N/A" HEALTH="10" HITPOINTS="15" IQ="8" MOVE="5" PERCEPTION="8" SIZEMODIFIER="0" SPEED="5.00" STRENGTH="11" WILL="8" WEIGHT="180 lbs" HEIGHT="4.5' - 6'" />
-    <TRAITS>
-    </TRAITS>
+    <TRAITS />
     <ATTACKS>
       <MELEEATTACKS>
         <MELEEATTACK WEAPON="Punch" USAGE="Swing" SKILL="10" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
@@ -3220,8 +3184,7 @@
       <SKILL NAME="Tactics" LEVEL="6" />
     </SKILLS>
     <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="n/a" HEALTH="11" HITPOINTS="16" IQ="8" MOVE="5" PERCEPTION="8" SIZEMODIFIER="0" SPEED="5.50" STRENGTH="12" WILL="8" WEIGHT="110" HEIGHT="4.5' - 6'" />
-    <TRAITS>
-    </TRAITS>
+    <TRAITS />
     <ATTACKS>
       <MELEEATTACKS>
         <MELEEATTACK WEAPON="Broadsword" USAGE="Swing" SKILL="12" BLOCK="8" DAMAGE="1d+3" DAMAGETYPE="Cutting(x1.5)" PARRY="9" REACH="1" />
@@ -3230,5 +3193,658 @@
       <SPELLATTACKS />
     </ATTACKS>
     <CLASSIFICATION NAME="Undead" DESCRIPTION="Can be turned with True Faith." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="86" NAME="Pharm Goat">
+    <DESCRIPTION>A nanny goat, modified to produce components that can be used to make a single TL8 compound, such as infant formula, spider silk, a cancer vaccine, super steroids, an enzyme blocker, or maybe a wonder drug. Modifications were Pharm Animal (Must be milked). Unintended side effects were a reduction in HT and Unusual Biochemistry (compared to an average goat).
+Cost: $10,000, LC4.</DESCRIPTION>
+    <TACTICS />
+    <BOOK TITLE="Bio-Tech" PAGE="93" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="" WINGED="false" BODYTYPE="Quadruped" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Domestic" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Jumping" LEVEL="12" />
+      <SKILL NAME="Survival (Plains)" LEVEL="12" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="9" IQ="3" MOVE="6" PERCEPTION="12" SIZEMODIFIER="0" SPEED="5.5" STRENGTH="9" WILL="10" WEIGHT="100 lbs" HEIGHT="4.5' - 6'" />
+    <TRAITS>
+      <TRAIT NAME="Chummy" />
+      <TRAIT NAME="Domestic Animal" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Pharm Animal" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Reduced Consumption 1 (Cast Iron Stomach)" />
+      <TRAIT NAME="Unusual Biochemistry" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="9" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Hooves" USAGE="Kick" SKILL="9" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="87" NAME="Neo-Vampire Bat">
+    <DESCRIPTION>An example of an exotic bioweapon that might come out of an underground cyberpunk biolab, this transgenic vampire bat has been gengineered with poison sacs and a bloodhound’s sense of smell. Capable of identifying and tracking down a specific target by scent and sonar, it is an exotic “black ops” weapon. 
+Cost: $10,000, LC2.</DESCRIPTION>
+    <TACTICS />
+    <BOOK TITLE="Bio-Tech" PAGE="93" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="1" LEG="0" TAIL="0" TORSO="0" WING="0" FIN="" WINGED="true" BODYTYPE="Quadruped" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling" LEVEL="12" />
+      <SKILL NAME="Stealth" LEVEL="12" />
+      <SKILL NAME="Tracking" LEVEL="12" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="8" FATIGUEPOINTS="10" HEALTH="10" HITPOINTS="1" IQ="3" MOVE="5" PERCEPTION="12" SIZEMODIFIER="-6" SPEED="5.5" STRENGTH="1" WILL="10" WEIGHT="0.1 lb." HEIGHT="5&quot; - 7&quot;" />
+    <TRAITS>
+      <TRAIT NAME="Clinging" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Flight (Winged; Air Move 10)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Sonar" />
+      <TRAIT NAME="Toxic Attack 2d (Cyclic, 1 day, 4 cycles; Follow-Up, Sharp Teeth; Resistible, HT-4)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth, Sharp" USAGE="Bite" SKILL="12" BLOCK="No" DAMAGE="1d-7" DAMAGETYPE="Cutting(x1.5)" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="88" NAME="Hippaya">
+    <DESCRIPTION>The useful dolls are a kind of golem, a tireless animated servant. When activated, they are encased in an “illusion of life” that makes them look like living, slightly undersized humans.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Hippaya are meek, compliant, and attentive; they speak deferentially, with elaborate courtly manners. When lashed (an acceptable treatment for slaves in Cheo and Larshum), they are programmed to groan and grovel." />
+      <TACTIC ORDER="2" TEXT="Hippaya obey whoever activates them. They only understand the ancient tongues of Larsham and Cheo, but very simple requests can be made by Gesture." />
+      <TACTIC ORDER="3" TEXT="The spell to create Hippaya has been lost for thousands of years. It only worked on elaborate figures, not mere slabs of clay." />
+      <TACTIC ORDER="4" TEXT="Does not have or need to expend Fatigue Points." />
+      <TACTIC ORDER="5" TEXT="Has Savior Faire and only one of the other listed skills." />
+    </TACTICS>
+    <BOOK TITLE="Alphabet Arcane" PAGE="15" />
+    <DAMAGERESISTANCE ARM="1" FOOT="1" HAND="1" HEAD="1" LEG="1" TAIL="" TORSO="1" WING="" FIN="" WINGED="false" BODYTYPE="Humanoid" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Any" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Animal Handling" LEVEL="10" />
+      <SKILL NAME="Cooking" LEVEL="10" />
+      <SKILL NAME="Gardening" LEVEL="10" />
+      <SKILL NAME="Housekeeping" LEVEL="10" />
+      <SKILL NAME="Savoir-Faire (Servant to Royal Court)" LEVEL="10" />
+      <SKILL NAME="Sewing/TL1" LEVEL="10" />
+    </SKILLS>
+    <STATS DEXTERITY="8" DODGE="7" FATIGUEPOINTS="-" HEALTH="8" HITPOINTS="9" IQ="8" MOVE="4" PERCEPTION="8" SIZEMODIFIER="0" SPEED="4.5" STRENGTH="9" WILL="8" WEIGHT="100 lbs" HEIGHT="4.5' - 6'" />
+    <TRAITS>
+      <TRAIT NAME="Automaton" />
+      <TRAIT NAME="Cannot Learn" />
+      <TRAIT NAME="Doesn’t Breathe" />
+      <TRAIT NAME="Doesn’t Eat or Drink" />
+      <TRAIT NAME="Immunity to Metabolic Hazards" />
+      <TRAIT NAME="Injury Tolerance (Homogeneous, No Blood)" />
+      <TRAIT NAME="Reprogrammable" />
+      <TRAIT NAME="Single-Minded" />
+      <TRAIT NAME="Social Stigma (Valuable Property)" />
+      <TRAIT NAME="Unaging" />
+      <TRAIT NAME="Unhealing" />
+      <TRAIT NAME="Vacuum Support" />
+      <TRAIT NAME="Wealth (Dead Broke)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Feet" USAGE="Kick" SKILL="10" BLOCK="No" DAMAGE="1d-1" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Hands" USAGE="Punch" SKILL="10" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Construct" DESCRIPTION="An incorruptable magical servant." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="89" NAME="Wolves, Big Bad">
+    <DESCRIPTION>While capable of speech and a modicum of reason, the giant wolves live much like their animal cousins. They do wear bits of copper jewelry, and when the moon is full, they recite the pack genealogy before indulging in a group howl.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="The wolves are skilled hunters. They have learned to be cautious when dealing with humans and other intelligent prey; they are quite capable of arranging ambushes and capturing lone intruders for ransom." />
+      <TACTIC ORDER="2" TEXT="Older pack members know a pidgin form of the local human language (Broken/None)." />
+    </TACTICS>
+    <BOOK TITLE="Alphabet Arcane" PAGE="31" />
+    <DAMAGERESISTANCE ARM="" FOOT="2" HAND="" HEAD="4" LEG="2" TAIL="2" TORSO="2" WING="" FIN="" WINGED="false" BODYTYPE="Quadruped" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Forest" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Intimidation" LEVEL="10" />
+      <SKILL NAME="Stealth" LEVEL="10" />
+      <SKILL NAME="Tracking" LEVEL="13" />
+    </SKILLS>
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="16" IQ="6" MOVE="10" PERCEPTION="13" SIZEMODIFIER="+1" SPEED="6" STRENGTH="16" WILL="11" WEIGHT="400 lbs" HEIGHT="6' - 9'" />
+    <TRAITS>
+      <TRAIT NAME="Bestial" />
+      <TRAIT NAME="Discriminatory Smell" />
+      <TRAIT NAME="Hidebound" />
+      <TRAIT NAME="Night Vision 2" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Sharp Teeth" />
+      <TRAIT NAME="Temperature Tolerance 1" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hand" USAGE="Cuff" SKILL="13" BLOCK="No" DAMAGE="2d+2" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="13" BLOCK="No" DAMAGE="1D" DAMAGETYPE="Cutting(x1.5)" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="90" NAME="Skeleton Knight">
+    <DESCRIPTION>Former members of either the Abydos gentry or a Megalan knight, many skeleton knights ride skeleton horses.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="The majority of knights are in antique armor rather than modern full plate. They wear a mail hauberk, mail coif, mail sleeves and leggings, and a barrel helm. They wield a lance (or long spear, if on foot), a thrusting broadsword, and a medium shield." />
+    </TACTICS>
+    <BOOK TITLE="Banestorm: Abydos" PAGE="22" />
+    <DAMAGERESISTANCE ARM="4" FOOT="0" HAND="0" HEAD="12" LEG="4" TAIL="" TORSO="4" WING="" FIN="" WINGED="false" BODYTYPE="Humanoid" />
+    <DROPS>
+      <DROP NAME="barrel helm" />
+      <DROP NAME="lance" />
+      <DROP NAME="long spear" />
+      <DROP NAME="mail coif" />
+      <DROP NAME="mail hauberk" />
+      <DROP NAME="mail leggings" />
+      <DROP NAME="mail sleeves" />
+      <DROP NAME="medium shield" />
+      <DROP NAME="thrusting broadsword" />
+    </DROPS>
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Desert" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling" LEVEL="14" />
+      <SKILL NAME="Broadsword" LEVEL="14" />
+      <SKILL NAME="Lance" LEVEL="15" />
+      <SKILL NAME="Riding (Horse)" LEVEL="13" />
+      <SKILL NAME="Shield" LEVEL="15" />
+      <SKILL NAME="Spear" LEVEL="15" />
+    </SKILLS>
+    <STATS DEXTERITY="14" DODGE="10" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="11" IQ="9" MOVE="7" PERCEPTION="9" SIZEMODIFIER="0" SPEED="7.25" STRENGTH="11" WILL="9" WEIGHT="110 lbs" HEIGHT="4.5' - 6'" />
+    <TRAITS>
+      <TRAIT NAME="Skeleton" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Lance" USAGE="Thrust" SKILL="8" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Impaling(x2)" PARRY="No" REACH="4" />
+        <MELEEATTACK WEAPON="Long Spear" USAGE="Thrust" SKILL="9" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Impaling(x2)" PARRY="7U" REACH="2,3" />
+        <MELEEATTACK WEAPON="Thrusting Broadsword" USAGE="Swing" SKILL="9" BLOCK="No" DAMAGE="1d+2" DAMAGETYPE="Cutting(x1.5)" PARRY="7" REACH="1" />
+        <MELEEATTACK WEAPON="Thrusting Broadsword" USAGE="Thrust" SKILL="9" BLOCK="No" DAMAGE="1d+1" DAMAGETYPE="Impaling(x2)" PARRY="7" REACH="1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Undead" DESCRIPTION="Can be turned with True Faith." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="91" NAME="Horse, Skeleton">
+    <DESCRIPTION>Abydos is not a good-horse breeding region, but centuries old undead horses are often ridden by both skeleton knights and the living, and live mounts are animated after they succumb to old age or (usually) disease.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Cost 2500" />
+    </TACTICS>
+    <BOOK TITLE="Banestorm: Abydos" PAGE="22" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="0" LEG="0" TAIL="0" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Quadruped" />
+    <DROPS />
+    <HABITATS />
+    <SKILLS>
+      <SKILL NAME="Brawling" LEVEL="13" />
+      <SKILL NAME="Mount" LEVEL="14" />
+    </SKILLS>
+    <STATS DEXTERITY="10" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="23" IQ="1" MOVE="8" PERCEPTION="10" SIZEMODIFIER="+1" SPEED="6.25" STRENGTH="23" WILL="9" WEIGHT="1000 lbs" HEIGHT="6' - 9'" />
+    <TRAITS>
+      <TRAIT NAME="Enhanced Move 1 (Ground Speed 16)" />
+      <TRAIT NAME="Hooves" />
+      <TRAIT NAME="Peripheral Vision" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Skeleton" />
+      <TRAIT NAME="Weak Bite" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Hooves" USAGE="Trample" SKILL="8" BLOCK="No" DAMAGE="2d+3" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="10" BLOCK="No" DAMAGE="2d" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Undead" DESCRIPTION="Can be turned with True Faith." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="92" NAME="Greider (Grave Worm), Small">
+    <DESCRIPTION>A greider is a semi-transparent worm that lives underground. It is at least 20 feet long; some are over 50 feet long. </DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Affliction 1 (Will; Area Effect, 20-50 yards; Attribute Penalty, Margin-Based, -1 to IQ; Based on Will; Cosmic, Irresistible Attack; Emanation; Nuisance Effects, Maximum duration one minute or until victim leaves area, Resistance gives immunity for one minute)" />
+      <TACTIC ORDER="2" TEXT="Numbs the mind of attackers so it can escape. Otherwise only seeks out corpses to consume." />
+      <TACTIC ORDER="3" TEXT="Greiders burrow through the earth toward graveyards, sensing the smell of rotten corpses, decomposing bodies, and coffins. They burrow slowly, taking weeks to cover just a few miles. Once a greider arrives under a graveyard, it begins to consume the corpses." />
+      <TACTIC ORDER="4" TEXT="About 10% of all greiders are a special breed, with 2d pairs of dull white pseudopods running down the length of their body. These limbs are soft and useless, but they greatly increase the intensity of the effect; reduce the Will roll to resist by -1 for every two full pairs. In addition, the effects of a failed roll last for minutes equal to the number of pseudopods, while a successful roll only staves off the mind-numbing for one minute. Victims who leave the area of effect still recover immediately." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="3" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Vermiform" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="4" DODGE="7" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="4" IQ="4" MOVE="2" PERCEPTION="10" SIZEMODIFIER="+3" SPEED="4.0" STRENGTH="12" WILL="10" WEIGHT="500 lbs." HEIGHT="15' - 21'" />
+    <TRAITS>
+      <TRAIT NAME="Affliction 1" />
+      <TRAIT NAME="Detect (Corpses)" />
+      <TRAIT NAME="Doesn't Breath" />
+      <TRAIT NAME="Easy to Kill 4" />
+      <TRAIT NAME="Invertebrate" />
+      <TRAIT NAME="Tunneling 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="93" NAME="Greider (Grave Worm), Medium">
+    <DESCRIPTION>A greider is a semi-transparent worm that lives underground. It is at least 20 feet long; some are over 50 feet long. </DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Affliction 1 (Will; Area Effect, 20-50 yards; Attribute Penalty, Margin-Based, -1 to IQ; Based on Will; Cosmic, Irresistible Attack; Emanation; Nuisance Effects, Maximum duration one minute or until victim leaves area, Resistance gives immunity for one minute)" />
+      <TACTIC ORDER="2" TEXT="Numbs the mind of attackers so it can escape. Otherwise only seeks out corpses to consume." />
+      <TACTIC ORDER="3" TEXT="Greiders burrow through the earth toward graveyards, sensing the smell of rotten corpses, decomposing bodies, and coffins. They burrow slowly, taking weeks to cover just a few miles. Once a greider arrives under a graveyard, it begins to consume the corpses." />
+      <TACTIC ORDER="4" TEXT="About 10% of all greiders are a special breed, with 2d pairs of dull white pseudopods running down the length of their body. These limbs are soft and useless, but they greatly increase the intensity of the effect; reduce the Will roll to resist by -1 for every two full pairs. In addition, the effects of a failed roll last for minutes equal to the number of pseudopods, while a successful roll only staves off the mind-numbing for one minute. Victims who leave the area of effect still recover immediately." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="3" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Vermiform" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="4" DODGE="7" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="7" IQ="4" MOVE="2" PERCEPTION="10" SIZEMODIFIER="+4" SPEED="4.0" STRENGTH="25" WILL="10" WEIGHT="3000 lbs" HEIGHT="21' - 30'" />
+    <TRAITS>
+      <TRAIT NAME="Affliction 1" />
+      <TRAIT NAME="Detect (Corpses)" />
+      <TRAIT NAME="Doesn't Breath" />
+      <TRAIT NAME="Easy to Kill 4" />
+      <TRAIT NAME="Invertebrate" />
+      <TRAIT NAME="Tunneling 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="94" NAME="Greider (Grave Worm), Large">
+    <DESCRIPTION>A greider is a semi-transparent worm that lives underground. It is at least 20 feet long; some are over 50 feet long. </DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Affliction 1 (Will; Area Effect, 20-50 yards; Attribute Penalty, Margin-Based, -1 to IQ; Based on Will; Cosmic, Irresistible Attack; Emanation; Nuisance Effects, Maximum duration one minute or until victim leaves area, Resistance gives immunity for one minute)" />
+      <TACTIC ORDER="2" TEXT="Numbs the mind of attackers so it can escape. Otherwise only seeks out corpses to consume." />
+      <TACTIC ORDER="3" TEXT="Greiders burrow through the earth toward graveyards, sensing the smell of rotten corpses, decomposing bodies, and coffins. They burrow slowly, taking weeks to cover just a few miles. Once a greider arrives under a graveyard, it begins to consume the corpses." />
+      <TACTIC ORDER="4" TEXT="About 10% of all greiders are a special breed, with 2d pairs of dull white pseudopods running down the length of their body. These limbs are soft and useless, but they greatly increase the intensity of the effect; reduce the Will roll to resist by -1 for every two full pairs. In addition, the effects of a failed roll last for minutes equal to the number of pseudopods, while a successful roll only staves off the mind-numbing for one minute. Victims who leave the area of effect still recover immediately." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="3" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="0" LEG="" TAIL="" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Vermiform" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="4" DODGE="7" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="10" IQ="4" MOVE="2" PERCEPTION="10" SIZEMODIFIER="+6" SPEED="4.0" STRENGTH="40" WILL="10" WEIGHT="7500 lbs" HEIGHT="45' - 60'" />
+    <TRAITS>
+      <TRAIT NAME="Affliction 1" />
+      <TRAIT NAME="Detect (Corpses)" />
+      <TRAIT NAME="Doesn't Breath" />
+      <TRAIT NAME="Easy to Kill 4" />
+      <TRAIT NAME="Invertebrate" />
+      <TRAIT NAME="Tunneling 1" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="95" NAME="Guardian Owl">
+    <DESCRIPTION>This creature is born when a wizard turns himself into an ordinary-looking owl to ensure that someone he cares about will never die. The transformation is voluntary and permanent.</DESCRIPTION>
+    <TACTICS />
+    <BOOK TITLE="Creatures of the Night V1" PAGE="5" />
+    <DAMAGERESISTANCE ARM="" FOOT="0" HAND="" HEAD="1" LEG="0" TAIL="" TORSO="0" WING="0" FIN="" WINGED="true" BODYTYPE="Avian" />
+    <DROPS />
+    <HABITATS />
+    <SKILLS>
+      <SKILL NAME="Thaumatology" LEVEL="15" />
+    </SKILLS>
+    <STATS DEXTERITY="13" DODGE="9" FATIGUEPOINTS="11" HEALTH="11" HITPOINTS="3" IQ="15" MOVE="2" PERCEPTION="15" SIZEMODIFIER="-4" SPEED="6.0" STRENGTH="3" WILL="15" WEIGHT="3 lbs." HEIGHT="10&quot; - 18&quot;" />
+    <TRAITS>
+      <TRAIT NAME="Claws (Sharp)" />
+      <TRAIT NAME="Detect (Activity; Limited to 1/2 mile;Long-Range 1; Vague)" />
+      <TRAIT NAME="Enhanced Move 0.5 (Air Move 18)" />
+      <TRAIT NAME="Fanaticism (Protecting ward)" />
+      <TRAIT NAME="Feature (Life force linked to ward)" />
+      <TRAIT NAME="Flight (Winged; Air Move 12)" />
+      <TRAIT NAME="Mind Control (Based on IQ; Limited to 1/2 mile; Long-Range 1; Only on normal animals; Suggestion)" />
+      <TRAIT NAME="Mind Probe (Based on IQ; Long-Range 1; Only on normal animals; Ranged)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Teeth (Sharp Beak)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Beak" USAGE="Peck" SKILL="13" BLOCK="No" DAMAGE="1d-6" DAMAGETYPE="Large Piercing(x1.5)" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="11" BLOCK="No" DAMAGE="1d-5" DAMAGETYPE="Cutting(x1.5)" PARRY="No" REACH="C,1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="96" NAME="Harriad">
+    <DESCRIPTION>A harriad is a six-inch-tall demon composed of light and smokeless flame. It has the shape of a beautiful woman.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Money! is a wildcard skill (p. B175), which replaces Administration, Fast-Talk, Finance, Merchant, and other appropriate skills used to obtain wealth and broker deals." />
+      <TACTIC ORDER="2" TEXT="The harriad’s ability to turn ugliness into wealth and power is a plot device, and thus is not represented here." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="7" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="0" LEG="0" TAIL="" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Humanoid" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+      <HABITAT NAME="Outsider" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Money!" LEVEL="16" />
+    </SKILLS>
+    <STATS DEXTERITY="14" DODGE="10" FATIGUEPOINTS="16" HEALTH="16" HITPOINTS="2" IQ="14" MOVE="7" PERCEPTION="14" SIZEMODIFIER="-6" SPEED="7.5" STRENGTH="2" WILL="20" WEIGHT="0 lbs." HEIGHT="5&quot; - 7&quot;" />
+    <TRAITS>
+      <TRAIT NAME="Addiction (Appearance loss)" />
+      <TRAIT NAME="Doesn’t Breathe" />
+      <TRAIT NAME="Doesn’t Eat or Drink" />
+      <TRAIT NAME="Doesn’t Sleep" />
+      <TRAIT NAME="DR 40 (Limited, Fire)" />
+      <TRAIT NAME="Fragile (Unnatural)" />
+      <TRAIT NAME="Immunity to Metabolic Hazards" />
+      <TRAIT NAME="Injury Tolerance (Diffuse)" />
+      <TRAIT NAME="Regeneration (Extreme)" />
+      <TRAIT NAME="Unaging" />
+      <TRAIT NAME="Vulnerability x4 (Crushing; Wind)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Demon" DESCRIPTION="A hostile extra-dimensional creature subject to the banish spell." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="97" NAME="Nerloch">
+    <DESCRIPTION>Nerlochs appear as thin, pale humans in tattered robes. Their faces look like skulls with flesh stretched across the bones, and their elbows and shoulders poke at their robes like knife-points.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="The affliction (Will; Based on Will; Extended Duration, Special, 2-12 hours; Follow-Up, Claws; Melee Attack, C, No Parry; Paralysis; Requires five doses, -10%)" />
+      <TACTIC ORDER="2" TEXT="The nerlochs’ black fingernails are coated with a slimy poison that can paralyze anyone they scratch. For every unarmed attack that does at least 1 point of damage, the victim must make a Will roll. If the victim fails five Will rolls, he is paralyzed. The paralysis lasts for 2d hours. (Roll separately for each character.) A successful ST-4 roll is needed to say a few words. A successful ST-10 roll is required to use a limb for one simple action." />
+      <TACTIC ORDER="3" TEXT="Nerlochs offer living animals to their god Anagon as often as possible." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="12" />
+    <DAMAGERESISTANCE ARM="0" FOOT="0" HAND="0" HEAD="2" LEG="0" TAIL="" TORSO="0" WING="" FIN="" WINGED="false" BODYTYPE="Humanoid" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Brawling" LEVEL="15" />
+    </SKILLS>
+    <STATS DEXTERITY="12" DODGE="9" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="8" IQ="6" MOVE="7" PERCEPTION="11" SIZEMODIFIER="0" SPEED="6.0" STRENGTH="8" WILL="10" WEIGHT="100 lbs." HEIGHT="4.5' - 6'" />
+    <TRAITS>
+      <TRAIT NAME="Accessory (Gem light source)" />
+      <TRAIT NAME="Affliction 1" />
+      <TRAIT NAME="Claws (Sharp)" />
+      <TRAIT NAME="Fit (Below ground only)" />
+      <TRAIT NAME="Immunity to Metabolic Hazards" />
+      <TRAIT NAME="Injury Tolerance (No Blood; Unliving)" />
+      <TRAIT NAME="Night Vision 7" />
+      <TRAIT NAME="Unaging" />
+      <TRAIT NAME="Weakness (Being above ground; 1d per 5 minutes; Fatigue Only)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Slash" SKILL="12" BLOCK="No" DAMAGE="1d-4" DAMAGETYPE="Cutting(x1.5)" PARRY="9" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Undead" DESCRIPTION="Can be turned with True Faith." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="98" NAME="Anagon">
+    <DESCRIPTION>Anagon is a gigantic mound of slow-breathing flesh, resembling a demonic hibernating dinosaur.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="When it gets hungry, ST 25 pseudopods emerge from its body and pull the paralyzed bodies inside. Rodents and other small animals are dissolved slowly in its acid-filled stomach, but humans are converted into new nerlochs. The dissolution of human victims takes place physically, mentally, and emotionally. Anagon’s acid seeps into every part of them, stripping away their flesh and their minds. The victim must win a Contest of Will every minute to avoid losing 1 point of IQ and a Contest of HT every minute to avoid taking 1d corrosive damage. (If the victim somehow escapes, his IQ heals at the same rate as his hit points.) When the victim reaches either IQ 0 or -HP, he spends the next 1d minutes being transformed into a nerloch, before being pushed out of a narrow orifice to be cloaked by a handful of waiting nerlochs and introduced to his new life." />
+      <TACTIC ORDER="2" TEXT="Affliction is (Alternate Form, Nerloch; Extended Duration, Permanent; Requires Digestion)" />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="12" />
+    <DAMAGERESISTANCE ARM="4" FOOT="" HAND="" HEAD="4" LEG="" TAIL="" TORSO="4" WING="" FIN="" WINGED="false" BODYTYPE="Octopod" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="10" DODGE="9" FATIGUEPOINTS="16" HEALTH="16" HITPOINTS="50" IQ="12" MOVE="0" PERCEPTION="13" SIZEMODIFIER="+6" SPEED="6.5" STRENGTH="50" WILL="16" WEIGHT="100 tons" HEIGHT="45' - 60'" />
+    <TRAITS>
+      <TRAIT NAME="Affliction" />
+      <TRAIT NAME="Appearance (Monstrous)" />
+      <TRAIT NAME="Dark Vision" />
+      <TRAIT NAME="Extra Arms 10 (Extra-Flexible; Weak, 1/2 ST; Reach 7)" />
+      <TRAIT NAME="Extra Attack 2" />
+      <TRAIT NAME="Immunity to Metabolic Hazards" />
+      <TRAIT NAME="Injury Tolerance (No Blood; Unliving)" />
+      <TRAIT NAME="Low Pain Threshold" />
+      <TRAIT NAME="No Legs (Sessile)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Arms" USAGE="Striking" SKILL="10" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="Crushing" PARRY="8" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Undead" DESCRIPTION="Can be turned with True Faith." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="99" NAME="Pool Beast">
+    <DESCRIPTION>A pool beast is a large, violent monster that lives in a deep well of blood. It has a small head with a huge, fang-filled mouth.A pair of nearly useless tentacles hang at its side like the arms of a Tyrannosaurus Rex.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="When anyone comes too close to its home, it bursts out, hovering over its prey like a cobra. Half of its body remains in the pool, anchoring the creature." />
+      <TACTIC ORDER="2" TEXT="The pool beast is covered in blood. Its eyes shimmer with hunger and rage as it roars. It smells like rotten flesh. One look at a pool beast requires a Fright Check; having one suddenly lunge out from hiding requires a Fright Check at -5!" />
+      <TACTIC ORDER="3" TEXT="Affliction is  (HT-2; Disadvantage, Numb; Extended Duration, Permanent until healed; Follow-Up, Teeth)" />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="14" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="4" LEG="" TAIL="2" TORSO="2" WING="" FIN="2" WINGED="false" BODYTYPE="Ichthyoid" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Subterranean" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="16" DODGE="11" FATIGUEPOINTS="12" HEALTH="12" HITPOINTS="48" IQ="4" MOVE="7" PERCEPTION="7" SIZEMODIFIER="+7" SPEED="7.0" STRENGTH="24" WILL="14" WEIGHT="24 tons" HEIGHT="60' - 90'" />
+    <TRAITS>
+      <TRAIT NAME="Acute Vibration Sense 5" />
+      <TRAIT NAME="Affliction 3" />
+      <TRAIT NAME="Combat Reflexes" />
+      <TRAIT NAME="Dependency (Blood, Constantly)" />
+      <TRAIT NAME="Doesn’t Breathe" />
+      <TRAIT NAME="Ichthyoid" />
+      <TRAIT NAME="Teeth (Sharp)" />
+      <TRAIT NAME="Vibration Sense (Water)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Teeth" USAGE="Bite" SKILL="16" BLOCK="No" DAMAGE="2d" DAMAGETYPE="Cutting(x1.5)" PARRY="No" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="100" NAME="Ptallant Lizard">
+    <DESCRIPTION>This creature looks like a harmless blue lizard, with a round body, long tail, and short spines. In truth, it is a creature of pure magic that can cause widespread destruction with a flick of its tail.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Control Tremors 6 (Accessibility, Only when on the ground; Cosmic, No die roll required; Emanation; Extended Duration, 3x; Magical; Natural Phenomena; Persistent; Selectivity) +19 Only to increase area affected." />
+      <TACTIC ORDER="2" TEXT="If approached aggressively, overtly attacked, or harmed, the lizard will defend itself by smacking its tail on the ground. This creates an earthquake, centered on the lizard. The ground shudders and shakes, buildings sway or collapse, and rivers slosh over their banks." />
+      <TACTIC ORDER="3" TEXT="Everyone within 1,000 yards must make a DX+4 roll every second to avoid falling down, and any physical action that requires a roll is at -2." />
+      <TACTIC ORDER="4" TEXT="If the lizard isn’t just startled but is afraid for its life (GM’s decision), it will concentrate the force of the earthquake into a much smaller area. Everyone within 25 yards is affected as above, but all rolls are at an extra -4, and any building in the area suffers serious damage on a 10 or less." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="15" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="3" LEG="1" TAIL="1" TORSO="1" WING="" FIN="" WINGED="false" BODYTYPE="Quadruped" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Desert" />
+      <HABITAT NAME="Mountain" />
+      <HABITAT NAME="Plains" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="11" DODGE="8" FATIGUEPOINTS="--" HEALTH="12" HITPOINTS="3" IQ="3" MOVE="5" PERCEPTION="9" SIZEMODIFIER="-4" SPEED="5.75" STRENGTH="3" WILL="14" WEIGHT="8 lbs." HEIGHT="10&quot; - 18&quot;" />
+    <TRAITS>
+      <TRAIT NAME="Control Tremors +19" />
+      <TRAIT NAME="Control Tremors 6" />
+      <TRAIT NAME="Dependency (Mana; Constantly)" />
+      <TRAIT NAME="Doesn’t Breathe" />
+      <TRAIT NAME="Doesn’t Eat or Drink" />
+      <TRAIT NAME="Doesn’t Sleep" />
+      <TRAIT NAME="Feature (No Fatigue Points)" />
+      <TRAIT NAME="Fragile (Unnatural)" />
+      <TRAIT NAME="Immunity to Metabolic Hazards" />
+      <TRAIT NAME="Quadruped" />
+      <TRAIT NAME="Tunneling 1 (Magical)" />
+      <TRAIT NAME="Unaging" />
+      <TRAIT NAME="Unnatural Features 5 (Only for magical detection)" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="101" NAME="Shoulder Giant">
+    <DESCRIPTION>A shoulder giant is a huge, dumb, strong humanoid, 11 to 12 feet tall, that hibernates in secret tunnels under the foundation of a building.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="It can pick up a 200lb. man in one hand and throw him 50 yards into a wall for 5d+2 damage. Fortunately, shoulder giants are too dull to wield improvised weapons or make deceptive attacks." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="17" />
+    <DAMAGERESISTANCE ARM="3" FOOT="3" HAND="3" HEAD="5" LEG="3" TAIL="" TORSO="3" WING="" FIN="" WINGED="false" BODYTYPE="Humanoid" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS>
+      <SKILL NAME="Forced Entry" LEVEL="11" />
+    </SKILLS>
+    <STATS DEXTERITY="9" DODGE="8" FATIGUEPOINTS="13" HEALTH="13" HITPOINTS="50" IQ="6" MOVE="5" PERCEPTION="10" SIZEMODIFIER="+2" SPEED="5.5" STRENGTH="50" WILL="12" WEIGHT="1200 lbs." HEIGHT="9' - 15'" />
+    <TRAITS>
+      <TRAIT NAME="Bestial" />
+      <TRAIT NAME="Detect (Structural Weakness; Precise)" />
+      <TRAIT NAME="Ham-Fisted 2" />
+      <TRAIT NAME="Hidebound" />
+      <TRAIT NAME="Lifting ST +18 (Super-Effort)" />
+      <TRAIT NAME="Metabolism Control 5 (Accessibility, Only under key structural points; Hibernation)" />
+      <TRAIT NAME="Phobia (Fire; Loud Noises; Sudden Light) (9)" />
+      <TRAIT NAME="Tunneling 3" />
+      <TRAIT NAME="Uncongenial" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Fists" USAGE="Punch" SKILL="9" BLOCK="No" DAMAGE="5d+1" DAMAGETYPE="Crushing" PARRY="7" REACH="C" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Mundane" DESCRIPTION="A living thing that isn't Animal, Plant or Slime that has vital areas." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="102" NAME="Tellanode">
+    <DESCRIPTION>Tellanodes are plant-like blobs that sprout from the ground in the middle of the night. Each tellanode is at least 10 feet tall and looks like a cross between a mushroom and a diseased football.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="They always sprout in a circle around a home in which three or more people live. This is usually a normal house, with the tellanodes standing in the front and back yard, but any dwelling is possible. Roll 2d+1 to determine the number of pods that appear." />
+      <TACTIC ORDER="2" TEXT="When the sun comes up, they turn invisible. They remain invisible until they are touched – any physical contact between a human being and a tellanode makes it visible. It vanishes again the next time the sun rises." />
+      <TACTIC ORDER="3" TEXT="Does not fight." />
+      <TACTIC ORDER="4" TEXT="IQ 16 for the purpose of Clairsentience, Mind Probe, and Telesend only. For all other purposes, the tellanodes have IQ 0." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="21" />
+    <DAMAGERESISTANCE ARM="" FOOT="" HAND="" HEAD="2" LEG="" TAIL="" TORSO="2" WING="" FIN="" WINGED="false" BODYTYPE="Vermiform" />
+    <DROPS />
+    <HABITATS>
+      <HABITAT NAME="Civilization" />
+    </HABITATS>
+    <SKILLS />
+    <STATS DEXTERITY="0" DODGE="0" FATIGUEPOINTS="--" HEALTH="12" HITPOINTS="50" IQ="16" MOVE="0" PERCEPTION="16" SIZEMODIFIER="+2" SPEED="0" STRENGTH="0" WILL="16" WEIGHT="1000 lbs." HEIGHT="9' - 15'" />
+    <TRAITS>
+      <TRAIT NAME="Clairsentience (Increased Range, x1,000, Link; Second Nature)" />
+      <TRAIT NAME="Features (Neither has nor uses fatigue points; Photosynthetic)" />
+      <TRAIT NAME="Fragile (Combustible)" />
+      <TRAIT NAME="Injury Tolerance (Homogenous; No Blood; No Eyes; No Head; No Neck)" />
+      <TRAIT NAME="Invisibility (Accessibility, Not to Insiders; Disrupted by contact until next sunrise)" />
+      <TRAIT NAME="Mind Probe (Accessibility, Secrets only; Increased Range, x100, Link; Long Range 1; Low Signature; Ranged; Universal)" />
+      <TRAIT NAME="No Legs (Sessile)" />
+      <TRAIT NAME="No Manipulators" />
+      <TRAIT NAME="Telesend (Accessibility, Insiders only; Broadcast; Link; Short Range 1; Universal)" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS />
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Plant" DESCRIPTION="Affected by Plant Spells." />
+  </MONSTERINFO>
+  <MONSTERINFO ID="103" NAME="Uroth">
+    <DESCRIPTION>An uroth is the size and shape of a giraffe, with a face of tentacles. It has light fur over thick skin, with two short flippers for arms.</DESCRIPTION>
+    <TACTICS>
+      <TACTIC ORDER="1" TEXT="Uroths are docile unless they are provoked. They can be skittish, so if a herd is attacked, they will stampede. A charging uroth can slam. If this knocks the person down, the uroth tramples him, and the unfortunate soul must dodge every other uroth running behind that one." />
+      <TACTIC ORDER="2" TEXT="These creatures defend themselves with their feet and tentacles. A kick is as powerful as that of an ostrich. The tentacles can whip and pummel attackers, although this attack is more frightening than physically threatening." />
+      <TACTIC ORDER="3" TEXT="They swallow stones clean the bugs and soil and spit them back out. They will not spit out precious stones, gems, gold, or silver. Those types of minerals get stuck in a pouch connected to the stomach, where they stay forever. If the pouch fills up, the uroth gets sick and dies." />
+    </TACTICS>
+    <BOOK TITLE="Creatures of the Night V1" PAGE="24" />
+    <DAMAGERESISTANCE ARM="" FOOT="1" HAND="" HEAD="1" LEG="1" TAIL="" TORSO="1" WING="1" FIN="" WINGED="true" BODYTYPE="Avian" />
+    <DROPS />
+    <HABITATS />
+    <SKILLS />
+    <STATS DEXTERITY="10" DODGE="8" FATIGUEPOINTS="" HEALTH="12" HITPOINTS="" IQ="3" MOVE="6" PERCEPTION="10" SIZEMODIFIER="+2" SPEED="5.5" STRENGTH="23" WILL="11" WEIGHT="1700 lbs." HEIGHT="9' - 15'" />
+    <TRAITS>
+      <TRAIT NAME="Acute Vision +4 (Disrupted by ultrasonics; Emits signal)" />
+      <TRAIT NAME="Claws (Blunt; Feet only)" />
+      <TRAIT NAME="Doesn’t Breathe (Oxygen Storage x25)" />
+      <TRAIT NAME="Enhanced Move 1 (Ground Speed 12)" />
+      <TRAIT NAME="Injury Tolerance (No Eyes)" />
+      <TRAIT NAME="No Fine Manipulators" />
+      <TRAIT NAME="Weak Bite" />
+      <TRAIT NAME="Wild Animal" />
+    </TRAITS>
+    <ATTACKS>
+      <MELEEATTACKS>
+        <MELEEATTACK WEAPON="Claws" USAGE="Trample" SKILL="8" BLOCK="No" DAMAGE="2d+1" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Claws" USAGE="Kick" SKILL="8" BLOCK="No" DAMAGE="2d+3" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+        <MELEEATTACK WEAPON="Stampede" USAGE="Slam" SKILL="8" BLOCK="No" DAMAGE="3d" DAMAGETYPE="Crushing" PARRY="No" REACH="C" />
+        <MELEEATTACK WEAPON="Tentacles" USAGE="Pummel" SKILL="8" BLOCK="No" DAMAGE="1d-2" DAMAGETYPE="Crushing" PARRY="No" REACH="C,1" />
+      </MELEEATTACKS>
+      <RANGEDATTACKS />
+      <SPELLATTACKS />
+    </ATTACKS>
+    <CLASSIFICATION NAME="Animal" DESCRIPTION="Affected by Animal Handling and Animal spells." />
   </MONSTERINFO>
 </MONSTERS>
