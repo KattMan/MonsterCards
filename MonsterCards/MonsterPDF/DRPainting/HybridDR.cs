@@ -50,19 +50,19 @@ namespace MonsterPDF.DRPainting
 
             paragraph = row.Cells[9].AddParagraph();
             paragraph.AddText("Torso ");
-            row.Cells[7].Style = "LabelStatBox";
+            row.Cells[9].Style = "LabelStatBox";
 
             paragraph = row.Cells[10].AddParagraph();
             paragraph.AddText(DR.Torso.ToString());
-            row.Cells[8].Style = "DataStatBox";
+            row.Cells[10].Style = "DataStatBox";
 
             paragraph = row.Cells[11].AddParagraph();
             paragraph.AddText("Tail ");
-            row.Cells[7].Style = "LabelStatBox";
+            row.Cells[11].Style = "LabelStatBox";
 
             paragraph = row.Cells[12].AddParagraph();
             paragraph.AddText(DR.Tail.ToString());
-            row.Cells[8].Style = "DataStatBox";
+            row.Cells[12].Style = "DataStatBox";
 
             row = drTable.Rows[2];
 
@@ -84,22 +84,22 @@ namespace MonsterPDF.DRPainting
 
             paragraph = row.Cells[11].AddParagraph();
             paragraph.AddText("Fins ");
-            row.Cells[9].Style = "LabelStatBox";
+            row.Cells[11].Style = "LabelStatBox";
 
             paragraph = row.Cells[12].AddParagraph();
             paragraph.AddText(DR.Fin.ToString());
-            row.Cells[10].Style = "DataStatBox";
+            row.Cells[12].Style = "DataStatBox";
 
 
             row = drTable.Rows[3];
             
             paragraph = row.Cells[7].AddParagraph();
             paragraph.AddText("Hands ");
-            row.Cells[9].Style = "LabelStatBox";
+            row.Cells[7].Style = "LabelStatBox";
 
             paragraph = row.Cells[8].AddParagraph();
             paragraph.AddText(DR.Hand.ToString());
-            row.Cells[10].Style = "DataStatBox";
+            row.Cells[8].Style = "DataStatBox";
             
             paragraph = row.Cells[9].AddParagraph();
             paragraph.AddText("Feet ");

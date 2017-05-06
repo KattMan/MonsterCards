@@ -400,5 +400,183 @@ namespace MonsterCards
         {
             SaveData();
         }
+
+        private void cloneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var newID = _monsters.Max(m => m.ID) + 1;
+            var newMonster = _monsterFactory.GetMonsterInstance(newID);
+
+            newMonster.Description = _selectedMonster.Description;
+            newMonster.Name = _selectedMonster.Name + "(2)";
+
+            CloneAttacks(newMonster);
+            CloneBook(newMonster);
+            CloneClassification(newMonster);
+            CloneDR(newMonster);
+            CloneDrops(newMonster);
+            CloneHabitats(newMonster);
+            CloneSkills(newMonster);
+            CloneStats(newMonster);
+            CloneTactics(newMonster);
+            CloneTraits(newMonster);
+
+            _selectedMonster = newMonster;
+
+            _monsters.Add(_selectedMonster);
+            UpdateForm(_selectedMonster);
+        }
+
+        private void CloneAttacks(IMonster newMonster)
+        {
+            foreach(var meleeAttack in _selectedMonster.Attacks.Melee)
+            {
+                var attack = _monsterFactory.GetMeleeInstance();
+                attack.Block = meleeAttack.Block;
+                attack.Damage = meleeAttack.Damage;
+                attack.DamageType = meleeAttack.DamageType;
+                attack.Parry = meleeAttack.Parry;
+                attack.Reach = meleeAttack.Reach;
+                attack.Skill = meleeAttack.Skill;
+                attack.Usage = meleeAttack.Usage;
+                attack.Weapon = meleeAttack.Weapon;
+
+                newMonster.Attacks.Melee.Add(attack);
+            }
+
+            foreach (var rangeAttack in _selectedMonster.Attacks.Ranged)
+            {
+                var attack = _monsterFactory.GetRangedInstance();
+                attack.Bulk = rangeAttack.Bulk;
+                attack.Damage = rangeAttack.Damage;
+                attack.DamageType = rangeAttack.DamageType;
+                attack.HalfDmg = rangeAttack.HalfDmg;
+                attack.MaxRange = rangeAttack.MaxRange;
+                attack.Reload = rangeAttack.Reload;
+                attack.ROF = rangeAttack.ROF;
+                attack.Skill = rangeAttack.Skill;
+                attack.Weapon = rangeAttack.Weapon;
+
+                newMonster.Attacks.Ranged.Add(attack);
+            }
+
+            foreach (var spellAttack in _selectedMonster.Attacks.Spell)
+            {
+                var attack = _monsterFactory.GetSpellInstance();
+                attack.Cost = spellAttack.Cost;
+                attack.Duration = spellAttack.Duration;
+                attack.Maintain = spellAttack.Maintain;
+                attack.Name = spellAttack.Name;
+                attack.Skill = spellAttack.Skill;
+                attack.TimeToCast = spellAttack.TimeToCast;
+
+                newMonster.Attacks.Spell.Add(attack);
+            }
+        }
+        private void CloneBook(IMonster newMonster)
+        {
+            newMonster.Book = _monsterFactory.GetBookInstance();
+
+            newMonster.Book.Page = _selectedMonster.Book.Page;
+            newMonster.Book.Title = _selectedMonster.Book.Title;
+        }
+        private void CloneClassification(IMonster newMonster)
+        {
+            newMonster.Classification = _monsterFactory.GetClassificationInstance();
+
+            newMonster.Classification.Description = _selectedMonster.Classification.Description;
+            newMonster.Classification.Name = _selectedMonster.Classification.Name;
+        }
+        private void CloneDR(IMonster newMonster)
+        {
+            newMonster.DamageResist = _monsterFactory.GetDRInstance();
+
+            newMonster.DamageResist.Arm = _selectedMonster.DamageResist.Arm;
+            newMonster.DamageResist.Fin = _selectedMonster.DamageResist.Fin;
+            newMonster.DamageResist.Foot = _selectedMonster.DamageResist.Foot;
+            newMonster.DamageResist.Hand = _selectedMonster.DamageResist.Hand;
+            newMonster.DamageResist.Head = _selectedMonster.DamageResist.Head;
+            newMonster.DamageResist.Leg = _selectedMonster.DamageResist.Leg;
+            newMonster.DamageResist.Tail = _selectedMonster.DamageResist.Tail;
+            newMonster.DamageResist.Torso = _selectedMonster.DamageResist.Torso;
+            newMonster.DamageResist.Wing = _selectedMonster.DamageResist.Wing;
+            newMonster.DamageResist.Winged = _selectedMonster.DamageResist.Winged;
+
+            newMonster.DamageResist.BodyType = _selectedMonster.DamageResist.BodyType;
+
+        }
+        private void CloneDrops(IMonster newMonster)
+        {
+            foreach(var drop in _selectedMonster.Drops)
+            {
+                var newDrop = _monsterFactory.GetDropInstance();
+
+                newDrop.Name = drop.Name;
+                newMonster.Drops.Add(newDrop);
+            }
+        }
+        private void CloneHabitats(IMonster newMonster)
+        {
+            foreach(var habitat in _selectedMonster.Habitats)
+            {
+                var newHabitat = _monsterFactory.GetHabitatInstance();
+
+                newHabitat.Name = habitat.Name;
+                newMonster.Habitats.Add(newHabitat);
+            }
+        }
+        private void CloneSkills(IMonster newMonster)
+        {
+            foreach(var skill in _selectedMonster.Skills)
+            {
+                var newSkill = _monsterFactory.GetSkillInstance();
+
+                newSkill.Level = skill.Level;
+                newSkill.Name = skill.Name;
+
+                newMonster.Skills.Add(newSkill);
+            }
+        }
+        private void CloneStats(IMonster newMonster)
+        {
+            newMonster.Stats = _monsterFactory.GetStatsInstance();
+
+            newMonster.Stats.Dexterity = _selectedMonster.Stats.Dexterity;
+            newMonster.Stats.Dodge = _selectedMonster.Stats.Dodge;
+            newMonster.Stats.FatiguePoints = _selectedMonster.Stats.FatiguePoints;
+            newMonster.Stats.Health = _selectedMonster.Stats.Health;
+            newMonster.Stats.Height = _selectedMonster.Stats.Height;
+            newMonster.Stats.HitPoints = _selectedMonster.Stats.HitPoints;
+            newMonster.Stats.IQ = _selectedMonster.Stats.IQ;
+            newMonster.Stats.Move = _selectedMonster.Stats.Move;
+            newMonster.Stats.Perception = _selectedMonster.Stats.Perception;
+            newMonster.Stats.SizeModifier = _selectedMonster.Stats.SizeModifier;
+            newMonster.Stats.Speed = _selectedMonster.Stats.Speed;
+            newMonster.Stats.Strength = _selectedMonster.Stats.Strength;
+            newMonster.Stats.Weight = _selectedMonster.Stats.Weight;
+            newMonster.Stats.Will = _selectedMonster.Stats.Will;
+        }
+        private void CloneTactics(IMonster newMonster)
+        {
+            foreach(var tactic in _selectedMonster.Tactics)
+            {
+                var newTactic = _monsterFactory.GetTacticIntance();
+
+                newTactic.Order = tactic.Order;
+                newTactic.Text = tactic.Text;
+
+                newMonster.Tactics.Add(newTactic);
+            }
+        }
+        private void CloneTraits(IMonster newMonster)
+        {
+            foreach (var trait in _selectedMonster.Traits)
+            {
+                var newTrait = _monsterFactory.GetTraitInstance();
+
+                newTrait.Name = trait.Name;
+
+                newMonster.Traits.Add(newTrait);
+            }
+        }
     }
 }
